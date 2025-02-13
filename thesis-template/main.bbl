@@ -1,0 +1,61 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Baabad et~al.(2022)Baabad, Zulzalil, Hassan, and
+  Baharom]{ieee-erosion-metrics}
+A.~Baabad, H.~Zulzalil, S.~Hassan, and S~Baharom.
+\newblock Characterizing the architectural erosion metrics: A systematic
+  mapping study.
+\newblock \emph{IEEE}, 2022.
+
+\bibitem[Bass et~al.(2021)Bass, Clements, and Kazman]{bass-architecture-book}
+L.~Bass, P.~Clements, and R~Kazman.
+\newblock \emph{Software Architecture in Practice, 4th Edition}.
+\newblock O'reilly, 2021.
+
+\bibitem[Efstathiou et~al.(2018)Efstathiou, C., and
+  Spinellis]{so-word-embedding}
+V.~Efstathiou, Chatzilenas C., and D~Spinellis.
+\newblock Word embeddings for the software engineering domain.
+\newblock \emph{IEEE}, 2018.
+
+\bibitem[Jurafsky(2024)]{nlp-fundamentals}
+J~Jurafsky, D.~Martin.
+\newblock \emph{Speech ad Language Processing. An Introduction to Natural
+  Language Processing, Computational Linguistics, and Speech Recognition with
+  Language Models}.
+\newblock Stanford Web, 2024.
+
+\bibitem[Laplante(2022)]{software-engineering-book}
+M~Laplante, P.~Kassab.
+\newblock \emph{Requirements Engineering for Software and Systems. 4th
+  Edition}.
+\newblock O'reilly, 2022.
+
+\bibitem[Liang et~al.(2023)Liang, Avgeriou, and
+  Ruiyin]{warnings-architectural-erosion}
+P.~Liang, P.~Avgeriou, and L~Ruiyin.
+\newblock Warnings: Violation symptoms indicating architecture erosion.
+\newblock \emph{Cornell University}, 2023.
+
+\bibitem[Manning(2009)]{information-retrieval}
+P.~Schutze~H. Manning, C.~Raghavan.
+\newblock \emph{An Introduction to Information Retrieval}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem[Perry(1992)]{perry-wolf-reference}
+Alexander~L Perry, Dewayne.~Wolf.
+\newblock Foundations for the stufy of sotware architecture.
+\newblock \emph{ACM SIGSOFT}, 1992.
+
+\bibitem[Ruiyin et~al.(2021)Ruiyin, Peng, Avgeriou, and Soliman]{slr-base}
+L.~Ruiyin, L.~Peng, P.~Avgeriou, and M~Soliman.
+\newblock Understanding software architecture erosion: A systematic mapping
+  study.
+\newblock \emph{Wiley}, 2021.
+
+\end{thebibliography}

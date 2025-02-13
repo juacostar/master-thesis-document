@@ -1,0 +1,24 @@
+% $Id: introduction.tex 1784 2012-04-27 23:29:31Z nicolas.cardozo $
+% !TEX root = main.tex
+
+\chapter{Introduction}
+\label{cha:introduction}
+
+In the beginning of system building, we might undergo a strong design process, where you define the system components and resources you need to use. This process is named \emph{software architecture definition}. After that, you have to align the development process with those architectural rules to achieve goals in performance, security, availability, and others.
+However, due to growth in software development, as time goes by, software tends to violate architectural rules, affecting system quality attributes. This deviation is called \emph{architectural erosion}. In mobile development, it can reduce application performance and other system quality attributes, affecting device resources and, ultimately, the user experience.
+In recent research, there have been significant advances in bug resolution across different approaches. For example, in security, connectivity, and code smells, there are various tools and components in both stacks (Frontend and Backend) that detect and offer solutions for different bugs related to these approaches.
+
+However, in the architectural erosion analysis, despite 73 research studies tackling this concept, some of these propose a toolset; it is not clear how we can resolve architectural erosion insights or a set of directives for facing this problem in the mobile development ecosystem. For this reason, it is important to find the impact of architectural erosion in mobile applications and how we can detect, give alerts, and provide solution recommendations for fixing architectural erosion bugs with static analysis and the help of natural language processing techniques.
+
+
+%%
+\section{Why make researching efforts in architectural erosion?}
+Due to different researches, the costs in terms of human resources, technological resources, time and money would grow after the first release and deployment of the software project. By this, is necessary to establish the different reasons and artifacts that affect the software sustainability, the software performance in short, middle and long term. For this task, there are many some approaches that analyze different software project components like its design, its code, its architectural rules. One of the most important, and one of the most studied too, has been the static code analysis approach. In this approach, has been created a lot of tools for detect architectural erosion in specific code fragments, showing a analysis along time. This tools has been very helpful for the developers and for the teams, but it has not been enough in mobile development ecosystem, where system resources are mire limited that side-server environment. Is necessary to build a component with specific purpose in Android Apps and show the importance of detect architectural erosion in mobile app code and recover of this issues in a early way.
+
+%%%%
+\section{Machine learning models in architectural erosion}
+Recent research in Machine Learning models, specifically in Natural Language Processing, has concluded that the use of pre-trained models for the classification or generation of words in a specific language, their performance with programming languages is better than natural languages (in this NLP approach, ex: English, Spanish, e.t.c), due to their syntax. This idea could be recreated in issues detection in source code repository analysis. Issues like masked code, pattern design detection, and other ones have been implemented with pre-trained machine learning models. In architectural erosion, it could be useful for detecting the first symptoms of this and making early detection for, after that, using specific rules of architecture in static code analysis. In resume,  machine learning models could detect the first symptoms of architectural erosion in an Android project and create a component with optimized performance for detecting and recovering issues about this.
+
+
+\endinput
+

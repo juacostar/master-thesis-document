@@ -1,0 +1,79 @@
+% Copyright (c) 2019 FLAG lab
+
+% Minimal information to be in the cover page:
+% - Thesis title
+% - Authors full name
+% - Date of the defense (Month-yeat)
+% - The text "Thesis presented for the fulfillment of the degree of DEGREE in Engineering
+% - Name of the faculty
+% - Name and logo of the program and research lab
+
+\newcommand{\Author}{Juan Camilo Acosta Rojas}
+\newcommand{\MainTitle}{Identifying, Detecting and Fixing Architectural Erosion in Android Apps}
+\newcommand{\SecondaryTitle}{} % If needed
+\newcommand{\ShortSecondaryTitle}{SHORT TITLE} %If needed
+\newcommand{\PublicDefenceDate}{\today}
+
+
+\titlehead{%
+ \begin{minipage}{0.5\textwidth}
+ \centering
+   \begin{flushleft}
+  \includegraphics[height=1.5cm]{figures/logo_misis}
+  \end{flushleft}
+  \end{minipage}
+ \begin{minipage}{0.5\textwidth}
+  \centering
+  \begin{flushright}
+\end{flushright}
+  \end{minipage}
+}
+
+\subject{The architectural erosion problem in Andorid Apps}
+\title{\MainTitle\\[.5ex]\Large\SecondaryTitle}
+\author{\Author}
+\date{\vskip 0.4em\normalsize{\PublicDefenceDate}}
+
+\publishers{%
+  \normalsize
+  \parbox{.7\linewidth}{\centering\textsl{This thesis is submitted in partial fulfillment of the requirements \\
+    for a degree of 
+    Master in Systems and Computing Engineering (MISIS). %Change to specific program 
+}}
+  \vfill
+  \begin{tabularx}{1.01\linewidth}{Xr}
+    \textbf{Thesis Committee:} & \\[1ex]
+    Prof. Name \textsc{Last name} (Promotor) & 
+     Universidad de los Andes, Colombia\\
+    Prof. Reviewer 1 \textsc{Reviewer 1} & 
+     Institution, Country\\
+    Prof. Reviewer 2 \textsc{Reviewer 2} & 
+     Institution, Country\\
+  \end{tabularx}}
+
+\uppertitleback{%
+  {\relsize{2} \MainTitle}\\[2pt]
+  {\relsize{1} \SecondaryTitle}
+
+  \vspace{1em}%
+  {\textcopyright} 2025 \Author\\[1ex]
+  The Software Design Lab\\
+  Systems and Computing Engineering Department\\ %Change to specific group
+  Faculty of Engineering\\
+  Universidad de los Andes\\
+  Bogot\'a, Colombia
+ }
+
+\lowertitleback{%
+  \footnotesize%
+  }
+  
+\begin{flushright}
+  \dedication{To my family. The fruit of all their efforts be shown here.}
+\end{flushright}
+
+
+\maketitle
+	
+\endinput
+

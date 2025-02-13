@@ -1,0 +1,38 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\nonumberline Abstract}{iv}{}%
+\contentsline {chapter}{\nonumberline Acknowledgements}{vi}{}%
+\contentsline {chapter}{\listfigurename }{x}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Why make researching efforts in architectural erosion?}{2}{}%
+\contentsline {section}{\numberline {1.2}Machine learning models in architectural erosion}{2}{}%
+\contentsline {chapter}{\numberline {2}Definitions}{3}{}%
+\contentsline {section}{\numberline {2.1}Development Process of a Software Project}{3}{}%
+\contentsline {section}{\numberline {2.2}Architectural design in software engineering}{4}{}%
+\contentsline {subsection}{\numberline {2.2.1}Architectural design in Android development}{4}{}%
+\contentsline {subsection}{\numberline {2.2.2}Quality Attributes}{6}{}%
+\contentsline {section}{\numberline {2.3}Architectural Erosion}{7}{}%
+\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{8}{}%
+\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{8}{}%
+\contentsline {subsection}{\numberline {2.3.3}Consequences}{9}{}%
+\contentsline {subsection}{\numberline {2.3.4}Metrics and treatments for architectural erosion}{10}{}%
+\contentsline {section}{\numberline {2.4}Representative set of a sample}{12}{}%
+\contentsline {section}{\numberline {2.5}Natural Language Processing in Software Issues Detection}{12}{}%
+\contentsline {subsection}{\numberline {2.5.1}Word Embeddings for Words Representation}{13}{}%
+\contentsline {subsection}{\numberline {2.5.2}Performance and Similarity Metrics in NLP}{14}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{15}{}%
+\contentsline {section}{\numberline {3.1}Research Methodology}{15}{}%
+\contentsline {subsection}{\numberline {3.1.1}Architectural Erosion: An Initial Overview}{15}{}%
+\contentsline {section}{\numberline {3.2}Architectural Erosion Symptoms Identification}{17}{}%
+\contentsline {section}{\numberline {3.3}Architectural Erosion Symptoms Detection}{18}{}%
+\contentsline {section}{\numberline {3.4}Giving Architectural Erosion Solutions}{18}{}%
+\contentsline {chapter}{\numberline {4}Finding Architectural Erosion Issues}{19}{}%
+\contentsline {section}{\numberline {4.1}Architectural Erosion Keywords in Commits}{19}{}%
+\contentsline {subsection}{\numberline {4.1.1}Architectural erosion symptoms Identification}{19}{}%
+\contentsline {subsubsection}{\nonumberline Extracting keywords from Android Context}{20}{}%
+\contentsline {chapter}{\numberline {A}TITLE}{23}{}%
+\contentsline {chapter}{\nonumberline Bibliography}{25}{}%
+\contentsline {chapter}{Acronyms}{27}{}%
+\contentsline {chapter}{List of Terms}{27}{}%

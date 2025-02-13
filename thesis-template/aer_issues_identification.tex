@@ -1,0 +1,97 @@
+\chapter{Finding Architectural Erosion Issues}
+\label{cha:identification}
+
+\section{Architectural Erosion Keywords in Commits}
+\subsection{Architectural erosion symptoms Identification}
+Based on the last researches, architectural erosion insights identification consist on a deep analysis of information based on development judgments. This judgment can be extracted from different software versioning systems, like for example OpenStack, a software versioning platform for large-scale software projects, or GitHub, the most used software versioning platform. From those messages, we can classify and tag different code changes through code differences between code changes over time. In this process, the use of different Natural Language Processing (NLP) techniques, to find a standard architectural erosion commit definition. One innovative idea is to employ pre-trained Word Embeddings in software development contexts for potential words that could indicate an implemented architectural violation in server-side applications. With the use of embeddings and word similarity metrics like Cosine Similitude, allows us to calculate the similarity between the word embedding's numerical representation for every word since semantic function. With this study, we can standardize the main cases of architectural erosion, the different metrics that could be identified in a software project, and potential solution approaches.
+With those NLP metrics, we can use them to create discriminatory models for issue detection. However, in an Android context, the architectural erosion identification hasn't been enough to standardize a set of rules for detecting it in software source code due to the Backend and Frontend solution approaches implemented in the study software projects (the two main projects are developed in Python).
+With the results of the papers extracted in the first related research overview, we can find a set of keywords extracted for the developer's code messages that indicates a potential architectural erosion issue in the implementation, that study was realized with the developer's judges and messages extracted from different version platforms like OpenStack (previously mentioned) and Github, the most popular and used versioning platform. In this case, the project had as a reference four large open-source software projects; all applications are server-side applications. Around 50 keywords were mentioned as potential keywords that indicate an air issue.
+However, the words were extracted for Backend development purposes. For this reason, we use the same word extraction approach in a mobile context. During this process, we extracted from 50 open-source Android applications published around 470k GitHub commits. This is enough detail to make a preprocessing of vocabulary implemented in each GitHub commit and create new rules that could be implemented with custom lint check rules. That topic will be treated in te next chapter.
+
+\subsubsection{Extracting keywords from Android Context}
+Based on the last mentioned research, it is possible to find potential keywords that indicate an issue or an insight inside a code implementation, with the help of NLP techniques, through similarity measurements like cosine similarity (mentioned in the definitions chapter) and pre-trained Word Embeddings, due to the numerical representation of each word of the generated vocabulary in a specific context. First, we use the PyDriller library \emph{url PyDriller}, a useful library for repository mining, for getting code source and its attributes of different open-source Android projects made in Kotlin. The selected projects were extracted from different open-source Android project catalogs like F-Droid and other data mining repositories found with different filters like development programming language used, number of commits, and keywords in the selection criteria \emph{url fdroid}\emph{url search}. In the first overview, we extracted 50 Android projects that have around 470K commits. With these commits, we made a text pre-processing to build a standard vocabulary and tokenize with the help of NLTK library \emph{url nltk}, a library for making NLP operations like tokenization, lemmatization, and stemming.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|}
+        \hline
+        Keyword \\
+        \hline
+         architecture, architectural, structure, structural, \\
+         layer, design, violate, violation, deviate, deviation,\\
+         inconsistency, inconsistent, consistent, mismatch, diverge,\\
+         divergence, divergent, deviate, deviation, architecture,\\
+         layering, layered, designed, violates, violating, violated,\\
+         diverges, designing, diverged, diverging, deviates, deviated, \\
+         deviating, inconsistencies, non-consistent, discrepancy, deviations, \\
+         modular, module, modularity, encapsulation, encapsulate, \\
+         encapsulating, encapsulated, intend, intends, intended, \\
+         intent, intents, implemented, implement, implementation,\\
+         as-planned, as-implemented, blueprint, blueprints, mis-match,\\
+         mismatched, mismatches, mismatching\\
+         \hline
+    \end{tabular}
+    \caption{List of initial Keywords extracted of mentioned related work}
+    \label{tab:my_label}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Column & Description \\
+        \hline
+        Name Repo & Name of the GitHub repository of Android project source code \\
+        \hline
+        Url Repo & GitHub URL from source code repository \\
+        \hline
+       Commit Message & Message of a specific commit in GitHub commits history of each Android project \\
+       \hline
+       Commit Hash & Hash from GitHub commit, essential for commits analysis process \\
+       \hline
+       File Name & List of GiHub commit modified file names \\
+       \hline
+       Code Changes & String with the modified source code of each GitHub commit \\
+       \hline
+    \end{tabular}
+    \caption{Features of commits dataset and their description}
+    \label{tab:my_label}
+\end{table}
+
+With all the corpus from GitHub commits, we implement a text cleaning process, removing stop words and making stemming, due to the lemmatization process in a technical context is not very effective, some words do not have their respective lexical root, so the tokenizer would not consider that words. The stemming process is useful for semantic word derivation control. This process is essential because a lot of words do not have semantic relevance in each GitHub commit, so consider that words could affect similarity metrics. With the processed words, we use a pre-trained Word Embedding based on millions of Stack Overflow posts. With the Gensim library \emph{librería de gensim}, we can load the Word Embedding model get a numerical representation of each selected word, and use the cosine similitude metric for find similar words from the previous keywords. When the metric is generated, we select the 10 most similar words based on that metric.
+In the first overview implementation, we found around 5000 relevant commits with the updated keywords list. For efficient selection criteria, we extract a representative subset based on a weighted average made by the word frequency in the corpus text. With the first selection of a representative set, we extracted 357 GitHub commits. 
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+       Word  & Cosine Similitude Average Value \\
+       \hline
+        \texttt{notion} & 0.2674 \\
+        \hline
+        \texttt{respect} & 0.2627 \\
+        \hline
+        \texttt{formal} & 0.2482 \\
+        \hline
+        \texttt{high-level} & 0.2437 \\
+        \hline
+        \texttt{tend} & 0.2342 \\
+        \hline
+        \texttt{rigid} & 0.2315 \\
+        \hline
+        \texttt{kind} & 0.2256 \\
+        \hline
+        \texttt{stronger} & 0.2243 \\
+        \hline
+        \texttt{non-linear} & 0.2227 \\
+        \hline
+        \texttt{sane} & 0.2198 \\
+        \hline
+    \end{tabular}
+    \caption{Top 10 newfound words since Word Embedding cosine similitude metric}
+    \label{tab:my_label}
+\end{table}
+
+With this approach, it is possible to find potential words written in a development context that could indicate a potential issue related to different kinds of functional and nonfunctional requirements that a software project includes in its architectural design and its standards. This detection approach has many different development areas to detect different problems found in a software project. The future work related with this approach will be discussed in next chapters.
+\endinput

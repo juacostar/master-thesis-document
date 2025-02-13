@@ -1,0 +1,147 @@
+
+\chapter{Definitions}
+\label{cha:definitions}
+
+\section{Development Process of a Software Project}
+When you have to make a software project planning, you have to define the main requirements that achieve the main goals of the business idea inside the software project realization motivation. First, you have to define the functional requirements. In software engineering, functional requirements define the main features of each software component involved in the project. Requirements like design, basic functionalities, and defined flows are built on the functional requirements definition process.
+After that, you have to define the main requirements that do not directly impact the user experience, named nonfunctional requirements. Nonfunctional requirements indirectly affect your software project, bad planning about those requirements could affect progressively the user performance and the software project architecture, becoming slower, more weight, or less useful for a single application user. In this process, you must design a solution that satisfies the functional and non-functional requirements. This process is named the design process of a software project. Inside this stage, you must define the number of components that give the software functionalities. furthermore, you have to each component infrastructure, into a process named Software Architecture Definition \citet{software-engineering-book}.  
+
+\section{Architectural design in software engineering}
+For an effective and efficient software project development, we have to realize the respective investment in each stage. From the functional requirements creation to the design of each component and its features and constraints. To do this, it is necessary to make an architectural design. The architecture of a software project. In general, defines the components that require the entire system and the connections and relationships (and their types). Furthermore, each component has to be defined in this design. In that order, different standards ensure the system’s quality according to its architectural design.
+
+\subsection{Architectural design in Android development}
+Architectural Design in the mobile approach has been advancing step by step; this depends on the creation of new technologies in each development layer since the data management layer with the implementation of new database libraries like the room to the User Interface layers with a different way of creating new screens inside the application (with the use of either JetPack Compose or Fragments organization).
+Depending on what simple should be an application, how many components would have, which of them would be connected, and the reasons for those connections. It is necessary to review different architectural patterns used recently and why we focus on one of them for architectural erosion detection.
+
+\begin{itemize}
+	\item MVC (Model View Controller): In this pattern, we divide the application components in the model when we implement the connections with external platforms and internal data management. The controller component is used for setting the relation between the business logic and the User Interface (UI). The view component that contains the UI. This pattern has been commonly used for the last 15 years due to its simplicity and popularity. however, the applications that use this pattern are very coupled, and their components depend strongly on others. It is usually to find business logic implementations and UI code fragments in the same code file or data processing in business code components.  In the beginning of Android, architectural issues weren´t as important as today. If an Android application is simple in terms of realization, it is possible to use an MVC pattern.
+	
+	\item MVP (Model View Presenter): This pattern is managed in a different way than the MVC pattern in the relations between business logic and UI. In this case, we use a component named presenter to manage the events and behavior of each UI view or screen. This pattern is commonly used for single Applications that do not have scalability or application overloading does not happen. This pattern divides into classes the presenter features connected with the UI features. The disadvantages of this pattern are related to a high coupling rate inside their components and a big complexity for managing the life cycles of an application. Furthermore, it is difficult to implement new features development and maintenance for large-scale Android applications.
+	
+	\item MVM (Model View View-Model): This pattern is one of the derivatives of clean architecture, a concept widely developed in Backend and Frontend applications architectures. This pattern uses some concepts of clean architecture, like use case organization, when we implement a new feature in an independent way of others. With this pattern, we use reactive components. The application components use libraries like Dagger Hilt to implement the use of reactive data, this reactive data changes depending on a UI event. With the creation of the JetPack Compose framework. The JetPack Compose is based on reactive UI and is more declarative than the traditional form (the use of XML files and fragments structure for managing different application screens)
+\end{itemize}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.2]{/Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png}
+    \caption{Similarities and differencces between Android architectural patterns. \citet{} }
+    \label{fig:concept-map}
+\end{figure}
+
+
+In an Android application, it is not mandatory to use only an architectural pattern to achieve the functional and non-functional requirements of a software project. For example, it is very common to use the repository pattern declared in MVVM divided into two: external connections and internal data management. Today, in the actual mobile development ecosystem, the most common framework that could be implemented with one or more architectural patterns is the three layers of pattern architecture: The UI layer, an optional layer named the Domain Layer, and the Data layer. Each layer could be or could not be implemented depending on each application requirements set. 
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{/Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_framework.png}
+    \caption{Three-layer framework for mobile development. \citet{} }
+    \label{fig:concept-map}
+\end{figure}
+
+The three-layer architecture will be used as the main architectural framework to realize this study with the MVVM architectural pattern. These patterns are the most used in modern mobile development and will give a first approach for how the developers can detect and fix architectural violations in an Android application,
+
+\subsection{Quality Attributes}
+The consequences of the generation of architectural erosion could impact the different quality attributes contemplated. According to Bass \citet{bass-architecture-book}. there are six attributes based on ISO-25010. Those attribute qualities are:
+
+\begin{itemize}
+    \item Latency: This attribute measures the response time of the components according to the implemented architecture. Response times of each architectural component are very important.
+    \item Scalability: Measures the ability of a system to grow in critical situations of system inputs. It is important for system availability when the user's connection rate increases.
+    \item Security: Nowadays, a system must give protection to its users and their data, since availability, integrity, and confidence of that data. This requirement is very important in the legal environment of a system.
+    \item Availability: When the system can be available when a system failure occurs (it doesn't depend on the fail type). This quality attribute measures the time that the system uses for recovering a fail(s).
+    \item Integration capability: Measures the ability of a system to integrate with other(s) system(s), measures the time and effort that the system needs to make that integration in all their layers from the data layer till the UI layer is necessary.
+    \item Modification capability: Similar to the last quality attribute, it measures the time that the system needs to change one or more components inside its system. The effort measure could be many relationships (human resources effort, time costs, money costs, etc.)
+\end{itemize}
+
+
+\section{Architectural Erosion}
+The Architecture Erosion concept was treated a long time ago. Since 1992, architecture erosion has had a formal definition, giving the relationship of this concept with architectural rules violations \citet{perry-wolf-reference}. It can be treated from different perspectives, from the violation of rules, structure, and quality to the evolution perspective. Furthermore, the concept has a strong relationship with other synonyms, like, for example, degradation. In another modern definition, architectural erosion is defined as the set of architectural violations that reflect the deviation of the implemented architecture from the intended architecture over time. In resume, in a more concrete definition, architectural erosion could be considered a phenomenon that reflects the deviation of an implemented architecture due to an intended architecture in a software project.
+
+\subsection{Approaches and Perspectives}
+Due to the original concept of architectural erosion \citet{slr-base}. It could be studied and analyzed by different approaches:
+
+\begin{itemize}
+    \item Violation perspective: Denotes how the implemented architecture violates the design principles or main constraints of the intended architecture. These violations could occur in two phases: the design phase and the maintenance and evolution phase, making different changes step by step in the short and long term.
+    \item Structure perspective: Where the structure of a software system encompasses its components and their relationships.
+    \item Quality perspective: it refers to the degradation of the system quality, due to architectural changes that would generate architectural smells. It could include all the quality attributes contemplated actually in the industry.
+    \item Evolution perspective: It shows the architectural inflexibility that increases the difficulty of implementing changes in the project and, therefore, decreases the sustainability of the system.
+
+\end{itemize}
+
+\subsection{Main Reasons and Symptoms }
+Different factors could provoke architectural erosion in different stages of software project development. Due to these reasons, is possible to make different solution approaches, and, therefore, the possibility for build different components based on that approaches. The main reasons founded are:	
+
+\begin{itemize}
+    \item Architecture modularization: Due to the business needs, is necessary to divide responsibilities between different components and layers in a software project. but, sometimes it could produce non-functional components and deviate from the initial intended architecture.
+    \item  Architecture complexity: if the intended architecture is very complex, is possible to deviate from it when the time goes by, producing the first symptoms of architectural erosion.
+    \item Architecture size: Due to this attribute, and with no control over the maintenance of the software project, is not possible to have good software maintenance for a long time.
+    \item Design Decisions: If the design decisions during the initial stages of the project don't have enough support (like documentation, reviews, etc.), it could generate problems with the maintenance of refactoring of different components, decreasing the code quality and generating the first symptoms of architectural erosion.
+    \item Duplicate functionality: As a consequence of the latest reasons too, duplicate functionality reflects the bad connection between layers of an architecture, and, could be considered as the initial symptom of architectural erosion.
+
+\end{itemize}
+There are another reasons like bad documentation, bad programming features, but, in general, the main reasons were considered accord to the architecture design stage issues.
+
+\subsection{Consequences}
+Are several points of view about the real definition of consequences of architectural erosion violations inside a software project. The main problems that could generate the non correct maintenance and the deviaton of an intended architecture are:
+
+\begin{itemize}
+    \item Costs of software maintenance: Due to the no implementation of architectural erosion issues, this could affect one of the non-functional defined requirements, and after that, affect the actual software infrastructure.
+    \item Software Performance: When one of the quality attributes is affected by the initial architecture design planning, it incurs performance reduction of the intended architecture. In Android Apps, it could be more notorious, due to the limited resources of an mobile device, very different of a desktop device or server-type device.
+    \item Software quality decrease: When architectural changes in a software project, it could affect the normal behavior of the application and, inside its source code, could imply bad code features implementation, decreasing the software quality, an important standard in a software project.
+    \item Software Sustainability: The cost in terms of human resources, software infrastructure, time, money, etc, could increase if you do not attend the architectural erosion insights in your software project, affecting nonfunctional requirements, and, in a long time, affecting the user performance.
+\end{itemize}
+
+
+\subsection{Metrics and treatments for architectural erosion}
+Today. exist some different metrics that can determine architectural erosion in different approaches. According to \citet{ieee-erosion-metrics}. Some metrics have been created to analyze architectural decay in open-source projects, analyzing possible reasons, indicators, and solution strategies for it. In the resume, exist around 54 metrics that could determine architectural erosion in different stages, from the design stage to the deployment stage. Those metrics have been classified by measured artifacts, level of validation, usability, applicability, comparative analysis, and support tools. Different classifications could be implemented into a tool with a specific measure strategy for analyzing architectural erosion in any system.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{/Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural Erosion Concepts.drawio.png}
+    \caption{Main Concepts of Architectural Erosion in Software Engineering }
+    \label{fig:concept-map}
+\end{figure}
+
+\newpage
+
+\section{Representative set of a sample}
+In statistics, there are several dataset sampling ways that are effective in selection criteria, each alternative has a way for select randomly data that represents in a minor scale all the dataset. One way is to select a representative set from the original population. in this case, is possible to make weighted-randomly selection of some individuals from any population that represents the main features of all population \emph{reference representative set}
+
+\section{Natural Language Processing in Software Issues Detection}
+Before solving architectural erosion insights into a software project, you have to detect the real violation types that could appear in your software project. There are some approaches for software issue detection using actual natural language processing methodologies that have been powered with Machine Learning Techniques help. Natural Language Processing (NLP) gives the ability to extract relevant information for great text sets named corpus. Nowadays, NLP is very useful for many tasks like text generation or classification. Even with a different approach, the NLP actual tools have had a better performance of the same tasks in code due to its standard structure, which does not present different language variations that could present in a spoken language.
+
+NLP has a set of different preprocessing methods for language models. Due to the complexity of text representation for computer processing, it is necessary to define a standard input structure for a model language. Before this, you have to make a series of processes for getting that standard structure of a given corpus of text. The process that enables those actions is named text normalization \citet{nlp-fundamentals}. With the use of regular expressions, you could build a dictionary of words, which is useful for getting a standard structure and enable the text words with the modeling task. The main stages and process for the dictionary building are:
+
+\begin{itemize}
+    \item Tokenization: Given a character sequence, in this case, a sequence of words of a given context, you can split that sequence into minimal processing units named tokens. These tokens are normally defined as terms of words. These tokens will create the base dictionary to begin the text processing into a language model \citet{information-retrieval}. 
+
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{/Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png}
+    \caption{Tokenization process of one sentence \citet{information-retrieval} }
+    \label{fig:tokenization}
+    \end{figure}
+    
+    \item Removing Stop Words: In the basic language modeling tasks, is necessary to remove words that do not have relevant semantic information inside a text or a text corpus, that words are named Stop Words. Stop Words are words that do not contribute with the meaning of a sentence, like prepositions, articles, etc. In actual language models (Large Language Models) is very important to maintain Stop Words to get better a specific context for next-word prediction or sentence classification. There are different strategies for removing those words, the most common is removing by collection frequency, due to the number of appearances in the corpus, which is enormous compared with relevant words. In document retrieval, the rare words are the most important for giving an efficient model over the text corpus \citet{information-retrieval}. 
+    \item Lemmatization: For new tokens controlling and tokens derivations, is essential to create tokens since the roots of the words, to reduce inflectional forms and related forms of words with the same root. In some cases is difficult to implement that process, because you must have a root word dictionary to get root tokens. This case, in different contexts, could generate conflicts for getting roots of specific context words \cite{information-retrieval}.
+    \item Stemming: This process consists of a heuristic process to cut off some characters at the end of each word, reducing words derivation of some words, with the same objective of the lemmatization process. In English language could be an efficient technique but could have some conflicts with other languages.
+\end{itemize}
+
+
+\subsection{Word Embeddings for Words Representation}
+As said in the last section, language models need to have a numerical representation of the corpus text for modeling tasks. To solve this, you must define a standard structure based on the decided model inputs, the most common structure is a word embedding representation, where you define a numerical vector for representing into a specific context (where embedding was trained) for use as input into a language model. This representations gives to all model vocabulary a vector representation, where you can observe similar words, different words and how much distance is between them. This representation is useful for similarity words management and getting the relationships between different features inside them \citet{nlp-fundamentals}. 
+
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{/Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_representation.png}
+    \caption{Representation in tow dimensions of Similar Words give a Word Embedding \citet{nlp-fundamentals} }
+    \label{fig:word-embedding}
+    \end{figure}
+
+\subsection{Performance and Similarity Metrics in NLP}
+It is very important to maintain and define an objective in terms of performance. Different metrics represent the behavior of a classic or modern language model based on next-word probabilities (like the anagram model when you generate an n-tuple of words and calculate the occurrence probability of that word sequence). For information retrieval, when you, in the same case of word embedding representation, have a vector representation, you must use a metric based on the vector's component. In the same dimension, you could determine the similarity between two vectors and, in the case of NLP context, verify the semantic similarity between two words. In this approach, one of the most used metrics is cosine similitude: This metric combines the product between the two vectors and the difference between their components. The Similitude Cosine metric is defined as:
+
+\begin{equation}
+cos(v,w) = \frac{v.w}{|v||w|} = \frac{\sum_{i=1}^{N} v_{i}w_{i}}{\sqrt{\sum_{i=1}^{N} w_{i}^{2}} \sqrt{\sum_{i=1}^{N} v_{i}^{2}}}
+\end{equation}
+
+With this metric, we can conclude the similarity between two words (or two document sin another research context). If similarity value is big, that words can be considered as similar words.

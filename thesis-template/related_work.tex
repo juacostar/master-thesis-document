@@ -1,0 +1,46 @@
+\chapter{Related Work}
+\label{cha:relatedwork}
+
+\section{Research Methodology}
+For architectural erosion symptoms, causes, and consequences detection, during the research, it was necessary to realize a series of steps for identification and possible recovery processes. Due to the orientation of the actual architectural erosion solvers for solving them mostly for Backend and Frontend projects, it is necessary to identify architectural erosion symptoms in Android apps. After that, with human judges, these symptoms have to be confirmed, and, finally, those symptoms will generate architectural rules for detecting them and suggest different recovering ways during the coding stage of a system.
+
+\subsection{Architectural Erosion: An Initial Overview}
+As the first approach to define, explain the concept of architectural erosion in software engineering and to set the relationship between this concept and the mobile development ecosystem. In the first approach, we look for advances in static analysis solution approach in architecture quality gates in Server-Side and Frontend applications \emph{reference paper uniandes}. In this case, we locate the cited related work in this research for search the initial motivation for solving architectural erosion issues, and find quality gates in terms of performance in Android ecosystem.
+
+The first overview we extracted about the related in \citet{slr-base}. In this paper, we find an Systematic Literature Review (SLR) where define the definition, reasons, symptoms, consequences and solution approaches about architectural erosion. In resume, this approach finds 73 relevant papers about 8 research questions related with the last mentioned features. From this approach, we can execute the same query in different researches papers database for searching more actual researches, due to the publication year of this research (2021), and the time period criteria (between 2006 and 2009) for finding recent researches and advances during the last three years. The paper searches relevant papers in 7 researches databases, and make a better performed query, due to the relation of "architectural erosion" concept in civil engineering and a phenomenon presented in buildings. We present the first used search queries and its databases:
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|}
+        \hline
+        Query\\
+         \hline
+             ("software" OR "software system" OR "software engineering") \\
+             AND ("architecture" OR "architectural structure" OR "structural") \\
+             AND ("erosion" OR "decay" OR "degradation" OR "deterioration"\\
+             OR "degeneration") \\
+         \hline
+    \end{tabular}
+    \caption{Executed Query for related work search}
+    \label{tab:my_label}
+\end{table}
+
+Since that first results, we can extract relevant papers that include new developments approaches for fixing architectural erosion issues, metrics, tools and more related work. With this, we identify in each paper three main stage for solving that issues. The detection stage, where we use different identification alternatives through developer's messages in versioning systems like for example GitHub. The Detection Stage, where we use Model Driven Development (MDD) and code patterns detection for detect the identified architectural violations rules. Finally, based on the solution approach (Design approach, Quality approach, etc), we can suggest a solution proposal for solving the detected architectural violations.
+In the first search iteration, we added another filter related with the publication year. We selected the papers that their publication year is between 2021 and 2024, that papers include in their bibliography the first SLR that use as reference research. Despite different troubles with the query, when different databases show papers related with civil engineering or architecture (this because the architectural erosion definition in that context is another research topic about building degradation). In this first research iteration, we found researches that synthesize different solution approaches and give an overview from different perspectives, since the process of AER issues detection, metrics that could indicate a possible architectural violation in a software project like coupling metrics and relationship between classes.
+We observed that the use of NLP techniques could improve the AER issues detection performance based on commit messages analysis. With the use of pre-trained Word Embedding models trained in specific context, different AER issues are detected and a list of potential keywords could be generated as a type of alert of an architectural violation based on architectural model base.
+In the symptoms and causes approach, analysis of different base applications made in different programming languages was made. Different alternatives and methodologies were evaluated for determine the performance in architectural erosion issues detection and different solution approaches were proposed.
+
+
+
+
+
+\section{Architectural Erosion Symptoms Identification}
+In the stage of detection, the latest researches give feedback about identified architectural erosion symptoms and their types during different project stages. However, the detected and named symptoms are oriented to Frontend and Backend development. For mobile development oriented to Android technology, specifically made in Kotlin programming language, it doesn't exist a repository of possible architectural erosion symptoms. The most recent researches use NLP techniques based on GitHub commits. That researches analyze the main keywords written in GitHub commits that could indicate a bad architectural issue implementation, identifying a possible architectural erosion issue.
+With large amount of data from Git repositories is possible to make NLP analysis of that Github commits and define metrics that identify (from previously selected commits tagged by expert judges in software engineering and software architecture) similar keywords for architectural erosion. The metrics performance could be affected by the word embedding training context. The most recent research that implements that identification methodology, use a Word Embedding model trained with 10 million of Stack overflow posts, a context that use technical definitions for define features, bugs, recommendations and more of different programming languages. With this context, that word embeddings could be more powerful and efficient for detect architectural erosion issues keywords \cite{warnings-architectural-erosion,so-word-embedding}.
+Another approaches are similar to the mentioned previously. However, that approaches are only based on architectural conformance checking. That consist on a set of different statements for a couple of judges that are professionals in software development and software architecture
+
+\section{Architectural Erosion Symptoms Detection}
+
+
+\section{Giving Architectural Erosion Solutions}
+The latest researches give feedback about identified architectural erosion symptoms and their types during different realization project stages. However, the detected and named symptoms are oriented to Frontend and Backend development. For mobile development oriented to Android technology, specifically made in Kotlin programming language, it doesn't exist a repository of possible architectural erosion symptoms. To get this, we use an artificial intelligence approach for detecting architectural changes, and those changes and their change messages (commits in git world) are useful for identifying possible symptoms and generating rules to prevent them.

@@ -1,0 +1,16 @@
+\chapter{Detection of Architectural Erosion}
+\label{cha:iaer}
+
+Due to the mentioned related work, it is possible to use the latest techniques for identifying architectural erosion in software projects in general. With this related work, we can combine that technique to extract commits from a versioning platform like GitHub. GitHub commits are extracted based on a set of keywords that were used to extract potential architectural issues in backend development projects. We can use those words to extract commits from open-source Android projects. Those commits are analyzed by two judges with experience in mobile development.  Finally, we can extract and conclude rules based on architectural changes implemented in the set of GitHub commits develop custom lint check rules to inspect them, and suggest a possible solution that should tend to improve the performance of an Android application and its quality-attributes defined in its architecture. 
+
+\section{Keyword Selection and Addtion}
+Architectural erosion solutions have been implemented from different approaches. One of them is the analysis of various versions of a software project for analyzing different implemented potential issues that could represent a deviation from an intended architecture and different software development politics. In the Android environment, we can explore that solution because have not been taken into account before. Using the keywords mentioned in the section of related work and with the use of Scrapping techniques in web platforms. We can extract important information based on the implemented source code of each commit. However, the keywords obtained in the related work were extracted from large-scale software projects in backend development. For this reason, it is very useful to implement NLP techniques for finding new words in a mobile development context. 
+
+\section{Finding new words}
+For adding new words that potentially are included in implemented architectural erosion issues. We select from 50 open-source Android applications when their source code is implemented in GitHub. Each GitHub project has been developed with a large number of changes and commits, from 1000 commits to approximately 15000 commits. These applications have recent changes that indicate updated libraries and techniques implemented in the application. For each project, with the help of PyDriller library, a Python library for web scrapping in Github projects. We extracted information from each project, like commit hash (for judgment easiness), repo name, and source code.
+After that, we use libraries like NLTK to get pre-trained word embedding models and compare similar keywords found in commits from Android applications. We realize a preprocessing method for data cleaning and use it to get a vectorial representation of each word found in the commits set. With this representation, we can analyze through cosine similitude metric similar words that could be a architectural issue found in an Android project.
+
+
+\section{Judgement process}
+
+\section{Data Synthetizing}

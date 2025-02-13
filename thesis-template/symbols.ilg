@@ -1,0 +1,8 @@
+This is makeindex, version 2.17 [TeX Live 2024] (kpathsea + Thai support).
+Scanning style file /usr/local/texlive/2024/texmf-dist/makeindex/base/latex.ist
+** Input style error (file = /usr/local/texlive/2024/texmf-dist/makeindex/base/latex.ist, line = 20):
+   -- Unknown specifier merge_rule.
+done (0 attributes redefined, 1 ignored).
+Scanning input file symbols.idx...done (0 entries accepted, 0 rejected).
+Nothing written in symbols.ind.
+Transcript written in symbols.ilg.

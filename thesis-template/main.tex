@@ -1,0 +1,50 @@
+\documentclass[american, print]{misis}
+
+% Copyright (c) 2019 FLAG lab
+\usepackage{float}
+\usepackage{xcolor}
+
+
+\everymath{\displaystyle}
+
+\newcommand\CEV[1]{\textcolor{orange}{\nb{CEV}{#1}}}
+\newcommand\JCA[1]{\textcolor{blue}{\nb{JCA}{#1}}}
+
+
+\begin{document}
+
+\frontmatter
+\KOMAoptions{open=left}
+\thispagestyle{empty}
+
+\include{title}
+\include{abstract}
+\include{acknowledgements}
+\tableofcontents
+\listoffigures
+\KOMAoptions{open=right}
+
+\mainmatter
+\input{chapter-titlepage}
+\include{introduction}
+\include{definitions}
+\include{related_work}
+\include{aer_issues_identification}
+%\include{CHAPTER_FILE_NAME}
+
+
+%Adding appendices if needed
+\appendix
+\include{appendix-a}
+
+\backmatter
+\bibliography{/Users/juancamiloacosta/Downloads/thesis-template/bib/local,/Users/juancamiloacosta/Downloads/thesis-template/local}
+
+\printindex
+\addcontentsline{toc}{chapter}{List of Terms}
+\printindex[symbols]
+\include{acronym}
+\end{document}
+
+\endinput
+
