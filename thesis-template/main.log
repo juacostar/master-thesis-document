@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  5 FEB 2025 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  19 FEB 2025 07:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1326,6 +1326,9 @@ LaTeX Warning: Label `fig:concept-map' multiply defined.
 
 LaTeX Warning: Label `fig:concept-map' multiply defined.
 
+
+LaTeX Warning: Label `fig:ast' multiply defined.
+
 ) (./related_work.aux) (./aer_issues_identification.aux
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
@@ -1335,6 +1338,10 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
+
+) (./Detection.aux
+
+LaTeX Warning: Label `fig:ast' multiply defined.
 
 ) (./appendix-a.aux) (./acronym.aux))
 \openout1 = `main.aux'.
@@ -1583,13 +1590,13 @@ chapter without number
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [8] [9
-
-] (./main.lof)
+ [8] [9] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [10] (./chapter-titlepage.tex)
+ [10
+
+] (./chapter-titlepage.tex)
 \openout2 = `introduction.aux'.
 
 
@@ -1667,62 +1674,120 @@ epresentation.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
 res/word_embedding_representation.png  used on input line 135.
 (pdftex.def)             Requested size: 200.7495pt x 70.76419pt.
-) [14{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr
-/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive
-/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texm
-f-dist/fonts/enc/dvips/lm/lm-mathex.enc} </Users/juancamiloacosta/Downloads/the
-sis-template/figures/word_embedding_representation.png>]
+ [14{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/
+local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/
+2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf
+-dist/fonts/enc/dvips/lm/lm-mathex.enc} </Users/juancamiloacosta/Downloads/thes
+is-template/figures/word_embedding_representation.png>] [15]
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/abstract-syntax-tree.png, id=154, 788.
+9475pt x 444.15938pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/abstract-syntax-tree.png Graphic 
+file (type png)
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/abstract-syntax-tree.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/abstract-synta
+x-tree.png  used on input line 160.
+(pdftex.def)             Requested size: 394.47278pt x 222.07913pt.
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png, id=15
+5, 853.1875pt x 463.7325pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png G
+raphic file (type png)
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/Call-graph-in-
+C-source-code.png  used on input line 167.
+(pdftex.def)             Requested size: 426.59271pt x 231.86568pt.
+
+Overfull \hbox (8.33899pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+[16 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/abstract-syntax-tree.png>])
+[17 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png>]
 \openout2 = `related_work.aux'.
 
 
-(./related_work.tex
+(./related_work.tex [18
+
+
+
+
+]
 chapter 3.
-[15
-
-
-
-
-] [16] [17]) [18]
+[19] [20] [21]) [22]
 \openout2 = `aer_issues_identification.aux'.
 
  (./aer_issues_identification.tex
 chapter 4.
-[19
+[23
 
 
 
 
-] [20]
+] [24]
 Overfull \hbox (37.20926pt too wide) in paragraph at lines 40--57
  [][] 
  []
 
-[21]
+[25]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
 1.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [22]
+)) [26]
+\openout2 = `Detection.aux'.
+
+
+(./Detection.tex
+chapter 5.
+[27
+
+
+
+
+]
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/uast_structure.png, id=198, 1405.25pt 
+x 938.50626pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/uast_structure.png Graphic file (
+type png)
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/uast_structure.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/uast_structure
+.png  used on input line 16.
+(pdftex.def)             Requested size: 351.31165pt x 234.62599pt.
+ [28 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/uast_structure.png>])
+[29]
 \openout2 = `appendix-a.aux'.
 
+ (./appendix-a.tex [30
 
-(./appendix-a.tex
+
+
+
+]
 chapter A.
-) [23
-
-
-
-
-] [24
+) [31] [32
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [25
+) [33
 
-] [26
+] [34
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -1733,14 +1798,14 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [27
+ (./acronym.tex) [35
 
 
 
 ] (./main.aux
 (./title.aux) (./abstract.aux) (./acknowledgements.aux) (./introduction.aux)
 (./definitions.aux) (./related_work.aux) (./aer_issues_identification.aux)
-(./appendix-a.aux) (./acronym.aux))
+(./Detection.aux) (./appendix-a.aux) (./acronym.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1751,13 +1816,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29110 strings out of 474116
- 559838 string characters out of 5743682
- 1939187 words of memory out of 5000000
- 50764 multiletter control sequences out of 15000+600000
+ 29158 strings out of 474116
+ 563613 string characters out of 5743682
+ 1941187 words of memory out of 5000000
+ 50805 multiletter control sequences out of 15000+600000
  630098 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,9n,121p,10900b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,9n,121p,10900b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/t
@@ -1773,10 +1838,10 @@ dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts
 ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 mtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb>
-Output written on main.pdf (38 pages, 602961 bytes).
+Output written on main.pdf (46 pages, 1187581 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

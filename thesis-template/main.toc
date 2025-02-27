@@ -22,17 +22,23 @@
 \contentsline {section}{\numberline {2.5}Natural Language Processing in Software Issues Detection}{12}{}%
 \contentsline {subsection}{\numberline {2.5.1}Word Embeddings for Words Representation}{13}{}%
 \contentsline {subsection}{\numberline {2.5.2}Performance and Similarity Metrics in NLP}{14}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{15}{}%
-\contentsline {section}{\numberline {3.1}Research Methodology}{15}{}%
-\contentsline {subsection}{\numberline {3.1.1}Architectural Erosion: An Initial Overview}{15}{}%
-\contentsline {section}{\numberline {3.2}Architectural Erosion Symptoms Identification}{17}{}%
-\contentsline {section}{\numberline {3.3}Architectural Erosion Symptoms Detection}{18}{}%
-\contentsline {section}{\numberline {3.4}Giving Architectural Erosion Solutions}{18}{}%
-\contentsline {chapter}{\numberline {4}Finding Architectural Erosion Issues}{19}{}%
-\contentsline {section}{\numberline {4.1}Architectural Erosion Keywords in Commits}{19}{}%
-\contentsline {subsection}{\numberline {4.1.1}Architectural erosion symptoms Identification}{19}{}%
-\contentsline {subsubsection}{\nonumberline Extracting keywords from Android Context}{20}{}%
-\contentsline {chapter}{\numberline {A}TITLE}{23}{}%
-\contentsline {chapter}{\nonumberline Bibliography}{25}{}%
-\contentsline {chapter}{Acronyms}{27}{}%
-\contentsline {chapter}{List of Terms}{27}{}%
+\contentsline {section}{\numberline {2.6}Programming Languages fundamental for Software Analysis}{15}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{19}{}%
+\contentsline {section}{\numberline {3.1}Research Methodology}{19}{}%
+\contentsline {subsection}{\numberline {3.1.1}Architectural Erosion: An Initial Overview}{19}{}%
+\contentsline {section}{\numberline {3.2}Architectural Erosion Symptoms Identification}{21}{}%
+\contentsline {section}{\numberline {3.3}Architectural Erosion Symptoms Detection}{22}{}%
+\contentsline {section}{\numberline {3.4}Giving Architectural Erosion Solutions}{22}{}%
+\contentsline {chapter}{\numberline {4}Finding Architectural Erosion Issues}{23}{}%
+\contentsline {section}{\numberline {4.1}Architectural Erosion Keywords in Commits}{23}{}%
+\contentsline {subsection}{\numberline {4.1.1}Architectural erosion symptoms Identification}{23}{}%
+\contentsline {subsubsection}{\nonumberline Extracting keywords from Android Context}{24}{}%
+\contentsline {chapter}{\numberline {5}Detecting Architectural Erosion Issues}{27}{}%
+\contentsline {section}{\numberline {5.1}UAST in Android Studio}{27}{}%
+\contentsline {section}{\numberline {5.2}Rules Definition}{29}{}%
+\contentsline {section}{\numberline {5.3}AER Detector implementation}{29}{}%
+\contentsline {section}{\numberline {5.4}AER linter tool testing criteria}{29}{}%
+\contentsline {chapter}{\numberline {A}TITLE}{31}{}%
+\contentsline {chapter}{\nonumberline Bibliography}{33}{}%
+\contentsline {chapter}{Acronyms}{35}{}%
+\contentsline {chapter}{List of Terms}{35}{}%
