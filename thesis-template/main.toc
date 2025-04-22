@@ -10,39 +10,48 @@
 \contentsline {section}{\numberline {1.2}Machine learning models in architectural erosion}{2}{}%
 \contentsline {chapter}{\numberline {2}Definitions}{3}{}%
 \contentsline {section}{\numberline {2.1}Development Process of a Software Project}{3}{}%
-\contentsline {section}{\numberline {2.2}Architectural design in software engineering}{4}{}%
-\contentsline {subsection}{\numberline {2.2.1}Architectural design in Android development}{4}{}%
-\contentsline {subsection}{\numberline {2.2.2}Quality Attributes}{6}{}%
-\contentsline {section}{\numberline {2.3}Architectural Erosion}{7}{}%
-\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{8}{}%
-\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{8}{}%
-\contentsline {subsection}{\numberline {2.3.3}Consequences}{9}{}%
-\contentsline {subsection}{\numberline {2.3.4}Metrics and treatments for architectural erosion}{10}{}%
-\contentsline {section}{\numberline {2.4}Representative set of a sample}{12}{}%
-\contentsline {section}{\numberline {2.5}Natural Language Processing in Software Issues Detection}{12}{}%
-\contentsline {subsection}{\numberline {2.5.1}Word Embeddings for Words Representation}{13}{}%
-\contentsline {subsection}{\numberline {2.5.2}Performance and Similarity Metrics in NLP}{14}{}%
-\contentsline {section}{\numberline {2.6}Programming Languages fundamental for Software Analysis}{15}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{19}{}%
-\contentsline {section}{\numberline {3.1}Research Methodology}{19}{}%
-\contentsline {subsection}{\numberline {3.1.1}Architectural Erosion: An Initial Overview}{19}{}%
-\contentsline {section}{\numberline {3.2}Architectural Erosion Symptoms Identification}{21}{}%
-\contentsline {section}{\numberline {3.3}Metrics that could indicate Architectural Erosion}{22}{}%
-\contentsline {section}{\numberline {3.4}Giving Architectural Erosion Solutions}{23}{}%
-\contentsline {subsection}{\numberline {3.4.1}Static Analysis Code techniques}{24}{}%
-\contentsline {subsection}{\numberline {3.4.2}NLP techniques and AI Models}{25}{}%
-\contentsline {chapter}{\numberline {4}Finding Architectural Erosion Issues}{27}{}%
-\contentsline {section}{\numberline {4.1}Architectural Erosion Keywords in Commits}{27}{}%
-\contentsline {subsection}{\numberline {4.1.1}Architectural erosion symptoms Identification}{27}{}%
-\contentsline {subsubsection}{\nonumberline Extracting keywords from Android Context}{28}{}%
-\contentsline {chapter}{\numberline {5}Detecting Architectural Erosion Issues}{31}{}%
-\contentsline {section}{\numberline {5.1}UAST in Android Studio}{31}{}%
-\contentsline {section}{\numberline {5.2}Rules Definition}{33}{}%
-\contentsline {section}{\numberline {5.3}AER Detector Implementation}{33}{}%
-\contentsline {section}{\numberline {5.4}AER linter tool testing criteria}{34}{}%
-\contentsline {subsection}{\numberline {5.4.1}Test apps selection}{35}{}%
-\contentsline {subsection}{\numberline {5.4.2}Building Configuration of AER Component}{35}{}%
-\contentsline {chapter}{\numberline {A}TITLE}{37}{}%
-\contentsline {chapter}{\nonumberline Bibliography}{39}{}%
-\contentsline {chapter}{Acronyms}{41}{}%
-\contentsline {chapter}{List of Terms}{41}{}%
+\contentsline {subsection}{\numberline {2.1.1}Discovery}{4}{}%
+\contentsline {subsection}{\numberline {2.1.2}Design}{4}{}%
+\contentsline {subsection}{\numberline {2.1.3}Development}{4}{}%
+\contentsline {subsection}{\numberline {2.1.4}Testing and Quality Assurance (QA)}{4}{}%
+\contentsline {subsection}{\numberline {2.1.5}Release}{5}{}%
+\contentsline {subsection}{\numberline {2.1.6}Maintenance}{5}{}%
+\contentsline {section}{\numberline {2.2}Architectural design in software engineering}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}Architectural design in Android development}{6}{}%
+\contentsline {subsection}{\numberline {2.2.2}Quality Attributes}{8}{}%
+\contentsline {section}{\numberline {2.3}Architectural Erosion}{9}{}%
+\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{9}{}%
+\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{10}{}%
+\contentsline {subsection}{\numberline {2.3.3}Consequences}{11}{}%
+\contentsline {subsection}{\numberline {2.3.4}Metrics and treatments for architectural erosion}{12}{}%
+\contentsline {section}{\numberline {2.4}Representative set of a sample}{14}{}%
+\contentsline {section}{\numberline {2.5}Natural Language Processing in Software Issues Detection}{14}{}%
+\contentsline {subsection}{\numberline {2.5.1}Word Embeddings for Words Representation}{15}{}%
+\contentsline {subsection}{\numberline {2.5.2}Performance and Similarity Metrics in NLP}{16}{}%
+\contentsline {section}{\numberline {2.6}Programming Languages fundamental for Software Analysis}{17}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{21}{}%
+\contentsline {section}{\numberline {3.1}Research Methodology}{21}{}%
+\contentsline {subsection}{\numberline {3.1.1}Architectural Erosion: An Initial Overview}{21}{}%
+\contentsline {section}{\numberline {3.2}Architectural Erosion Symptoms Identification}{23}{}%
+\contentsline {section}{\numberline {3.3}Metrics that could indicate Architectural Erosion}{24}{}%
+\contentsline {section}{\numberline {3.4}Giving Architectural Erosion Solutions}{25}{}%
+\contentsline {subsection}{\numberline {3.4.1}Static Analysis Code techniques}{26}{}%
+\contentsline {subsection}{\numberline {3.4.2}NLP techniques and AI Models}{27}{}%
+\contentsline {chapter}{\numberline {4}Finding Architectural Erosion Issues}{29}{}%
+\contentsline {section}{\numberline {4.1}Architectural Erosion Identification Methodology}{30}{}%
+\contentsline {subsection}{\numberline {4.1.1}Appplications Selection}{30}{}%
+\contentsline {subsection}{\numberline {4.1.2}Word Embedding and Similarity Criteria}{31}{}%
+\contentsline {section}{\numberline {4.2}Architectural Erosion Keywords in Commits}{31}{}%
+\contentsline {subsection}{\numberline {4.2.1}Architectural erosion symptoms Identification}{31}{}%
+\contentsline {subsubsection}{\nonumberline Extracting keywords from Android Context}{32}{}%
+\contentsline {chapter}{\numberline {5}Detecting Architectural Erosion Issues}{37}{}%
+\contentsline {section}{\numberline {5.1}UAST in Android Studio}{37}{}%
+\contentsline {section}{\numberline {5.2}Rules Definition}{39}{}%
+\contentsline {section}{\numberline {5.3}AER Detector Implementation}{39}{}%
+\contentsline {section}{\numberline {5.4}AER linter tool testing criteria}{40}{}%
+\contentsline {subsection}{\numberline {5.4.1}Test apps selection}{41}{}%
+\contentsline {subsection}{\numberline {5.4.2}Building Configuration of AER Component}{41}{}%
+\contentsline {chapter}{\numberline {A}TITLE}{43}{}%
+\contentsline {chapter}{\nonumberline Bibliography}{45}{}%
+\contentsline {chapter}{Acronyms}{47}{}%
+\contentsline {chapter}{List of Terms}{47}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  23 MAR 2025 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  22 APR 2025 07:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1329,7 +1329,13 @@ LaTeX Warning: Label `fig:concept-map' multiply defined.
 
 LaTeX Warning: Label `fig:ast' multiply defined.
 
+
+LaTeX Warning: Label `fig:ast' multiply defined.
+
 ) (./related_work.aux) (./aer_issues_identification.aux
+
+LaTeX Warning: Label `fig:ast' multiply defined.
+
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
@@ -1620,67 +1626,82 @@ chapter 2.
 
 
 ] [4]
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/software_process.png, id=103, 716.6775
+pt x 598.235pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/software_process.png Graphic file
+ (type png)
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/software_process.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/software_proce
+ss.png  used on input line 29.
+(pdftex.def)             Requested size: 179.16893pt x 149.55838pt.
+ [5 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/software_process.png>]
+[6]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png, id
-=103, 1204.5pt x 630.355pt>
+=112, 1204.5pt x 630.355pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.pn
 g Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png
 >
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/mvvm_mvp_mvc.png  used on input line 26.
+res/mvvm_mvp_mvc.png  used on input line 52.
 (pdftex.def)             Requested size: 240.89574pt x 126.06876pt.
- [5 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png
+ [7 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png
  (PNG copy)>]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_framewo
-rk.png, id=107, 551.05875pt x 302.12875pt>
+rk.png, id=116, 551.05875pt x 302.12875pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fr
 amework.png Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fra
 mework.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/architecture_framework.png  used on input line 36.
+res/architecture_framework.png  used on input line 62.
 (pdftex.def)             Requested size: 275.52869pt x 151.064pt.
- [6 </Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fra
-mework.png>] [7] [8] [9]
+ [8 </Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fra
+mework.png>] [9] [10] [11]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural Erosio
-n Concepts.drawio.png, id=123, 823.075pt x 924.45375pt>
+n Concepts.drawio.png, id=131, 823.075pt x 924.45375pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural E
 rosion Concepts.drawio.png Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural Er
 osion Concepts.drawio.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/Architectural Erosion Concepts.drawio.png  used on input line 99.
+res/Architectural Erosion Concepts.drawio.png  used on input line 125.
 (pdftex.def)             Requested size: 411.53648pt x 462.22574pt.
- [10] [11 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectu
+ [12] [13 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectu
 ral Erosion Concepts.drawio.png>]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png, id
-=131, 291.0875pt x 36.135pt>
+=139, 291.0875pt x 36.135pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.pn
 g Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png
 >
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/tokenization.png  used on input line 119.
+res/tokenization.png  used on input line 145.
 (pdftex.def)             Requested size: 145.54338pt x 18.06744pt.
 
-[12] [13 </Users/juancamiloacosta/Downloads/thesis-template/figures/tokenizatio
+[14] [15 </Users/juancamiloacosta/Downloads/thesis-template/figures/tokenizatio
 n.png>]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_repre
-sentation.png, id=139, 401.5pt x 141.52875pt>
+sentation.png, id=148, 401.5pt x 141.52875pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_
 representation.png Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_r
 epresentation.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/word_embedding_representation.png  used on input line 135.
+res/word_embedding_representation.png  used on input line 161.
 (pdftex.def)             Requested size: 200.7495pt x 70.76419pt.
- [14{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/
+ [16{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/
 local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/
 2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf
 -dist/fonts/enc/dvips/lm/lm-mathex.enc} </Users/juancamiloacosta/Downloads/thes
-is-template/figures/word_embedding_representation.png>] [15]
+is-template/figures/word_embedding_representation.png>] [17]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/abstract-syntax-tree.png, id=154, 788.
+-thesis-document/thesis-template/figures/abstract-syntax-tree.png, id=162, 788.
 9475pt x 444.15938pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/abstract-syntax-tree.png Graphic 
@@ -1689,11 +1710,11 @@ file (type png)
 ster-thesis-document/thesis-template/figures/abstract-syntax-tree.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/abstract-synta
-x-tree.png  used on input line 160.
+x-tree.png  used on input line 186.
 (pdftex.def)             Requested size: 394.47278pt x 222.07913pt.
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png, id=15
-5, 853.1875pt x 463.7325pt>
+-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png, id=16
+3, 853.1875pt x 463.7325pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png G
 raphic file (type png)
@@ -1701,75 +1722,101 @@ raphic file (type png)
 ster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/Call-graph-in-
-C-source-code.png  used on input line 167.
+C-source-code.png  used on input line 193.
 (pdftex.def)             Requested size: 426.59271pt x 231.86568pt.
 
-Overfull \hbox (8.33899pt too wide) in paragraph at lines 167--168
+Overfull \hbox (8.33899pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-[16 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+[18 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
 ster-thesis-document/thesis-template/figures/abstract-syntax-tree.png>])
-[17 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+[19 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
 ster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png>]
 \openout2 = `related_work.aux'.
 
 
-(./related_work.tex [18
+(./related_work.tex [20
 
 
 
 
 ]
 chapter 3.
-[19] [20] [21] [22]
+[21] [22] [23] [24]
 
-Package natbib Warning: Citation `handle-exceptions-references' on page 23 unde
+Package natbib Warning: Citation `handle-exceptions-references' on page 25 unde
 fined on input line 45.
 
 
-Package natbib Warning: Citation `aer-metrics-paper' on page 23 undefined on in
+Package natbib Warning: Citation `performance-coroutines-reference' on page 25 
+undefined on input line 47.
+
+
+Package natbib Warning: Citation `aer-metrics-paper' on page 25 undefined on in
 put line 51.
 
-[23]
+[25]
 
-Package natbib Warning: Citation `master-thesis-aer-backend' on page 24 undefin
+Package natbib Warning: Citation `master-thesis-aer-backend' on page 26 undefin
 ed on input line 58.
 
-[24]) [25]
+[26]) [27]
 \openout2 = `aer_issues_identification.aux'.
 
- (./aer_issues_identification.tex [26
+ (./aer_issues_identification.tex [28
 
 
 
 
 ]
 chapter 4.
-[27] [28]
-Overfull \hbox (37.20926pt too wide) in paragraph at lines 40--57
+
+Package natbib Warning: Citation `seart_platform' on page 29 undefined on input
+ line 9.
+
+[29]
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/seART.png, id=205, 1497.595pt x 859.21
+pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/seART.png Graphic file (type png)
+
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/seART.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/seART.png  use
+d on input line 19.
+(pdftex.def)             Requested size: 374.39784pt x 214.80197pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30] [31 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
+po/master-thesis-document/thesis-template/figures/seART.png>] [32]
+Overfull \hbox (37.20926pt too wide) in paragraph at lines 65--82
  [][] 
  []
 
-[29]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-1.
+[33]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
+6.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [30]
+) [34]) [35]
 \openout2 = `Detection.aux'.
 
 
-(./Detection.tex
-chapter 5.
-[31
+(./Detection.tex [36
 
 
 
 
 ]
+chapter 5.
+[37]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/uast_structure.png, id=210, 1405.25pt 
+-thesis-document/thesis-template/figures/uast_structure.png, id=233, 1405.25pt 
 x 938.50626pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/uast_structure.png Graphic file (
@@ -1780,28 +1827,28 @@ Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/uast_structure
 .png  used on input line 16.
 (pdftex.def)             Requested size: 351.31165pt x 234.62599pt.
- [32 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
-aster-thesis-document/thesis-template/figures/uast_structure.png>] [33]
-[34]) [35]
+ [38 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/uast_structure.png>] [39]
+[40]) [41]
 \openout2 = `appendix-a.aux'.
 
- (./appendix-a.tex [36
+ (./appendix-a.tex [42
 
 
 
 
 ]
 chapter A.
-) [37] [38
+) [43] [44
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [39
+) [45
 
-] [40
+] [46
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -1812,7 +1859,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [41
+ (./acronym.tex) [47
 
 
 
@@ -1834,10 +1881,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29158 strings out of 474116
- 563613 string characters out of 5743682
+ 29172 strings out of 474116
+ 565578 string characters out of 5743682
  1942187 words of memory out of 5000000
- 50805 multiletter control sequences out of 15000+600000
+ 50819 multiletter control sequences out of 15000+600000
  630098 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,9n,121p,10900b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1856,10 +1903,10 @@ dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts
 ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 mtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
 fb>
-Output written on main.pdf (52 pages, 1203537 bytes).
+Output written on main.pdf (58 pages, 1471221 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
+ 349 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
