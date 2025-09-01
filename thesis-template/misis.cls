@@ -26,6 +26,8 @@
 %   *      BASIC PACKAGES         *
 %   ***********************************
 
+\RequirePackage{changepage}
+\RequirePackage{makecell}
 \RequirePackage{ifthen}
 \RequirePackage{ifdraft}
 \RequirePackage{ifxetex}
