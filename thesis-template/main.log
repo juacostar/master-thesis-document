@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  31 AUG 2025 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  26 SEP 2025 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1742,8 +1742,8 @@ g Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png
 >
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/tokenization.png  used on input line 172.
-(pdftex.def)             Requested size: 145.54338pt x 18.06744pt.
+res/tokenization.png  used on input line 169.
+(pdftex.def)             Requested size: 291.08678pt x 36.13489pt.
 
 [19 </Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png
 >]
@@ -1754,17 +1754,18 @@ representation.png Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_r
 epresentation.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
-res/word_embedding_representation.png  used on input line 188.
-(pdftex.def)             Requested size: 200.7495pt x 70.76419pt.
+res/word_embedding_representation.png  used on input line 185.
+(pdftex.def)             Requested size: 401.49901pt x 141.5284pt.
  [20 </Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_
 representation.png>] [21{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/
 lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [22]
+l/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 
-Package natbib Warning: Citation `attention_is_all_you_need' on page 23 undefin
-ed on input line 224.
+Package natbib Warning: Citation `attention_is_all_you_need' on page 22 undefin
+ed on input line 221.
 
+[22]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
 -thesis-document/thesis-template/figures/transformers.png, id=183, 333.245pt x 
 434.62375pt>
@@ -1775,15 +1776,16 @@ pe png)
 ster-thesis-document/thesis-template/figures/transformers.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/transformers.p
-ng  used on input line 233.
-(pdftex.def)             Requested size: 166.62209pt x 217.31134pt.
-
-Package natbib Warning: Citation `attention_is_all_you_need' on page 23 undefin
-ed on input line 234.
+ng  used on input line 230.
+(pdftex.def)             Requested size: 333.24417pt x 434.62268pt.
 
 
 Package natbib Warning: Citation `attention_is_all_you_need' on page 23 undefin
-ed on input line 234.
+ed on input line 231.
+
+
+Package natbib Warning: Citation `attention_is_all_you_need' on page 23 undefin
+ed on input line 231.
 
 [23]) [24 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template r
 epo/master-thesis-document/thesis-template/figures/transformers.png>]
@@ -1837,27 +1839,27 @@ ut line 74.
 Package natbib Warning: Citation `nl2_model' on page 32 undefined on input line
  90.
 
-[32] [33]) [34]
+[32]) [33]
 \openout2 = `objectives.aux'.
 
- (./objectives.tex
-chapter 4.
-) [35
+ (./objectives.tex [34
 
 
 
 
 ]
+chapter 4.
+[35]) [36]
 \openout2 = `aer_issues_identification.aux'.
 
- (./aer_issues_identification.tex [36
+ (./aer_issues_identification.tex
+chapter 5.
+[37
 
 
 
 
 ]
-chapter 5.
-[37]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
 -thesis-document/thesis-template/figures/workflow.png, id=233, 743.77875pt x 40
 2.50375pt>
@@ -1910,34 +1912,60 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 (./nlp_and_ai.tex
 chapter 6.
-) [45
+
+Package natbib Warning: Citation `codereviewer' on page 45 undefined on input l
+ine 4.
+
+[45
 
 
 
 
 ]
+
+Package natbib Warning: Citation `seart' on page 46 undefined on input line 13.
+
+
+
+Package natbib Warning: Citation `fdroid' on page 46 undefined on input line 13
+.
+
+[46]
+
+Package natbib Warning: Citation `pydriller' on page 47 undefined on input line
+ 16.
+
+[47]
+
+Package natbib Warning: Citation `codebert' on page 48 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `t5' on page 48 undefined on input line 29.
+
+) [48] [49]
 \openout2 = `extensions.aux'.
 
- (./extensions.tex [46
+ (./extensions.tex [50
 
 
 
 
 ]
 chapter 7.
-) [47]
+) [51]
 \openout2 = `Detection.aux'.
 
- (./Detection.tex [48
+ (./Detection.tex [52
 
 
 
 
 ]
 chapter 8.
-[49]
+[53]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/uast_structure.png, id=276, 1405.25pt 
+-thesis-document/thesis-template/figures/uast_structure.png, id=289, 1405.25pt 
 x 938.50626pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/uast_structure.png Graphic file (
@@ -1952,37 +1980,37 @@ sis template repo/master-thesis-document/thesis-template/figures/uast_structure
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
-po/master-thesis-document/thesis-template/figures/uast_structure.png>] [52]
-[53]
+[54] [55 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
+po/master-thesis-document/thesis-template/figures/uast_structure.png>] [56]
+[57]
 
-Package natbib Warning: Citation `sonarlint' on page 54 undefined on input line
+Package natbib Warning: Citation `sonarlint' on page 58 undefined on input line
  69.
 
 
-Package natbib Warning: Citation `detekt' on page 54 undefined on input line 70
+Package natbib Warning: Citation `detekt' on page 58 undefined on input line 70
 .
 
-[54]) [55]
+[58]) [59]
 \openout2 = `appendix-a.aux'.
 
- (./appendix-a.tex [56
+ (./appendix-a.tex [60
 
 
 
 
 ]
 chapter A.
-) [57] [58
+) [61] [62
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [59
+) [63
 
-] [60
+] [64
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -1993,7 +2021,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [61
+ (./acronym.tex) [65
 
 
 
@@ -2015,10 +2043,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29475 strings out of 474116
- 572461 string characters out of 5743682
+ 29479 strings out of 474116
+ 572569 string characters out of 5743682
  1942187 words of memory out of 5000000
- 51094 multiletter control sequences out of 15000+600000
+ 51098 multiletter control sequences out of 15000+600000
  630098 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2037,10 +2065,10 @@ dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts
 ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (72 pages, 1574346 bytes).
+Output written on main.pdf (76 pages, 1582519 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
+ 416 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
