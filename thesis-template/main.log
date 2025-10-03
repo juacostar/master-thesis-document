@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  26 SEP 2025 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  1 OCT 2025 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1365,7 +1365,17 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
-) (./nlp_and_ai.aux) (./extensions.aux) (./Detection.aux
+) (./nlp_and_ai.aux
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+) (./extensions.aux) (./Detection.aux
 
 LaTeX Warning: Label `fig:ast' multiply defined.
 
@@ -1839,17 +1849,26 @@ ut line 74.
 Package natbib Warning: Citation `nl2_model' on page 32 undefined on input line
  90.
 
-[32]) [33]
+[32]
+
+Package natbib Warning: Citation `AI_agents_reference' on page 33 undefined on 
+input line 94.
+
+
+Package natbib Warning: Citation `accesibility_issues_metrics_tatiana' on page 
+33 undefined on input line 100.
+
+[33]) [34]
 \openout2 = `objectives.aux'.
 
- (./objectives.tex [34
-
-
-
-
-]
+ (./objectives.tex
 chapter 4.
-[35]) [36]
+[35
+
+
+
+
+]) [36]
 \openout2 = `aer_issues_identification.aux'.
 
  (./aer_issues_identification.tex
@@ -1870,17 +1889,26 @@ ng)
 ster-thesis-document/thesis-template/figures/workflow.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/workflow.png  
-used on input line 11.
+used on input line 12.
 (pdftex.def)             Requested size: 371.88846pt x 201.25137pt.
 
 
-Package natbib Warning: Citation `seart_platform' on page 38 undefined on input
- line 22.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
-ster-thesis-document/thesis-template/figures/workflow.png>]
+
+Package natbib Warning: Citation `seart_platform' on page 38 undefined on input
+ line 21.
+
+
+Overfull \hbox (82.61325pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
+ITH STATIC ANALYSIS CODE []
+ []
+
+[38] [39 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
+po/master-thesis-document/thesis-template/figures/workflow.png>]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/seART.png, id=239, 1497.595pt x 859.21
+-thesis-document/thesis-template/figures/seART.png, id=242, 1497.595pt x 859.21
 pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/seART.png Graphic file (type png)
@@ -1889,28 +1917,41 @@ aster-thesis-document/thesis-template/figures/seART.png Graphic file (type png)
 ster-thesis-document/thesis-template/figures/seART.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/seART.png  use
-d on input line 32.
+d on input line 31.
 (pdftex.def)             Requested size: 374.39784pt x 214.80197pt.
 
+Overfull \hbox (82.61325pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
+ITH STATIC ANALYSIS CODE []
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39] [40 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
-po/master-thesis-document/thesis-template/figures/seART.png>] [41]
-Overfull \hbox (37.20926pt too wide) in paragraph at lines 78--95
- [][] 
+[40 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/seART.png>] [41]
+Overfull \hbox (82.61325pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
+ITH STATIC ANALYSIS CODE []
  []
 
 [42]
+Overfull \hbox (37.20926pt too wide) in paragraph at lines 76--93
+ [][] 
+ []
+
+[43]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-09.
+07.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [43]) [44]
+))
+Overfull \hbox (82.61325pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
+ITH STATIC ANALYSIS CODE []
+ []
+
+[44]
 \openout2 = `nlp_and_ai.aux'.
 
-
-(./nlp_and_ai.tex
+ (./nlp_and_ai.tex
 chapter 6.
 
 Package natbib Warning: Citation `codereviewer' on page 45 undefined on input l
@@ -1938,34 +1979,73 @@ Package natbib Warning: Citation `pydriller' on page 47 undefined on input line
 [47]
 
 Package natbib Warning: Citation `codebert' on page 48 undefined on input line 
-29.
+26.
 
 
-Package natbib Warning: Citation `t5' on page 48 undefined on input line 29.
+Package natbib Warning: Citation `t5' on page 48 undefined on input line 26.
 
-) [48] [49]
+
+Package natbib Warning: Citation `codereviewer' on page 48 undefined on input l
+ine 27.
+
+
+Package natbib Warning: Citation `codegraph' on page 48 undefined on input line
+ 27.
+
+[48]
+
+Package natbib Warning: Citation `seart' on page 49 undefined on input line 37.
+
+
+
+Package natbib Warning: Citation `fdroid' on page 49 undefined on input line 37
+.
+
+
+Package natbib Warning: Citation `pydriller' on page 49 undefined on input line
+ 37.
+
+
+Package natbib Warning: Citation `gpt4reference' on page 49 undefined on input 
+line 42.
+
+[49]
+
+Package natbib Warning: Citation `cuda' on page 50 undefined on input line 68.
+
+
+Package natbib Warning: Citation `pytorch' on page 50 undefined on input line 6
+8.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50] [51]) [52] [53]
 \openout2 = `extensions.aux'.
 
- (./extensions.tex [50
+ (./extensions.tex [54
 
 
 
 
 ]
 chapter 7.
-) [51]
+) [55]
 \openout2 = `Detection.aux'.
 
- (./Detection.tex [52
+ (./Detection.tex [56
 
 
 
 
 ]
 chapter 8.
-[53]
+[57]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/uast_structure.png, id=289, 1405.25pt 
+-thesis-document/thesis-template/figures/uast_structure.png, id=303, 1405.25pt 
 x 938.50626pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/uast_structure.png Graphic file (
@@ -1980,37 +2060,37 @@ sis template repo/master-thesis-document/thesis-template/figures/uast_structure
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54] [55 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
-po/master-thesis-document/thesis-template/figures/uast_structure.png>] [56]
-[57]
+[58] [59 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
+po/master-thesis-document/thesis-template/figures/uast_structure.png>] [60]
+[61]
 
-Package natbib Warning: Citation `sonarlint' on page 58 undefined on input line
+Package natbib Warning: Citation `sonarlint' on page 62 undefined on input line
  69.
 
 
-Package natbib Warning: Citation `detekt' on page 58 undefined on input line 70
+Package natbib Warning: Citation `detekt' on page 62 undefined on input line 70
 .
 
-[58]) [59]
+[62]) [63]
 \openout2 = `appendix-a.aux'.
 
- (./appendix-a.tex [60
+ (./appendix-a.tex [64
 
 
 
 
 ]
 chapter A.
-) [61] [62
+) [65] [66
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [63
+) [67
 
-] [64
+] [68
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2021,7 +2101,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [65
+ (./acronym.tex) [69
 
 
 
@@ -2043,13 +2123,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29479 strings out of 474116
- 572569 string characters out of 5743682
- 1942187 words of memory out of 5000000
- 51098 multiletter control sequences out of 15000+600000
- 630098 words of font info for 91 fonts, out of 8000000 for 9000
+ 29744 strings out of 474116
+ 574643 string characters out of 5743682
+ 2084187 words of memory out of 5000000
+ 51362 multiletter control sequences out of 15000+600000
+ 630417 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,16n,121p,10900b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,16n,121p,10900b,1784s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/t
@@ -2064,11 +2144,12 @@ dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts
 /type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
 ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (76 pages, 1582519 bytes).
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on main.pdf (80 pages, 1624582 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
+ 434 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
