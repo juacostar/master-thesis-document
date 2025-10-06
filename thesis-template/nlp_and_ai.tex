@@ -6,6 +6,13 @@ Another studied methodology for finding AER issues is related to the use of AI m
 \section{Methodology Definition}
 With the proposed tools and approaches for the implementation of this methodology, we will define a complete workflow to extract and build the commits dataset. After that, we processed the corpus of the commit with NLP fundamentals to find the most similar keywords based on the found keywords that could indicate an AER issue in a code fragment of any versioning platform commit. We used the cosine similarity metric to find the most similar keywords. Those keywords were added to the initial set to find new commits in the extracted commits dataset. Finally, we implemented manual tagging and the use of an AI Agent with a customized prompt to make the comparison of the results between the implemented models: static and dynamic word embedding models. 
 
+\begin{figure}[h]
+    	\centering
+    		\includegraphics[scale=0.5]{/Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master-thesis-document/thesis-template/figures/workflow-3-ASE.png}
+   			 \caption{seART platform for GitHub repositories searching \cite{} }
+   			 \label{fig:ast}
+\end{figure}
+
 \subsection{Commits Extraction}
 The first process is the extraction of a set of commits to evaluate and identify AER issues. We implemented the same methodology for the static code analysis solution approach. We used the same sampled Android projects and used their large set of commits to explore new keywords based on different Word Embedding models.
 

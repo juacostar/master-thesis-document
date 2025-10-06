@@ -48,30 +48,32 @@
 \contentsline {subsection}{\numberline {5.1.2}Word Embedding and Similarity Criteria}{40}{}%
 \contentsline {subsection}{\numberline {5.1.3}Architectural erosion symptoms Identification}{41}{}%
 \contentsline {subsubsection}{\nonumberline Extracting keywords from Android Context}{42}{}%
-\contentsline {chapter}{\numberline {6}Identifying AER with NLP and AI techniques}{45}{}%
-\contentsline {section}{\numberline {6.1}Methodology Definition}{46}{}%
-\contentsline {subsection}{\numberline {6.1.1}Commits Extraction}{46}{}%
-\contentsline {subsubsection}{\nonumberline Applications selections}{46}{}%
-\contentsline {subsection}{\numberline {6.1.2}Use of Word Embedding Models}{47}{}%
-\contentsline {subsubsection}{\nonumberline Static Word Embedding Models}{47}{}%
-\contentsline {subsubsection}{\nonumberline Dynamic Word Embedding Models}{48}{}%
-\contentsline {subsection}{\numberline {6.1.3}Testing the models}{48}{}%
-\contentsline {section}{\numberline {6.2}Methodology Implementation}{49}{}%
-\contentsline {subsection}{\numberline {6.2.1}Commits Extraction}{49}{}%
-\contentsline {subsection}{\numberline {6.2.2}Word Embedding Models Results}{49}{}%
-\contentsline {subsubsection}{\nonumberline Static Word Embedding Models}{49}{}%
-\contentsline {subsubsection}{\nonumberline Dynamic Word Embedding Models}{50}{}%
-\contentsline {section}{\numberline {6.3}Conclusions}{53}{}%
-\contentsline {chapter}{\numberline {7}Methodology Extensions}{55}{}%
-\contentsline {section}{\numberline {7.1}Static Code Analysis Methodology Extensions}{55}{}%
-\contentsline {chapter}{\numberline {8}Detecting Architectural Erosion Issues}{57}{}%
-\contentsline {section}{\numberline {8.1}UAST in Android Studio}{57}{}%
-\contentsline {section}{\numberline {8.2}Rules Definition}{58}{}%
-\contentsline {section}{\numberline {8.3}AER Detection Component Implementation}{60}{}%
-\contentsline {section}{\numberline {8.4}AER Detection Component Testing Criteria}{62}{}%
-\contentsline {subsection}{\numberline {8.4.1}Test Apps Selection}{63}{}%
-\contentsline {section}{\numberline {8.5}Detectec AER Insights}{63}{}%
-\contentsline {chapter}{\numberline {A}TITLE}{65}{}%
-\contentsline {chapter}{\nonumberline Bibliography}{67}{}%
-\contentsline {chapter}{Acronyms}{69}{}%
-\contentsline {chapter}{List of Terms}{69}{}%
+\contentsline {chapter}{\numberline {6}Identifying AER With Static Code Analysis techniques}{45}{}%
+\contentsline {section}{\numberline {6.1}UAST in Android Studio}{45}{}%
+\contentsline {section}{\numberline {6.2}Rules Definition}{46}{}%
+\contentsline {section}{\numberline {6.3}AER Detection Component Implementation}{48}{}%
+\contentsline {section}{\numberline {6.4}AER Detection Component Testing Criteria}{50}{}%
+\contentsline {subsection}{\numberline {6.4.1}Test Apps Selection}{51}{}%
+\contentsline {section}{\numberline {6.5}Detectec AER Insights}{51}{}%
+\contentsline {chapter}{\numberline {7}Identifying AER with NLP and AI techniques}{53}{}%
+\contentsline {section}{\numberline {7.1}Methodology Definition}{54}{}%
+\contentsline {subsection}{\numberline {7.1.1}Commits Extraction}{54}{}%
+\contentsline {subsubsection}{\nonumberline Applications selections}{55}{}%
+\contentsline {subsection}{\numberline {7.1.2}Use of Word Embedding Models}{55}{}%
+\contentsline {subsubsection}{\nonumberline Static Word Embedding Models}{56}{}%
+\contentsline {subsubsection}{\nonumberline Dynamic Word Embedding Models}{56}{}%
+\contentsline {subsection}{\numberline {7.1.3}Testing the models}{57}{}%
+\contentsline {section}{\numberline {7.2}Methodology Implementation}{57}{}%
+\contentsline {subsection}{\numberline {7.2.1}Commits Extraction}{57}{}%
+\contentsline {subsection}{\numberline {7.2.2}Word Embedding Models Results}{57}{}%
+\contentsline {subsubsection}{\nonumberline Static Word Embedding Models}{58}{}%
+\contentsline {subsubsection}{\nonumberline Dynamic Word Embedding Models}{58}{}%
+\contentsline {chapter}{\numberline {8}Metrics Analysis for AER issues identification}{63}{}%
+\contentsline {chapter}{\numberline {9}Methodology Extensions}{65}{}%
+\contentsline {section}{\numberline {9.1}Static Code Analysis Methodology Extensions}{65}{}%
+\contentsline {section}{\numberline {9.2}Use of AI and NLP for Android Applications Issues Identification}{66}{}%
+\contentsline {subsection}{\numberline {9.2.1}Design problems identified by NLP techniques and AI models}{66}{}%
+\contentsline {chapter}{\numberline {A}TITLE}{67}{}%
+\contentsline {chapter}{\nonumberline Bibliography}{69}{}%
+\contentsline {chapter}{Acronyms}{71}{}%
+\contentsline {chapter}{List of Terms}{71}{}%

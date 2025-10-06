@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  1 OCT 2025 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  3 OCT 2025 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1365,24 +1365,27 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
-) (./nlp_and_ai.aux
-
-LaTeX Warning: Label `tab:my_label' multiply defined.
-
-
-LaTeX Warning: Label `tab:my_label' multiply defined.
-
-
-LaTeX Warning: Label `tab:my_label' multiply defined.
-
-) (./extensions.aux) (./Detection.aux
+) (./Detection.aux
 
 LaTeX Warning: Label `fig:ast' multiply defined.
 
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
-) (./appendix-a.aux) (./acronym.aux))
+) (./nlp_and_ai.aux
+
+LaTeX Warning: Label `fig:ast' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+
+LaTeX Warning: Label `tab:my_label' multiply defined.
+
+) (./extensions.aux) (./appendix-a.aux) (./acronym.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1918,7 +1921,12 @@ ster-thesis-document/thesis-template/figures/seART.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/seART.png  use
 d on input line 31.
-(pdftex.def)             Requested size: 374.39784pt x 214.80197pt.
+(pdftex.def)             Requested size: 449.28197pt x 257.76498pt.
+
+Overfull \hbox (31.02824pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
 
 Overfull \hbox (82.61325pt too wide) has occurred while \output is active
 []|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
@@ -1949,103 +1957,18 @@ ITH STATIC ANALYSIS CODE []
  []
 
 [44]
-\openout2 = `nlp_and_ai.aux'.
+\openout2 = `Detection.aux'.
 
- (./nlp_and_ai.tex
+ (./Detection.tex
 chapter 6.
-
-Package natbib Warning: Citation `codereviewer' on page 45 undefined on input l
-ine 4.
-
 [45
 
 
 
 
 ]
-
-Package natbib Warning: Citation `seart' on page 46 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `fdroid' on page 46 undefined on input line 13
-.
-
-[46]
-
-Package natbib Warning: Citation `pydriller' on page 47 undefined on input line
- 16.
-
-[47]
-
-Package natbib Warning: Citation `codebert' on page 48 undefined on input line 
-26.
-
-
-Package natbib Warning: Citation `t5' on page 48 undefined on input line 26.
-
-
-Package natbib Warning: Citation `codereviewer' on page 48 undefined on input l
-ine 27.
-
-
-Package natbib Warning: Citation `codegraph' on page 48 undefined on input line
- 27.
-
-[48]
-
-Package natbib Warning: Citation `seart' on page 49 undefined on input line 37.
-
-
-
-Package natbib Warning: Citation `fdroid' on page 49 undefined on input line 37
-.
-
-
-Package natbib Warning: Citation `pydriller' on page 49 undefined on input line
- 37.
-
-
-Package natbib Warning: Citation `gpt4reference' on page 49 undefined on input 
-line 42.
-
-[49]
-
-Package natbib Warning: Citation `cuda' on page 50 undefined on input line 68.
-
-
-Package natbib Warning: Citation `pytorch' on page 50 undefined on input line 6
-8.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[50] [51]) [52] [53]
-\openout2 = `extensions.aux'.
-
- (./extensions.tex [54
-
-
-
-
-]
-chapter 7.
-) [55]
-\openout2 = `Detection.aux'.
-
- (./Detection.tex [56
-
-
-
-
-]
-chapter 8.
-[57]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/uast_structure.png, id=303, 1405.25pt 
+-thesis-document/thesis-template/figures/uast_structure.png, id=264, 1405.25pt 
 x 938.50626pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
 aster-thesis-document/thesis-template/figures/uast_structure.png Graphic file (
@@ -2060,37 +1983,144 @@ sis template repo/master-thesis-document/thesis-template/figures/uast_structure
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58] [59 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
-po/master-thesis-document/thesis-template/figures/uast_structure.png>] [60]
-[61]
+[46] [47 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
+po/master-thesis-document/thesis-template/figures/uast_structure.png>] [48]
+[49]
 
-Package natbib Warning: Citation `sonarlint' on page 62 undefined on input line
+Package natbib Warning: Citation `sonarlint' on page 50 undefined on input line
  69.
 
 
-Package natbib Warning: Citation `detekt' on page 62 undefined on input line 70
+Package natbib Warning: Citation `detekt' on page 50 undefined on input line 70
 .
 
-[62]) [63]
-\openout2 = `appendix-a.aux'.
+[50]) [51]
+\openout2 = `nlp_and_ai.aux'.
 
- (./appendix-a.tex [64
+ (./nlp_and_ai.tex [52
 
 
 
 
 ]
+chapter 7.
+
+Package natbib Warning: Citation `codereviewer' on page 53 undefined on input l
+ine 4.
+
+[53]
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/workflow-3-ASE.png, id=291, 804.00375p
+t x 302.12875pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/workflow-3-ASE.png Graphic file (
+type png)
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/workflow-3-ASE.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/workflow-3-ASE
+.png  used on input line 11.
+(pdftex.def)             Requested size: 402.0009pt x 151.064pt.
+
+
+Package natbib Warning: Citation `seart' on page 54 undefined on input line 20.
+
+
+
+Package natbib Warning: Citation `fdroid' on page 54 undefined on input line 20
+.
+
+[54 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/workflow-3-ASE.png>]
+
+Package natbib Warning: Citation `pydriller' on page 55 undefined on input line
+ 23.
+
+[55]
+
+Package natbib Warning: Citation `codebert' on page 56 undefined on input line 
+33.
+
+
+Package natbib Warning: Citation `t5' on page 56 undefined on input line 33.
+
+
+Package natbib Warning: Citation `codereviewer' on page 56 undefined on input l
+ine 34.
+
+
+Package natbib Warning: Citation `codegraph' on page 56 undefined on input line
+ 34.
+
+[56]
+
+Package natbib Warning: Citation `seart' on page 57 undefined on input line 44.
+
+
+
+Package natbib Warning: Citation `fdroid' on page 57 undefined on input line 44
+.
+
+
+Package natbib Warning: Citation `pydriller' on page 57 undefined on input line
+ 44.
+
+
+Package natbib Warning: Citation `gpt4reference' on page 57 undefined on input 
+line 49.
+
+[57]
+
+Package natbib Warning: Citation `cuda' on page 58 undefined on input line 75.
+
+
+Package natbib Warning: Citation `pytorch' on page 58 undefined on input line 7
+5.
+
+[58]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[59] [60]) [61]
+\openout2 = `metrics_analysis.aux'.
+
+ (./metrics_analysis.tex [62
+
+
+
+
+]
+chapter 8.
+) [63]
+\openout2 = `extensions.aux'.
+
+ (./extensions.tex [64
+
+
+
+
+]
+chapter 9.
+[65]) [66]
+\openout2 = `appendix-a.aux'.
+
+ (./appendix-a.tex
 chapter A.
-) [65] [66
+) [67
+
+
+
+
+] [68
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [67
+) [69
 
-] [68
+] [70
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2101,7 +2131,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [69
+ (./acronym.tex) [71
 
 
 
@@ -2111,25 +2141,24 @@ Package natbib Warning: There were undefined citations.
 
 (./main.aux (./title.aux) (./abstract.aux) (./acknowledgements.aux)
 (./introduction.aux) (./definitions.aux) (./related_work.aux) (./objectives.aux
-) (./aer_issues_identification.aux) (./nlp_and_ai.aux) (./extensions.aux)
-(./Detection.aux) (./appendix-a.aux) (./acronym.aux))
+) (./aer_issues_identification.aux) (./Detection.aux) (./nlp_and_ai.aux)
+(./metrics_analysis.aux) (./extensions.aux) (./appendix-a.aux) (./acronym.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29744 strings out of 474116
- 574643 string characters out of 5743682
- 2084187 words of memory out of 5000000
- 51362 multiletter control sequences out of 15000+600000
+ 29774 strings out of 474116
+ 576383 string characters out of 5743682
+ 2042187 words of memory out of 5000000
+ 51387 multiletter control sequences out of 15000+600000
  630417 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,16n,121p,10900b,1784s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,16n,121p,10900b,1786s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/t
@@ -2146,10 +2175,10 @@ ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (80 pages, 1624582 bytes).
+Output written on main.pdf (82 pages, 1653048 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 279 compressed objects within 3 object streams
+ 442 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
