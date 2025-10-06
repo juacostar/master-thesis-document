@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  3 OCT 2025 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  6 OCT 2025 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1385,7 +1385,8 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
-) (./extensions.aux) (./appendix-a.aux) (./acronym.aux))
+) (./metrics_analysis.aux) (./extensions.aux) (./appendix-a.aux) (./acronym.aux
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -2101,26 +2102,26 @@ chapter 8.
 
 ]
 chapter 9.
-[65]) [66]
+[65]) [66] [67]
 \openout2 = `appendix-a.aux'.
 
- (./appendix-a.tex
+ (./appendix-a.tex [68
+
+
+
+
+]
 chapter A.
-) [67
-
-
-
-
-] [68
+) [69] [70
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [69
+) [71
 
-] [70
+] [72
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2131,7 +2132,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [71
+ (./acronym.tex) [73
 
 
 
@@ -2152,10 +2153,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29774 strings out of 474116
- 576383 string characters out of 5743682
- 2042187 words of memory out of 5000000
- 51387 multiletter control sequences out of 15000+600000
+ 29777 strings out of 474116
+ 576444 string characters out of 5743682
+ 2043187 words of memory out of 5000000
+ 51388 multiletter control sequences out of 15000+600000
  630417 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,1786s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2175,10 +2176,10 @@ ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (82 pages, 1653048 bytes).
+Output written on main.pdf (84 pages, 1656416 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
+ 448 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
