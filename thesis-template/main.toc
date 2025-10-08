@@ -73,7 +73,13 @@
 \contentsline {section}{\numberline {9.1}Static Code Analysis Methodology Extensions}{65}{}%
 \contentsline {section}{\numberline {9.2}Use of AI and NLP for Android Applications Issues Identification}{66}{}%
 \contentsline {subsection}{\numberline {9.2.1}Design problems identified by NLP techniques and AI models}{66}{}%
-\contentsline {chapter}{\numberline {A}TITLE}{69}{}%
-\contentsline {chapter}{\nonumberline Bibliography}{71}{}%
-\contentsline {chapter}{Acronyms}{73}{}%
-\contentsline {chapter}{List of Terms}{73}{}%
+\contentsline {chapter}{\numberline {10}Conclusions and Future Work}{69}{}%
+\contentsline {section}{\numberline {10.1}Research Questions conclusions}{69}{}%
+\contentsline {section}{\numberline {10.2}Conclusions of explored methodologies}{71}{}%
+\contentsline {subsection}{\numberline {10.2.1}Static Code Analysis techniques}{71}{}%
+\contentsline {subsection}{\numberline {10.2.2}NLP techniques and AI models}{72}{}%
+\contentsline {section}{\numberline {10.3}Future Work}{73}{}%
+\contentsline {chapter}{\numberline {A}TITLE}{75}{}%
+\contentsline {chapter}{\nonumberline Bibliography}{77}{}%
+\contentsline {chapter}{Acronyms}{79}{}%
+\contentsline {chapter}{List of Terms}{79}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  6 OCT 2025 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  8 OCT 2025 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1385,8 +1385,8 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
-) (./metrics_analysis.aux) (./extensions.aux) (./appendix-a.aux) (./acronym.aux
-))
+) (./metrics_analysis.aux) (./extensions.aux) (./conclusions.aux)
+(./appendix-a.aux) (./acronym.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -2103,25 +2103,56 @@ chapter 8.
 ]
 chapter 9.
 [65]) [66] [67]
-\openout2 = `appendix-a.aux'.
+\openout2 = `conclusions.aux'.
 
- (./appendix-a.tex [68
+ (./conclusions.tex [68
 
 
 
 
 ]
+chapter 10.
+[69] [70] [71] [72]
+
+Package natbib Warning: Citation `codereviewer' on page 73 undefined on input l
+ine 51.
+
+
+Package natbib Warning: Citation `codebert' on page 73 undefined on input line 
+51.
+
+
+Package natbib Warning: Citation `codet5' on page 73 undefined on input line 51
+.
+
+
+Package natbib Warning: Citation `future_work1' on page 73 undefined on input l
+ine 53.
+
+
+Package natbib Warning: Citation `future_work2' on page 73 undefined on input l
+ine 53.
+
+[73]) [74]
+\openout2 = `appendix-a.aux'.
+
+ (./appendix-a.tex
 chapter A.
-) [69] [70
+) [75
+
+
+
+
+] [76
 
 
 
 
 ] (./main.bbl
 chapter without number
-) [71
+) [77
 
-] [72
+] [78
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2132,7 +2163,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [73
+ (./acronym.tex) [79
 
 
 
@@ -2143,20 +2174,22 @@ Package natbib Warning: There were undefined citations.
 (./main.aux (./title.aux) (./abstract.aux) (./acknowledgements.aux)
 (./introduction.aux) (./definitions.aux) (./related_work.aux) (./objectives.aux
 ) (./aer_issues_identification.aux) (./Detection.aux) (./nlp_and_ai.aux)
-(./metrics_analysis.aux) (./extensions.aux) (./appendix-a.aux) (./acronym.aux))
+(./metrics_analysis.aux) (./extensions.aux) (./conclusions.aux)
+(./appendix-a.aux) (./acronym.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29777 strings out of 474116
- 576444 string characters out of 5743682
+ 29803 strings out of 474116
+ 577108 string characters out of 5743682
  2043187 words of memory out of 5000000
- 51388 multiletter control sequences out of 15000+600000
+ 51407 multiletter control sequences out of 15000+600000
  630417 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,1786s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2176,10 +2209,10 @@ ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (84 pages, 1656416 bytes).
+Output written on main.pdf (90 pages, 1669517 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
+ 467 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
