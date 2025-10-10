@@ -42,8 +42,9 @@ P.~Liang, P.~Avgeriou, and L~Ruiyin.
 \newblock Warnings: Violation symptoms indicating architecture erosion.
 \newblock \emph{Cornell University}, 2023.
 
-\bibitem[Manning(2009)]{information-retrieval}
-P.~Schutze~H. Manning, C.~Raghavan.
+\bibitem[Manning et~al.(2009)Manning, Raghavan, and
+  Schutze]{information-retrieval}
+C.~Manning, P.~Raghavan, and H.~Schutze.
 \newblock \emph{An Introduction to Information Retrieval}.
 \newblock Cambridge University Press, 2009.
 

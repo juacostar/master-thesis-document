@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {2.1.5}Release}{7}{}%
 \contentsline {subsection}{\numberline {2.1.6}Maintenance}{7}{}%
 \contentsline {section}{\numberline {2.2}Architectural design in software engineering}{7}{}%
-\contentsline {subsection}{\numberline {2.2.1}Architectural design in Android development}{8}{}%
-\contentsline {subsection}{\numberline {2.2.2}Quality Attributes}{10}{}%
-\contentsline {section}{\numberline {2.3}Architectural Erosion}{11}{}%
-\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{11}{}%
-\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}Architectural design in Android development}{7}{}%
+\contentsline {subsection}{\numberline {2.2.2}Quality Attributes}{11}{}%
+\contentsline {section}{\numberline {2.3}Architectural Erosion}{12}{}%
+\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{12}{}%
+\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{13}{}%
 \contentsline {subsection}{\numberline {2.3.3}Consequences}{13}{}%
 \contentsline {subsection}{\numberline {2.3.4}Metrics and treatments for architectural erosion}{14}{}%
 \contentsline {section}{\numberline {2.4}Programming Languages fundamental for Software Analysis}{16}{}%

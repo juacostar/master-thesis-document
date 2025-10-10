@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  8 OCT 2025 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  10 OCT 2025 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1635,6 +1635,22 @@ chapter without number
 
  [9] (./main.lof
 
+Package natbib Warning: Citation `mvc-mvp-mvvm' on page x undefined on input li
+ne 10.
+
+
+Package natbib Warning: Citation `google-architecture' on page x undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `abstract-syntax-tree' on page x undefined on 
+input line 13.
+
+
+Package natbib Warning: Citation `callgraph' on page x undefined on input line 
+14.
+
+
 Package natbib Warning: Citation `attention_is_all_you_need' on page x undefine
 d on input line 17.
 
@@ -1678,10 +1694,13 @@ ster-thesis-document/thesis-template/figures/software_process.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/software_proce
 ss.png  used on input line 29.
-(pdftex.def)             Requested size: 179.16893pt x 149.55838pt.
- [7 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
-ster-thesis-document/thesis-template/figures/software_process.png>]
-[8]
+(pdftex.def)             Requested size: 358.33788pt x 299.11676pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo
+/master-thesis-document/thesis-template/figures/software_process.png>]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png, id
 =119, 1204.5pt x 630.355pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.pn
@@ -1690,20 +1709,45 @@ g Graphic file (type png)
 >
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
 res/mvvm_mvp_mvc.png  used on input line 52.
-(pdftex.def)             Requested size: 240.89574pt x 126.06876pt.
- [9 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png
- (PNG copy)>]
+(pdftex.def)             Requested size: 481.79147pt x 252.13753pt.
+
+Overfull \hbox (63.53775pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `mvc-mvp-mvvm' on page 9 undefined on input li
+ne 53.
+
+
+Package natbib Warning: Citation `mvc-mvp-mvvm' on page 9 undefined on input li
+ne 53.
+
 </Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_framewo
-rk.png, id=123, 551.05875pt x 302.12875pt>
+rk.png, id=120, 551.05875pt x 302.12875pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fr
 amework.png Graphic file (type png)
 <use /Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fra
 mework.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
 res/architecture_framework.png  used on input line 62.
-(pdftex.def)             Requested size: 275.52869pt x 151.064pt.
- [10 </Users/juancamiloacosta/Downloads/thesis-template/figures/architecture_fr
-amework.png>] [11] [12] [13]
+(pdftex.def)             Requested size: 440.84758pt x 241.70332pt.
+
+Overfull \hbox (22.59386pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `google-architecture' on page 9 undefined on i
+nput line 63.
+
+
+Package natbib Warning: Citation `google-architecture' on page 9 undefined on i
+nput line 63.
+
+[9] [10 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc
+.png (PNG copy)> </Users/juancamiloacosta/Downloads/thesis-template/figures/arc
+hitecture_framework.png>] [11] [12] [13]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural Erosio
 n Concepts.drawio.png, id=137, 823.075pt x 924.45375pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural E
@@ -1728,6 +1772,15 @@ Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/abstract-synta
 x-tree.png  used on input line 143.
 (pdftex.def)             Requested size: 394.47278pt x 222.07913pt.
+
+
+Package natbib Warning: Citation `abstract-syntax-tree' on page 17 undefined on
+ input line 144.
+
+
+Package natbib Warning: Citation `abstract-syntax-tree' on page 17 undefined on
+ input line 144.
+
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
 -thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png, id=15
 0, 853.1875pt x 463.7325pt>
@@ -1744,6 +1797,14 @@ C-source-code.png  used on input line 150.
 Overfull \hbox (8.33899pt too wide) in paragraph at lines 150--151
  [][] 
  []
+
+
+Package natbib Warning: Citation `callgraph' on page 17 undefined on input line
+ 151.
+
+
+Package natbib Warning: Citation `callgraph' on page 17 undefined on input line
+ 151.
 
 [17 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
 ster-thesis-document/thesis-template/figures/abstract-syntax-tree.png>]
@@ -1815,8 +1876,8 @@ chapter 3.
 
 ] [26] [27] [28]
 
-Package natbib Warning: Citation `handle-exceptions-references' on page 29 unde
-fined on input line 45.
+Package natbib Warning: Citation `handle-exceptions-reference' on page 29 undef
+ined on input line 45.
 
 
 Package natbib Warning: Citation `performance-coroutines-reference' on page 29 
@@ -1832,10 +1893,6 @@ Package natbib Warning: Citation `master-thesis-aer-backend' on page 30 undefin
 ed on input line 58.
 
 [30]
-
-Package natbib Warning: Citation `er_word_embedding' on page 31 undefined on in
-put line 66.
-
 
 Package natbib Warning: Citation `glove' on page 31 undefined on input line 66.
 
@@ -2209,7 +2266,7 @@ ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (90 pages, 1669517 bytes).
+Output written on main.pdf (90 pages, 1669669 bytes).
 PDF statistics:
  467 PDF objects out of 1000 (max. 8388607)
  300 compressed objects within 3 object streams

@@ -8,48 +8,114 @@ A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: definitions.aux
 A level-1 auxiliary file: related_work.aux
+A level-1 auxiliary file: objectives.aux
 A level-1 auxiliary file: aer_issues_identification.aux
+A level-1 auxiliary file: Detection.aux
+A level-1 auxiliary file: nlp_and_ai.aux
+A level-1 auxiliary file: metrics_analysis.aux
+A level-1 auxiliary file: extensions.aux
+A level-1 auxiliary file: conclusions.aux
 A level-1 auxiliary file: appendix-a.aux
 A level-1 auxiliary file: acronym.aux
-Database file #1: local.bib
-Too many commas in name 1 of "Manning, C. Raghavan, P. Schutze, H." for entry information-retrieval
-while executing---line 1347 of file plainnat.bst
-Too many commas in name 1 of "Manning, C. Raghavan, P. Schutze, H." for entry information-retrieval
-while executing---line 1347 of file plainnat.bst
-Too many commas in name 1 of "Manning, C. Raghavan, P. Schutze, H." for entry information-retrieval
-while executing---line 1429 of file plainnat.bst
-Too many commas in name 1 of "Manning, C. Raghavan, P. Schutze, H." for entry information-retrieval
-while executing---line 1429 of file plainnat.bst
+Database file #1: /Users/juancamiloacosta/Downloads/thesis-template/bib/local.bib
+Database file #2: /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+Repeated entry---line 3 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @book{software-engineering-book
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @book{bass-architecture-book
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 17 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @book{nlp-fundamentals
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @book{information-retrieval
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 34 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @article{perry-wolf-reference
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 41 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @article{slr-base
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 48 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @article{warnings-architectural-erosion
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 63 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @article{ieee-erosion-metrics
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 77 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
+ : @article{so-word-embedding
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "mvc-mvp-mvvm"
+Warning--I didn't find a database entry for "google-architecture"
+Warning--I didn't find a database entry for "abstract-syntax-tree"
+Warning--I didn't find a database entry for "callgraph"
+Warning--I didn't find a database entry for "attention_is_all_you_need"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "handle-exceptions-reference"
+Warning--I didn't find a database entry for "performance-coroutines-reference"
+Warning--I didn't find a database entry for "aer-metrics-paper"
+Warning--I didn't find a database entry for "master-thesis-aer-backend"
+Warning--I didn't find a database entry for "glove"
+Warning--I didn't find a database entry for "perceptron_model"
+Warning--I didn't find a database entry for "nl2_model"
+Warning--I didn't find a database entry for "AI_agents_reference"
+Warning--I didn't find a database entry for "accesibility_issues_metrics_tatiana"
+Warning--I didn't find a database entry for "seart_platform"
+Warning--I didn't find a database entry for "sonarlint"
+Warning--I didn't find a database entry for "detekt"
+Warning--I didn't find a database entry for "codereviewer"
+Warning--I didn't find a database entry for "seart"
+Warning--I didn't find a database entry for "fdroid"
+Warning--I didn't find a database entry for "pydriller"
+Warning--I didn't find a database entry for "codebert"
+Warning--I didn't find a database entry for "t5"
+Warning--I didn't find a database entry for "codegraph"
+Warning--I didn't find a database entry for "gpt4reference"
+Warning--I didn't find a database entry for "cuda"
+Warning--I didn't find a database entry for "pytorch"
+Warning--I didn't find a database entry for "codet5"
+Warning--I didn't find a database entry for "future_work1"
+Warning--I didn't find a database entry for "future_work2"
 You've used 9 entries,
             2773 wiz_defined-function locations,
-            642 strings with 6216 characters,
-and the built_in function-call counts, 3366 in all, are:
-= -- 264
-> -- 208
-< -- 4
-+ -- 72
-- -- 63
-* -- 244
-:= -- 555
+            680 strings with 6846 characters,
+and the built_in function-call counts, 3481 in all, are:
+= -- 272
+> -- 228
+< -- 3
++ -- 78
+- -- 69
+* -- 263
+:= -- 573
 add.period$ -- 27
 call.type$ -- 9
-change.case$ -- 44
+change.case$ -- 46
 chr.to.int$ -- 9
 cite$ -- 18
-duplicate$ -- 180
-empty$ -- 284
-format.name$ -- 72
-if$ -- 683
+duplicate$ -- 181
+empty$ -- 285
+format.name$ -- 78
+if$ -- 705
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 13
 newline$ -- 53
 num.names$ -- 36
-pop$ -- 112
+pop$ -- 115
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 41
 quote$ -- 0
-skip$ -- 126
+skip$ -- 128
 stack$ -- 0
 substring$ -- 18
 swap$ -- 9
@@ -61,4 +127,4 @@ warning$ -- 0
 while$ -- 27
 width$ -- 0
 write$ -- 115
-(There were 4 error messages)
+(There were 9 error messages)
