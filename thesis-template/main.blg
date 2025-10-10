@@ -17,66 +17,10 @@ A level-1 auxiliary file: extensions.aux
 A level-1 auxiliary file: conclusions.aux
 A level-1 auxiliary file: appendix-a.aux
 A level-1 auxiliary file: acronym.aux
-Database file #1: /Users/juancamiloacosta/Downloads/thesis-template/bib/local.bib
-Database file #2: /Users/juancamiloacosta/Downloads/thesis-template/local.bib
-Repeated entry---line 3 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @book{software-engineering-book
- :                                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 10 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @book{bass-architecture-book
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 17 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @book{nlp-fundamentals
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 26 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @book{information-retrieval
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 34 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @article{perry-wolf-reference
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 41 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @article{slr-base
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 48 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @article{warnings-architectural-erosion
- :                                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 63 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @article{ieee-erosion-metrics
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 77 of file /Users/juancamiloacosta/Downloads/thesis-template/local.bib
- : @article{so-word-embedding
- :                           ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "mvc-mvp-mvvm"
-Warning--I didn't find a database entry for "google-architecture"
-Warning--I didn't find a database entry for "abstract-syntax-tree"
-Warning--I didn't find a database entry for "callgraph"
-Warning--I didn't find a database entry for "attention_is_all_you_need"
+Database file #1: bib/local.bib
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "handle-exceptions-reference"
-Warning--I didn't find a database entry for "performance-coroutines-reference"
-Warning--I didn't find a database entry for "aer-metrics-paper"
-Warning--I didn't find a database entry for "master-thesis-aer-backend"
-Warning--I didn't find a database entry for "glove"
-Warning--I didn't find a database entry for "perceptron_model"
-Warning--I didn't find a database entry for "nl2_model"
-Warning--I didn't find a database entry for "AI_agents_reference"
-Warning--I didn't find a database entry for "accesibility_issues_metrics_tatiana"
-Warning--I didn't find a database entry for "seart_platform"
-Warning--I didn't find a database entry for "sonarlint"
-Warning--I didn't find a database entry for "detekt"
 Warning--I didn't find a database entry for "codereviewer"
 Warning--I didn't find a database entry for "seart"
-Warning--I didn't find a database entry for "fdroid"
-Warning--I didn't find a database entry for "pydriller"
 Warning--I didn't find a database entry for "codebert"
 Warning--I didn't find a database entry for "t5"
 Warning--I didn't find a database entry for "codegraph"
@@ -86,45 +30,53 @@ Warning--I didn't find a database entry for "pytorch"
 Warning--I didn't find a database entry for "codet5"
 Warning--I didn't find a database entry for "future_work1"
 Warning--I didn't find a database entry for "future_work2"
-You've used 9 entries,
+Warning--to sort, need author or key in google-architecture
+Warning--to sort, need author or key in fdroid
+Warning--to sort, need author or key in sonarlint
+Warning--to sort, need author or key in detekt
+Warning--empty author in google-architecture
+Warning--empty author in detekt
+Warning--empty author in fdroid
+Warning--empty author in sonarlint
+You've used 31 entries,
             2773 wiz_defined-function locations,
-            680 strings with 6846 characters,
-and the built_in function-call counts, 3481 in all, are:
-= -- 272
-> -- 228
-< -- 3
-+ -- 78
-- -- 69
-* -- 263
-:= -- 573
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 46
-chr.to.int$ -- 9
-cite$ -- 18
-duplicate$ -- 181
-empty$ -- 285
-format.name$ -- 78
-if$ -- 705
-int.to.chr$ -- 1
+            736 strings with 8849 characters,
+and the built_in function-call counts, 12402 in all, are:
+= -- 1004
+> -- 862
+< -- 12
++ -- 299
+- -- 267
+* -- 968
+:= -- 1983
+add.period$ -- 89
+call.type$ -- 31
+change.case$ -- 178
+chr.to.int$ -- 30
+cite$ -- 74
+duplicate$ -- 608
+empty$ -- 966
+format.name$ -- 298
+if$ -- 2531
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 53
-num.names$ -- 36
-pop$ -- 115
+missing$ -- 35
+newline$ -- 159
+num.names$ -- 108
+pop$ -- 402
 preamble$ -- 1
-purify$ -- 41
+purify$ -- 151
 quote$ -- 0
-skip$ -- 128
+skip$ -- 463
 stack$ -- 0
-substring$ -- 18
-swap$ -- 9
+substring$ -- 66
+swap$ -- 33
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 79
-warning$ -- 0
-while$ -- 27
+type$ -- 321
+warning$ -- 8
+while$ -- 81
 width$ -- 0
-write$ -- 115
-(There were 9 error messages)
+write$ -- 371
+(There were 20 warnings)

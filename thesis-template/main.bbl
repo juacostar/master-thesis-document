@@ -1,27 +1,91 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Baabad et~al.(2022)Baabad, Zulzalil, Hassan, and
+\bibitem[goo(2023)]{google-architecture}
+Guide to app architecture.
+\newblock \emph{Google}, 2023.
+
+\bibitem[det(2025)]{detekt}
+Detekt.
+\newblock \emph{Detekt team}, 2025.
+
+\bibitem[fdr(2025)]{fdroid}
+F-droid.
+\newblock \emph{F-Droid}, 2025.
+
+\bibitem[son(2025)]{sonarlint}
+Sonarlint.
+\newblock \emph{Sonar}, 2025.
+
+\bibitem[Arora et~al.(2024)Arora, Sonwane, Wadhwa, Mehrotra, Utpala, Bairi,
+  Kanade, and Natarajan]{AI_agents_reference}
+D.~Arora, A.~Sonwane, N.~Wadhwa, A.~Mehrotra, S.~Utpala, R.~Bairi, A.~Kanade,
+  and N~Natarajan.
+\newblock Masai: Modular architecture for software-engineering ai agents.
+\newblock \emph{Arxiv}, 2024.
+
+\bibitem[Baabad et~al.(2022{\natexlab{a}})Baabad, Zulzalil, Hassan, and
+  Baharom]{aer-metrics-paper}
+A.~Baabad, H.~Zulzalil, S.~Hassan, and S~Baharom.
+\newblock Characterizing the architectural erosion metrics: A systematic
+  mapping study.
+\newblock \emph{IEEE}, 2022{\natexlab{a}}.
+
+\bibitem[Baabad et~al.(2022{\natexlab{b}})Baabad, Zulzalil, Hassan, and
   Baharom]{ieee-erosion-metrics}
 A.~Baabad, H.~Zulzalil, S.~Hassan, and S~Baharom.
 \newblock Characterizing the architectural erosion metrics: A systematic
   mapping study.
-\newblock \emph{IEEE}, 2022.
+\newblock \emph{IEEE}, 2022{\natexlab{b}}.
 
 \bibitem[Bass et~al.(2021)Bass, Clements, and Kazman]{bass-architecture-book}
 L.~Bass, P.~Clements, and R~Kazman.
 \newblock \emph{Software Architecture in Practice, 4th Edition}.
 \newblock O'reilly, 2021.
 
+\bibitem[CodeAcademy(2024)]{abstract-syntax-tree}
+CodeAcademy.
+\newblock Abstract syntax tree.
+\newblock \emph{CodeAcademy}, 2024.
+
+\bibitem[Dabic et~al.(2021)Dabic, Aghajani, and Bavota]{seart_platform}
+O.~Dabic, E.~Aghajani, and G~Bavota.
+\newblock Sampling projects in github for msr studies.
+\newblock \emph{18th IEEE/ACM International Conference on Mining Software
+  Repositories}, 2021.
+
 \bibitem[Efstathiou et~al.(2018)Efstathiou, C., and
   Spinellis]{so-word-embedding}
 V.~Efstathiou, Chatzilenas C., and D~Spinellis.
 \newblock Word embeddings for the software engineering domain.
 \newblock \emph{IEEE}, 2018.
+
+\bibitem[GENSIM(2024)]{gensim}
+GENSIM.
+\newblock Gensim topic modeling for humans.
+\newblock \emph{GENSIM}, 2024.
+
+\bibitem[Gulshan(2023)]{mvc-mvp-mvvm}
+N~Gulshan.
+\newblock Understanding mvc, mvvm, and mvp: A comprehensive comparison.
+\newblock \emph{Medium}, 2023.
+
+\bibitem[Jean~de Dieu et~al.(2024)Jean~de Dieu, Liang, Shahin, Yang, and
+  Li]{repository_mining}
+M.~Jean~de Dieu, P.~Liang, M.~Shahin, C.~Yang, and Z~Li.
+\newblock Mining architectural information: A systematic mapping study.
+\newblock \emph{Springer link repository}, 2024.
+
+\bibitem[Juneja et~al.(2023)Juneja, Nauman, Uppal, Gupta, Alroobaea, Muminov,
+  and Tao]{perceptron_model}
+S.~Juneja, A.~Nauman, M.~Uppal, D.~Gupta, R.~Alroobaea, B.~Muminov, and Y~Tao.
+\newblock Machine learning-based defect prediction model using multilayer
+  perceptron algorithm for escalating the reliability of the software.
+\newblock \emph{ACM Digital Library}, 2023.
 
 \bibitem[Jurafsky(2024)]{nlp-fundamentals}
 J~Jurafsky, D.~Martin.
@@ -48,9 +112,14 @@ C.~Manning, P.~Raghavan, and H.~Schutze.
 \newblock \emph{An Introduction to Information Retrieval}.
 \newblock Cambridge University Press, 2009.
 
+\bibitem[Pennington et~al.(2014)Pennington, Socher, and Manning]{glove}
+J.~Pennington, R.~Socher, and C~Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock \emph{University of Stanford}, 2014.
+
 \bibitem[Perry(1992)]{perry-wolf-reference}
 Alexander~L Perry, Dewayne.~Wolf.
-\newblock Foundations for the stufy of sotware architecture.
+\newblock Foundations for the study of sotware architecture.
 \newblock \emph{ACM SIGSOFT}, 1992.
 
 \bibitem[Ruiyin et~al.(2021)Ruiyin, Peng, Avgeriou, and Soliman]{slr-base}
@@ -58,5 +127,60 @@ L.~Ruiyin, L.~Peng, P.~Avgeriou, and M~Soliman.
 \newblock Understanding software architecture erosion: A systematic mapping
   study.
 \newblock \emph{Wiley}, 2021.
+
+\bibitem[Ruiyin(2023)]{master-thesis-aer-backend}
+Li~Ruiyin.
+\newblock Understanding, analysis, and handling of software architecture
+  erosion.
+\newblock \emph{University of Groningen}, 2023.
+
+\bibitem[Sivayoganathan and Ramzan(2024)]{accesibility_issues_metrics_tatiana}
+T.~Sivayoganathan and M~Ramzan.
+\newblock Evaluating webpage performance and web accessibility of canadian
+  universities’ mental health service webpagess.
+\newblock \emph{Spring Nature}, 2024.
+
+\bibitem[Spadine(2018)]{pydriller}
+D~Spadine.
+\newblock Pydriller.
+\newblock \emph{PyDriller}, 2018.
+
+\bibitem[Sphinx(2023)]{nltk}
+Sphinx.
+\newblock Nltk.
+\newblock \emph{NLTK}, 2023.
+
+\bibitem[St.~Amour and Tilevich(2024)]{handle-exceptions-reference}
+L.~St.~Amour and E~Tilevich.
+\newblock Toward declarative auditing of java software for graceful exception
+  handling.
+\newblock \emph{ACM Digital Library}, 2024.
+
+\bibitem[Staroletov(2019)]{classes_graph}
+S.~Staroletov.
+\newblock A method to verify parallel and distributed software in c# by doing
+  roslyn ast transformation to a promela model.
+\newblock \emph{ResearchGate}, 2019.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{attention_is_all_you_need}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~Gomez, L.~Kaiser,
+  and I~Polosukhin.
+\newblock Attention is all you need.
+\newblock \emph{Arxiv}, 2017.
+
+\bibitem[Wang et~al.(2024)Wang, Zhao, Feng, Zhang, Halfond, Chen, Sun, Shi, and
+  Yu]{performance-coroutines-reference}
+D.~Wang, Y.~Zhao, S.~Feng, Z.~Zhang, W.~Halfond, C.~Chen, X.~Sun, J.~Shi, and
+  T~Yu.
+\newblock Feedback-driven automated whole bug report reproduction for android
+  apps.
+\newblock \emph{ACM Digital Library}, 2024.
+
+\bibitem[Zan et~al.(2023)Zan, Chen, Zhang, Lu, Wu, Guan, Wang, and
+  Lou]{nl2_model}
+D.~Zan, B.~Chen, F.~Zhang, D.~Lu, B.~Wu, B.~Guan, Y.~Wang, and J~Lou.
+\newblock Large language models meet nl2code: A survey.
+\newblock \emph{Arxiv}, 2023.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  10 OCT 2025 00:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  10 OCT 2025 11:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1485,7 +1485,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(./main.bbl)
+(./main.bbl
+./main.bbl:164: Illegal parameter number in definition of \BR@r@classes_graph.
+<to be read again> 
+                    
+l.164 
+      
+? 
+)
 \c@lstlisting=\count395
 Package tocbasic Info: setting babel extension for `lol' on input line 14.
 \scr@dte@lstlisting@maxnumwidth=\skip106
@@ -1647,12 +1654,24 @@ Package natbib Warning: Citation `abstract-syntax-tree' on page x undefined on
 input line 13.
 
 
-Package natbib Warning: Citation `callgraph' on page x undefined on input line 
-14.
+Package natbib Warning: Citation `classes_graph' on page x undefined on input l
+ine 14.
+
+
+Package natbib Warning: Citation `information-retrieval' on page x undefined on
+ input line 15.
+
+
+Package natbib Warning: Citation `nlp-fundamentals' on page x undefined on inpu
+t line 16.
 
 
 Package natbib Warning: Citation `attention_is_all_you_need' on page x undefine
 d on input line 17.
+
+
+Package natbib Warning: Citation `seart_platform' on page x undefined on input 
+line 22.
 
 )
 \tf@lof=\write8
@@ -1682,6 +1701,10 @@ chapter 1.
 
 ]
 chapter 2.
+
+Package natbib Warning: Citation `software-engineering-book' on page 5 undefine
+d on input line 7.
+
 [5] [6]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
 -thesis-document/thesis-template/figures/software_process.png, id=109, 716.6775
@@ -1695,12 +1718,9 @@ Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
 sis template repo/master-thesis-document/thesis-template/figures/software_proce
 ss.png  used on input line 29.
 (pdftex.def)             Requested size: 358.33788pt x 299.11676pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7] [8 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo
-/master-thesis-document/thesis-template/figures/software_process.png>]
+ [7 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/software_process.png>]
+[8]
 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.png, id
 =119, 1204.5pt x 630.355pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc.pn
@@ -1747,7 +1767,25 @@ nput line 63.
 
 [9] [10 </Users/juancamiloacosta/Downloads/thesis-template/figures/mvvm_mvp_mvc
 .png (PNG copy)> </Users/juancamiloacosta/Downloads/thesis-template/figures/arc
-hitecture_framework.png>] [11] [12] [13]
+hitecture_framework.png>]
+
+Package natbib Warning: Citation `bass-architecture-book' on page 11 undefined 
+on input line 70.
+
+
+Package natbib Warning: Citation `perry-wolf-reference' on page 11 undefined on
+ input line 83.
+
+[11]
+
+Package natbib Warning: Citation `slr-base' on page 12 undefined on input line 
+86.
+
+[12] [13]
+
+Package natbib Warning: Citation `ieee-erosion-metrics' on page 14 undefined on
+ input line 121.
+
 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural Erosio
 n Concepts.drawio.png, id=137, 823.075pt x 924.45375pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/Architectural E
@@ -1757,9 +1795,8 @@ osion Concepts.drawio.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
 res/Architectural Erosion Concepts.drawio.png  used on input line 125.
 (pdftex.def)             Requested size: 411.53648pt x 462.22574pt.
- [14] [15 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectu
-ral Erosion Concepts.drawio.png>]
-[16]
+[14] [15 </Users/juancamiloacosta/Downloads/thesis-template/figures/Architectur
+al Erosion Concepts.drawio.png>] [16]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
 -thesis-document/thesis-template/figures/abstract-syntax-tree.png, id=149, 788.
 9475pt x 444.15938pt>
@@ -1799,17 +1836,25 @@ Overfull \hbox (8.33899pt too wide) in paragraph at lines 150--151
  []
 
 
-Package natbib Warning: Citation `callgraph' on page 17 undefined on input line
- 151.
+Package natbib Warning: Citation `classes_graph' on page 17 undefined on input 
+line 151.
 
 
-Package natbib Warning: Citation `callgraph' on page 17 undefined on input line
- 151.
+Package natbib Warning: Citation `classes_graph' on page 17 undefined on input 
+line 151.
 
 [17 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
 ster-thesis-document/thesis-template/figures/abstract-syntax-tree.png>]
+
+Package natbib Warning: Citation `nlp-fundamentals' on page 18 undefined on inp
+ut line 162.
+
 [18 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
 ster-thesis-document/thesis-template/figures/Call-graph-in-C-source-code.png>]
+
+Package natbib Warning: Citation `information-retrieval' on page 19 undefined o
+n input line 165.
+
 </Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png, id
 =159, 291.0875pt x 36.135pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.pn
@@ -1820,8 +1865,27 @@ Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
 res/tokenization.png  used on input line 169.
 (pdftex.def)             Requested size: 291.08678pt x 36.13489pt.
 
+Package natbib Warning: Citation `information-retrieval' on page 19 undefined o
+n input line 170.
+
+
+Package natbib Warning: Citation `information-retrieval' on page 19 undefined o
+n input line 170.
+
+
+Package natbib Warning: Citation `information-retrieval' on page 19 undefined o
+n input line 174.
+
+
+Package natbib Warning: Citation `information-retrieval' on page 19 undefined o
+n input line 175.
+
 [19 </Users/juancamiloacosta/Downloads/thesis-template/figures/tokenization.png
 >]
+
+Package natbib Warning: Citation `nlp-fundamentals' on page 20 undefined on inp
+ut line 181.
+
 </Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_repre
 sentation.png, id=164, 401.5pt x 141.52875pt>
 File: /Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_
@@ -1831,11 +1895,19 @@ epresentation.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Downloads/thesis-template/figu
 res/word_embedding_representation.png  used on input line 185.
 (pdftex.def)             Requested size: 401.49901pt x 141.5284pt.
- [20 </Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_
-representation.png>] [21{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/
-lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
-{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+Package natbib Warning: Citation `nlp-fundamentals' on page 20 undefined on inp
+ut line 186.
+
+
+Package natbib Warning: Citation `nlp-fundamentals' on page 20 undefined on inp
+ut line 186.
+
+[20 </Users/juancamiloacosta/Downloads/thesis-template/figures/word_embedding_r
+epresentation.png>] [21{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/l
+m-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{
+/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local
+/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 
 Package natbib Warning: Citation `attention_is_all_you_need' on page 22 undefin
 ed on input line 221.
@@ -1869,12 +1941,25 @@ epo/master-thesis-document/thesis-template/figures/transformers.png>]
 
 (./related_work.tex
 chapter 3.
+
+Package natbib Warning: Citation `slr-base' on page 25 undefined on input line 
+10.
+
 [25
 
 
 
 
-] [26] [27] [28]
+] [26]
+
+Package natbib Warning: Citation `warnings-architectural-erosion' on page 27 un
+defined on input line 35.
+
+
+Package natbib Warning: Citation `so-word-embedding' on page 27 undefined on in
+put line 35.
+
+[27] [28]
 
 Package natbib Warning: Citation `handle-exceptions-reference' on page 29 undef
 ined on input line 45.
@@ -1893,6 +1978,10 @@ Package natbib Warning: Citation `master-thesis-aer-backend' on page 30 undefin
 ed on input line 58.
 
 [30]
+
+Package natbib Warning: Citation `warnings-architectural-erosion' on page 31 un
+defined on input line 66.
+
 
 Package natbib Warning: Citation `glove' on page 31 undefined on input line 66.
 
@@ -1941,17 +2030,21 @@ chapter 5.
 
 ]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/workflow.png, id=233, 743.77875pt x 40
-2.50375pt>
+-thesis-document/thesis-template/figures/workflow-1.png, id=233, 535.5207pt x 2
+89.8027pt>
 File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
-aster-thesis-document/thesis-template/figures/workflow.png Graphic file (type p
-ng)
+aster-thesis-document/thesis-template/figures/workflow-1.png Graphic file (type
+ png)
 <use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
-ster-thesis-document/thesis-template/figures/workflow.png>
+ster-thesis-document/thesis-template/figures/workflow-1.png>
 Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
-sis template repo/master-thesis-document/thesis-template/figures/workflow.png  
-used on input line 12.
-(pdftex.def)             Requested size: 371.88846pt x 201.25137pt.
+sis template repo/master-thesis-document/thesis-template/figures/workflow-1.png
+  used on input line 12.
+(pdftex.def)             Requested size: 428.41714pt x 231.84247pt.
+
+Overfull \hbox (10.16342pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1967,7 +2060,7 @@ ITH STATIC ANALYSIS CODE []
  []
 
 [38] [39 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
-po/master-thesis-document/thesis-template/figures/workflow.png>]
+po/master-thesis-document/thesis-template/figures/workflow-1.png>]
 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
 -thesis-document/thesis-template/figures/seART.png, id=242, 1497.595pt x 859.21
 pt>
@@ -1986,6 +2079,14 @@ Overfull \hbox (31.02824pt too wide) in paragraph at lines 31--32
  []
 
 
+Package natbib Warning: Citation `seart_platform' on page 40 undefined on input
+ line 32.
+
+
+Package natbib Warning: Citation `seart_platform' on page 40 undefined on input
+ line 32.
+
+
 Overfull \hbox (82.61325pt too wide) has occurred while \output is active
 []|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
 ITH STATIC ANALYSIS CODE []
@@ -1993,6 +2094,22 @@ ITH STATIC ANALYSIS CODE []
 
 [40 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
 ster-thesis-document/thesis-template/figures/seART.png>] [41]
+
+Package natbib Warning: Citation `pydriller' on page 42 undefined on input line
+ 48.
+
+
+Package natbib Warning: Citation `fdroid' on page 42 undefined on input line 48
+.
+
+
+Package natbib Warning: Citation `repository_mining' on page 42 undefined on in
+put line 48.
+
+
+Package natbib Warning: Citation `nltk' on page 42 undefined on input line 48.
+
+
 Overfull \hbox (82.61325pt too wide) has occurred while \output is active
 []|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
 ITH STATIC ANALYSIS CODE []
@@ -2002,6 +2119,10 @@ ITH STATIC ANALYSIS CODE []
 Overfull \hbox (37.20926pt too wide) in paragraph at lines 76--93
  [][] 
  []
+
+
+Package natbib Warning: Citation `gensim' on page 43 undefined on input line 97
+.
 
 [43]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
@@ -2040,6 +2161,10 @@ sis template repo/master-thesis-document/thesis-template/figures/uast_structure
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `google-architecture' on page 46 undefined on 
+input line 24.
 
 [46] [47 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template re
 po/master-thesis-document/thesis-template/figures/uast_structure.png>] [48]
@@ -2207,9 +2332,14 @@ chapter A.
 
 ] (./main.bbl
 chapter without number
-) [77
+[77
 
-] [78
+] [78]
+./main.bbl:161: You can't use `macro parameter character #' in horizontal mode.
+l.161 ...y parallel and distributed software in c#
+                                                   by doing
+? 
+) [79] [80
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -2220,7 +2350,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [79
+ (./acronym.tex) [81
 
 
 
@@ -2232,7 +2362,12 @@ Package natbib Warning: There were undefined citations.
 (./introduction.aux) (./definitions.aux) (./related_work.aux) (./objectives.aux
 ) (./aer_issues_identification.aux) (./Detection.aux) (./nlp_and_ai.aux)
 (./metrics_analysis.aux) (./extensions.aux) (./conclusions.aux)
-(./appendix-a.aux) (./acronym.aux))
+(./appendix-a.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+(./acronym.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2243,10 +2378,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29803 strings out of 474116
- 577108 string characters out of 5743682
+ 29891 strings out of 474116
+ 579140 string characters out of 5743682
  2043187 words of memory out of 5000000
- 51407 multiletter control sequences out of 15000+600000
+ 51495 multiletter control sequences out of 15000+600000
  630417 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,1786s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2266,10 +2401,10 @@ ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (90 pages, 1669669 bytes).
+Output written on main.pdf (92 pages, 1825679 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
+ 475 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
