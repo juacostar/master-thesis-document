@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.3)  24 OCT 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.3)  24 OCT 2025 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1326,6 +1326,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box137
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 14
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -1388,34 +1389,34 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 (./appendix-a.aux) (./acronym.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-Package scrbase Info: activating english \partname on input line 14.
-Package scrbase Info: activating english \chaptername on input line 14.
-Package scrbase Info: activating english \appendixname on input line 14.
-Package scrbase Info: activating english \figurename on input line 14.
-Package scrbase Info: activating english \tablename on input line 14.
-Package scrbase Info: activating english \contentsname on input line 14.
-Package scrbase Info: activating english \listfigurename on input line 14.
-Package scrbase Info: activating english \listtablename on input line 14.
-Package scrbase Info: activating english \bibname on input line 14.
-Package scrbase Info: activating english \indexname on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+Package scrbase Info: activating english \partname on input line 15.
+Package scrbase Info: activating english \chaptername on input line 15.
+Package scrbase Info: activating english \appendixname on input line 15.
+Package scrbase Info: activating english \figurename on input line 15.
+Package scrbase Info: activating english \tablename on input line 15.
+Package scrbase Info: activating english \contentsname on input line 15.
+Package scrbase Info: activating english \listfigurename on input line 15.
+Package scrbase Info: activating english \listtablename on input line 15.
+Package scrbase Info: activating english \bibname on input line 15.
+Package scrbase Info: activating english \indexname on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1486,7 +1487,7 @@ Package caption Info: End \AtBeginDocument code.
 
 (./main.bbl)
 \c@lstlisting=\count395
-Package tocbasic Info: setting babel extension for `lol' on input line 14.
+Package tocbasic Info: setting babel extension for `lol' on input line 15.
 \scr@dte@lstlisting@maxnumwidth=\skip106
 
 isodate: babel.sty has been loaded
@@ -2021,10 +2022,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29891 strings out of 474116
- 571356 string characters out of 5743683
+ 29892 strings out of 474116
+ 571362 string characters out of 5743683
  2043187 words of memory out of 5000000
- 51495 multiletter control sequences out of 15000+600000
+ 51496 multiletter control sequences out of 15000+600000
  630417 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,1786s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2044,7 +2045,7 @@ ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
 texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (92 pages, 1825437 bytes).
+Output written on main.pdf (92 pages, 1825649 bytes).
 PDF statistics:
  475 PDF objects out of 1000 (max. 8388607)
  305 compressed objects within 4 object streams
