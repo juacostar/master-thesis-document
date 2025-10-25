@@ -158,7 +158,7 @@ L.~St.~Amour and E~Tilevich.
 
 \bibitem[Staroletov(2019)]{classes_graph}
 S.~Staroletov.
-\newblock A method to verify parallel and distributed software in c# by doing
+\newblock A method to verify parallel and distributed software in c\# by doing
   roslyn ast transformation to a promela model.
 \newblock \emph{ResearchGate}, 2019.
 

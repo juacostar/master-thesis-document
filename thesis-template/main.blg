@@ -40,7 +40,7 @@ Warning--empty author in fdroid
 Warning--empty author in sonarlint
 You've used 31 entries,
             2773 wiz_defined-function locations,
-            736 strings with 8849 characters,
+            736 strings with 8850 characters,
 and the built_in function-call counts, 12402 in all, are:
 = -- 1004
 > -- 862
