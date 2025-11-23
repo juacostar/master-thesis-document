@@ -27,6 +27,9 @@ Warning--I didn't find a database entry for "codegraph"
 Warning--I didn't find a database entry for "gpt4reference"
 Warning--I didn't find a database entry for "cuda"
 Warning--I didn't find a database entry for "pytorch"
+Warning--I didn't find a database entry for "google-play-scrapper"
+Warning--I didn't find a database entry for "so_model"
+Warning--I didn't find a database entry for "scrapper-library"
 Warning--I didn't find a database entry for "codet5"
 Warning--I didn't find a database entry for "future_work1"
 Warning--I didn't find a database entry for "future_work2"
@@ -38,45 +41,45 @@ Warning--empty author in google-architecture
 Warning--empty author in detekt
 Warning--empty author in fdroid
 Warning--empty author in sonarlint
-You've used 31 entries,
+You've used 32 entries,
             2773 wiz_defined-function locations,
-            736 strings with 8850 characters,
-and the built_in function-call counts, 12402 in all, are:
-= -- 1004
-> -- 862
+            742 strings with 9041 characters,
+and the built_in function-call counts, 12815 in all, are:
+= -- 1038
+> -- 892
 < -- 12
-+ -- 299
-- -- 267
-* -- 968
-:= -- 1983
-add.period$ -- 89
-call.type$ -- 31
-change.case$ -- 178
-chr.to.int$ -- 30
-cite$ -- 74
-duplicate$ -- 608
-empty$ -- 966
-format.name$ -- 298
-if$ -- 2531
++ -- 309
+- -- 276
+* -- 1002
+:= -- 2050
+add.period$ -- 92
+call.type$ -- 32
+change.case$ -- 184
+chr.to.int$ -- 31
+cite$ -- 76
+duplicate$ -- 628
+empty$ -- 997
+format.name$ -- 308
+if$ -- 2615
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 35
-newline$ -- 159
-num.names$ -- 108
-pop$ -- 402
+missing$ -- 36
+newline$ -- 164
+num.names$ -- 112
+pop$ -- 414
 preamble$ -- 1
-purify$ -- 151
+purify$ -- 156
 quote$ -- 0
-skip$ -- 463
+skip$ -- 478
 stack$ -- 0
-substring$ -- 66
-swap$ -- 33
+substring$ -- 68
+swap$ -- 34
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 321
+type$ -- 332
 warning$ -- 8
-while$ -- 81
+while$ -- 84
 width$ -- 0
-write$ -- 371
-(There were 20 warnings)
+write$ -- 383
+(There were 23 warnings)

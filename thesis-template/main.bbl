@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -106,6 +106,13 @@ P.~Liang, P.~Avgeriou, and L~Ruiyin.
 \newblock Warnings: Violation symptoms indicating architecture erosion.
 \newblock \emph{Cornell University}, 2023.
 
+\bibitem[Liang et~al.(2024)Liang, Avgeriou, and
+  Ruiyin]{ieee-automated-detection}
+P.~Liang, P.~Avgeriou, and L~Ruiyin.
+\newblock Towards automated identification of violation symptoms of
+  architecture erosion.
+\newblock \emph{IEEE TRANSACTIONS ON SOFTWARE ENGINEERING}, 2024.
+
 \bibitem[Manning et~al.(2009)Manning, Raghavan, and
   Schutze]{information-retrieval}
 C.~Manning, P.~Raghavan, and H.~Schutze.
@@ -158,8 +165,8 @@ L.~St.~Amour and E~Tilevich.
 
 \bibitem[Staroletov(2019)]{classes_graph}
 S.~Staroletov.
-\newblock A method to verify parallel and distributed software in c\# by doing
-  roslyn ast transformation to a promela model.
+\newblock A method to verify parallel and distributed software in c sharp by
+  doing roslyn ast transformation to a promela model.
 \newblock \emph{ResearchGate}, 2019.
 
 \bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,

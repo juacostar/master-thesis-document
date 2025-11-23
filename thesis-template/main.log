@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.3)  24 OCT 2025 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  22 NOV 2025 05:58
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -1325,11 +1326,131 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks68
 \@floatcapt=\box137
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 14
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
-.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks69
+\verbatim@line=\toks70
+\verbatim@in@stream=\read5
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box138
+\tcb@upperbox=\box139
+\tcb@lowerbox=\box140
+\tcb@phantombox=\box141
+\c@tcbbreakpart=\count389
+\c@tcblayer=\count390
+\c@tcolorbox@number=\count391
+\l__tcobox_tmpa_box=\box142
+\l__tcobox_tmpa_dim=\dimen358
+\tcb@temp=\box143
+\tcb@temp=\box144
+\tcb@temp=\box145
+\tcb@temp=\box146
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count392
+\c@tcbrasterrow=\count393
+\c@tcbrasternum=\count394
+\c@tcbraster=\count395
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.co
+de.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box147
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box148
+\tcb@totalupperbox=\box149
+\tcb@totallowerbox=\box150
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen359
+\tcb@lowerfitdim=\dimen360
+\tcb@upperfitdim=\dimen361
+\tcb@cur@hbadness=\count396
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
+x
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
+x
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count397
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+))))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+))
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 16
+.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux
 (./title.aux) (./abstract.aux) (./acknowledgements.aux) (./introduction.aux)
@@ -1385,38 +1506,41 @@ LaTeX Warning: Label `tab:my_label' multiply defined.
 
 LaTeX Warning: Label `tab:my_label' multiply defined.
 
-) (./metrics_analysis.aux) (./extensions.aux) (./conclusions.aux)
-(./appendix-a.aux) (./acronym.aux))
+) (./metrics_analysis.aux
+
+LaTeX Warning: Label `fig:ast' multiply defined.
+
+) (./extensions.aux) (./conclusions.aux) (./appendix-a.aux) (./acronym.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-Package scrbase Info: activating english \partname on input line 15.
-Package scrbase Info: activating english \chaptername on input line 15.
-Package scrbase Info: activating english \appendixname on input line 15.
-Package scrbase Info: activating english \figurename on input line 15.
-Package scrbase Info: activating english \tablename on input line 15.
-Package scrbase Info: activating english \contentsname on input line 15.
-Package scrbase Info: activating english \listfigurename on input line 15.
-Package scrbase Info: activating english \listtablename on input line 15.
-Package scrbase Info: activating english \bibname on input line 15.
-Package scrbase Info: activating english \indexname on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+Package scrbase Info: activating english \partname on input line 16.
+Package scrbase Info: activating english \chaptername on input line 16.
+Package scrbase Info: activating english \appendixname on input line 16.
+Package scrbase Info: activating english \figurename on input line 16.
+Package scrbase Info: activating english \tablename on input line 16.
+Package scrbase Info: activating english \contentsname on input line 16.
+Package scrbase Info: activating english \listfigurename on input line 16.
+Package scrbase Info: activating english \listtablename on input line 16.
+Package scrbase Info: activating english \bibname on input line 16.
+Package scrbase Info: activating english \indexname on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1454,17 +1578,17 @@ Package scrbase Info: activating english \indexname on input line 15.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count389
-\scratchdimen=\dimen358
-\scratchbox=\box138
-\nofMPsegments=\count390
-\nofMParguments=\count391
-\everyMPshowfont=\toks69
-\MPscratchCnt=\count392
-\MPscratchDim=\dimen359
-\MPnumerator=\count393
-\makeMPintoPDFobject=\count394
-\everyMPtoPDFconversion=\toks70
+\scratchcounter=\count398
+\scratchdimen=\dimen362
+\scratchbox=\box151
+\nofMPsegments=\count399
+\nofMParguments=\count400
+\everyMPshowfont=\toks71
+\MPscratchCnt=\count401
+\MPscratchDim=\dimen363
+\MPnumerator=\count402
+\makeMPintoPDFobject=\count403
+\everyMPtoPDFconversion=\toks72
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1486,8 +1610,8 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (./main.bbl)
-\c@lstlisting=\count395
-Package tocbasic Info: setting babel extension for `lol' on input line 15.
+\c@lstlisting=\count404
+Package tocbasic Info: setting babel extension for `lol' on input line 16.
 \scr@dte@lstlisting@maxnumwidth=\skip106
 
 isodate: babel.sty has been loaded
@@ -1499,7 +1623,7 @@ isodate: babel.sty has been loaded
 
 
 ]
-<figures/logo_misis.pdf, id=9, 1564.6556pt x 682.4747pt>
+<figures/logo_misis.pdf, id=45, 1564.6556pt x 682.4747pt>
 File: figures/logo_misis.pdf Graphic file (type pdf)
 <use figures/logo_misis.pdf>
 Package pdftex.def Info: figures/logo_misis.pdf  used on input line 77.
@@ -1663,10 +1787,10 @@ chapter 1.
 ]
 chapter 2.
 [5] [6]
-<./figures/software_process.png, id=109, 716.6775pt x 598.235pt>
+<./figures/software_process.png, id=144, 716.6775pt x 598.235pt>
 File: ./figures/software_process.png Graphic file (type png)
 <use ./figures/software_process.png>
-Package pdftex.def Info: ./figures/software_process.png  used on input line 29.
+Package pdftex.def Info: ./figures/software_process.png  used on input line 33.
 
 (pdftex.def)             Requested size: 358.33788pt x 299.11676pt.
 
@@ -1674,79 +1798,80 @@ Package pdftex.def Info: ./figures/software_process.png  used on input line 29.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7] [8 <./figures/software_process.png>]
-<./figures/mvvm_mvp_mvc.png, id=119, 1204.5pt x 630.355pt>
+<./figures/mvvm_mvp_mvc.png, id=154, 1204.5pt x 630.355pt>
 File: ./figures/mvvm_mvp_mvc.png Graphic file (type png)
 <use ./figures/mvvm_mvp_mvc.png>
-Package pdftex.def Info: ./figures/mvvm_mvp_mvc.png  used on input line 52.
+Package pdftex.def Info: ./figures/mvvm_mvp_mvc.png  used on input line 57.
 (pdftex.def)             Requested size: 481.79147pt x 252.13753pt.
 
-Overfull \hbox (63.53775pt too wide) in paragraph at lines 52--53
+Overfull \hbox (63.53775pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
-<./figures/architecture_framework.png, id=120, 551.05875pt x 302.12875pt>
+[9]
+<./figures/architecture_framework.png, id=158, 551.05875pt x 302.12875pt>
 File: ./figures/architecture_framework.png Graphic file (type png)
 <use ./figures/architecture_framework.png>
 Package pdftex.def Info: ./figures/architecture_framework.png  used on input li
-ne 62.
+ne 67.
 (pdftex.def)             Requested size: 440.84758pt x 241.70332pt.
 
-Overfull \hbox (22.59386pt too wide) in paragraph at lines 62--63
+Overfull \hbox (22.59386pt too wide) in paragraph at lines 67--68
  [][] 
  []
 
-[9] [10 <./figures/mvvm_mvp_mvc.png (PNG copy)> <./figures/architecture_framewo
-rk.png>] [11] [12] [13]
-<./figures/Architectural Erosion Concepts.drawio.png, id=137, 823.075pt x 924.4
+[10 <./figures/mvvm_mvp_mvc.png (PNG copy)>] [11 <./figures/architecture_framew
+ork.png>] [12] [13]
+<./figures/Architectural Erosion Concepts.drawio.png, id=172, 823.075pt x 924.4
 5375pt>
 File: ./figures/Architectural Erosion Concepts.drawio.png Graphic file (type pn
 g)
 <use ./figures/Architectural Erosion Concepts.drawio.png>
 Package pdftex.def Info: ./figures/Architectural Erosion Concepts.drawio.png  u
-sed on input line 125.
+sed on input line 133.
 (pdftex.def)             Requested size: 411.53648pt x 462.22574pt.
  [14] [15 <./figures/Architectural Erosion Concepts.drawio.png>] [16]
-<./figures/abstract-syntax-tree.png, id=149, 788.9475pt x 444.15938pt>
+<./figures/abstract-syntax-tree.png, id=184, 788.9475pt x 444.15938pt>
 File: ./figures/abstract-syntax-tree.png Graphic file (type png)
 <use ./figures/abstract-syntax-tree.png>
 Package pdftex.def Info: ./figures/abstract-syntax-tree.png  used on input line
- 143.
+ 152.
 (pdftex.def)             Requested size: 394.47278pt x 222.07913pt.
-<./figures/Call-graph-in-C-source-code.png, id=150, 853.1875pt x 463.7325pt>
+<./figures/Call-graph-in-C-source-code.png, id=185, 853.1875pt x 463.7325pt>
 File: ./figures/Call-graph-in-C-source-code.png Graphic file (type png)
 <use ./figures/Call-graph-in-C-source-code.png>
 Package pdftex.def Info: ./figures/Call-graph-in-C-source-code.png  used on inp
-ut line 150.
+ut line 159.
 (pdftex.def)             Requested size: 426.59271pt x 231.86568pt.
 
-Overfull \hbox (8.33899pt too wide) in paragraph at lines 150--151
+Overfull \hbox (8.33899pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
 [17 <./figures/abstract-syntax-tree.png>] [18 <./figures/Call-graph-in-C-source
 -code.png>]
-<./figures/tokenization.png, id=159, 291.0875pt x 36.135pt>
+<./figures/tokenization.png, id=195, 291.0875pt x 36.135pt>
 File: ./figures/tokenization.png Graphic file (type png)
 <use ./figures/tokenization.png>
-Package pdftex.def Info: ./figures/tokenization.png  used on input line 169.
+Package pdftex.def Info: ./figures/tokenization.png  used on input line 178.
 (pdftex.def)             Requested size: 291.08678pt x 36.13489pt.
  [19 <./figures/tokenization.png>]
-<./figures/word_embedding_representation.png, id=164, 401.5pt x 141.52875pt>
+<./figures/word_embedding_representation.png, id=200, 401.5pt x 141.52875pt>
 File: ./figures/word_embedding_representation.png Graphic file (type png)
 <use ./figures/word_embedding_representation.png>
 Package pdftex.def Info: ./figures/word_embedding_representation.png  used on i
-nput line 185.
+nput line 194.
 (pdftex.def)             Requested size: 401.49901pt x 141.5284pt.
  [20 <./figures/word_embedding_representation.png>] [21{/usr/local/texlive/2024
 /texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dis
 t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-
 mathex.enc}] [22]
-<./figures/transformers.png, id=183, 333.245pt x 434.62375pt>
+<./figures/transformers.png, id=219, 1324.95pt x 1866.975pt>
 File: ./figures/transformers.png Graphic file (type png)
 <use ./figures/transformers.png>
-Package pdftex.def Info: ./figures/transformers.png  used on input line 230.
-(pdftex.def)             Requested size: 333.24417pt x 434.62268pt.
+Package pdftex.def Info: ./figures/transformers.png  used on input line 237.
+(pdftex.def)             Requested size: 331.2367pt x 466.74261pt.
  [23]) [24 <./figures/transformers.png>]
 \openout2 = `related_work.aux'.
 
@@ -1757,17 +1882,17 @@ chapter 3.
 
 
 
-] [26] [27] [28] [29] [30] [31] [32] [33]) [34]
+] [26] [27] [28] [29] [30] [31] [32]) [33]
 \openout2 = `objectives.aux'.
 
- (./objectives.tex
+ (./objectives.tex [34
+
+
+
+
+]
 chapter 4.
-[35
-
-
-
-
-]) [36]
+[35]) [36]
 \openout2 = `aer_issues_identification.aux'.
 
  (./aer_issues_identification.tex
@@ -1778,13 +1903,13 @@ chapter 5.
 
 
 ]
-<./figures/workflow-1.png, id=233, 535.5207pt x 289.8027pt>
+<./figures/workflow-1.png, id=269, 535.5207pt x 289.8027pt>
 File: ./figures/workflow-1.png Graphic file (type png)
 <use ./figures/workflow-1.png>
-Package pdftex.def Info: ./figures/workflow-1.png  used on input line 12.
+Package pdftex.def Info: ./figures/workflow-1.png  used on input line 13.
 (pdftex.def)             Requested size: 428.41714pt x 231.84247pt.
 
-Overfull \hbox (10.16342pt too wide) in paragraph at lines 12--13
+Overfull \hbox (10.16342pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
@@ -1798,13 +1923,13 @@ ITH STATIC ANALYSIS CODE []
  []
 
 [38] [39 <./figures/workflow-1.png>]
-<./figures/seART.png, id=242, 1497.595pt x 859.21pt>
+<./figures/seART.png, id=278, 1497.595pt x 859.21pt>
 File: ./figures/seART.png Graphic file (type png)
 <use ./figures/seART.png>
-Package pdftex.def Info: ./figures/seART.png  used on input line 31.
+Package pdftex.def Info: ./figures/seART.png  used on input line 27.
 (pdftex.def)             Requested size: 449.28197pt x 257.76498pt.
 
-Overfull \hbox (31.02824pt too wide) in paragraph at lines 31--32
+Overfull \hbox (31.02824pt too wide) in paragraph at lines 27--28
  [][] 
  []
 
@@ -1821,13 +1946,13 @@ ITH STATIC ANALYSIS CODE []
  []
 
 [42]
-Overfull \hbox (37.20926pt too wide) in paragraph at lines 76--93
+Overfull \hbox (37.20926pt too wide) in paragraph at lines 70--87
  [][] 
  []
 
 [43]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-07.
+00.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
@@ -1836,30 +1961,33 @@ Overfull \hbox (82.61325pt too wide) has occurred while \output is active
 ITH STATIC ANALYSIS CODE []
  []
 
-[44]
+[44] [45]
 \openout2 = `Detection.aux'.
 
  (./Detection.tex
-chapter 6.
-[45
+Overfull \hbox (82.61325pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/sl/10 CHAPTER 5.  IDENTIFICATION OF ARCHITECTURAL EROSION ISSUES W
+ITH STATIC ANALYSIS CODE []
+ []
+
+[46
 
 
 
 
 ]
-<./figures/uast_structure.png, id=264, 1405.25pt x 938.50626pt>
+chapter 6.
+[47]
+<./figures/uast_structure.png, id=306, 1405.25pt x 938.50626pt>
 File: ./figures/uast_structure.png Graphic file (type png)
 <use ./figures/uast_structure.png>
-Package pdftex.def Info: ./figures/uast_structure.png  used on input line 16.
+Package pdftex.def Info: ./figures/uast_structure.png  used on input line 14.
 (pdftex.def)             Requested size: 351.31165pt x 234.62599pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46] [47 <./figures/uast_structure.png>] [48] [49] [50]) [51]
+ [48 <./figures/uast_structure.png>] [49] [50] [51] [52]) [53]
 \openout2 = `nlp_and_ai.aux'.
 
- (./nlp_and_ai.tex [52
+
+(./nlp_and_ai.tex [54
 
 
 
@@ -1867,128 +1995,181 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 chapter 7.
 
-Package natbib Warning: Citation `codereviewer' on page 53 undefined on input l
-ine 4.
+Package natbib Warning: Citation `codereviewer' on page 55 undefined on input l
+ine 8.
 
-[53]
-<./figures/workflow-3-ASE.png, id=291, 804.00375pt x 302.12875pt>
+[55]
+<./figures/workflow-3-ASE.png, id=333, 804.00375pt x 302.12875pt>
 File: ./figures/workflow-3-ASE.png Graphic file (type png)
 <use ./figures/workflow-3-ASE.png>
-Package pdftex.def Info: ./figures/workflow-3-ASE.png  used on input line 11.
+Package pdftex.def Info: ./figures/workflow-3-ASE.png  used on input line 16.
 (pdftex.def)             Requested size: 402.0009pt x 151.064pt.
 
 
-Package natbib Warning: Citation `seart' on page 54 undefined on input line 20.
+Package natbib Warning: Citation `seart' on page 56 undefined on input line 25.
 
 
-[54 <./figures/workflow-3-ASE.png>] [55]
+[56 <./figures/workflow-3-ASE.png>] [57]
 
-Package natbib Warning: Citation `codebert' on page 56 undefined on input line 
-33.
-
-
-Package natbib Warning: Citation `t5' on page 56 undefined on input line 33.
+Package natbib Warning: Citation `codebert' on page 58 undefined on input line 
+38.
 
 
-Package natbib Warning: Citation `codereviewer' on page 56 undefined on input l
-ine 34.
+Package natbib Warning: Citation `t5' on page 58 undefined on input line 38.
 
 
-Package natbib Warning: Citation `codegraph' on page 56 undefined on input line
- 34.
-
-[56]
-
-Package natbib Warning: Citation `seart' on page 57 undefined on input line 44.
+Package natbib Warning: Citation `codereviewer' on page 58 undefined on input l
+ine 39.
 
 
-
-Package natbib Warning: Citation `gpt4reference' on page 57 undefined on input 
-line 49.
-
-[57]
-
-Package natbib Warning: Citation `cuda' on page 58 undefined on input line 75.
-
-
-Package natbib Warning: Citation `pytorch' on page 58 undefined on input line 7
-5.
+Package natbib Warning: Citation `codegraph' on page 58 undefined on input line
+ 39.
 
 [58]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `seart' on page 59 undefined on input line 49.
 
-[59] [60]) [61]
+
+
+Package natbib Warning: Citation `gpt4reference' on page 59 undefined on input 
+line 54.
+
+[59]
+
+Package natbib Warning: Citation `cuda' on page 60 undefined on input line 80.
+
+
+Package natbib Warning: Citation `pytorch' on page 60 undefined on input line 8
+0.
+
+[60] [61] [62]) [63]
 \openout2 = `metrics_analysis.aux'.
 
- (./metrics_analysis.tex [62
+ (./metrics_analysis.tex [64
 
 
 
 
 ]
 chapter 8.
-) [63]
+
+Package natbib Warning: Citation `google-play-scrapper' on page 65 undefined on
+ input line 4.
+
+
+Package natbib Warning: Citation `so_model' on page 65 undefined on input line 
+8.
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 17--28
+\T1/lmr/m/n/5 BUSI-NESS, COMICS, COM-MU-NI-CA-TION, DAT-ING, ED-U-CA-TION, EN-T
+ER-TAIN-MENT, EVENTS, FI-NANCE,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--28
+\T1/lmr/m/n/5 FOOD_AND_DRINK, HEALTH_AND_FITNESS, HOUSE_AND_HOME, LI-BRARIES_AN
+D_DEMO, LIFESTYLE,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--28
+\T1/lmr/m/n/5 MAPS_AND_NAVIGATION, MED-I-CAL, MU-SIC_AND_AUDIO, NEWS_AND_MAGAZI
+NES, PAR-ENT-ING, PER-SON-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--28
+\T1/lmr/m/n/5 AL-IZA-TION, PHO-TOG-RA-PHY, PRO-DUC-TIV-ITY, SHOP-PING, SO-CIAL,
+ SPORTS, TOOLS, TRAVEL_AND_LOCAL,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--28
+\T1/lmr/m/n/5 VIDEO_PLAYERS, WATCH_FACE, WEATHER, GAME, GAME_ACTION, GAME_ADVEN
+TURE, GAME_ARCADE,
+ []
+
+[66]
+</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
+-thesis-document/thesis-template/figures/wordcloud.png, id=373, 810.02625pt x 4
+21.575pt>
+File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/wordcloud.png Graphic file (type 
+png)
+<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
+ster-thesis-document/thesis-template/figures/wordcloud.png>
+Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
+sis template repo/master-thesis-document/thesis-template/figures/wordcloud.png 
+ used on input line 44.
+(pdftex.def)             Requested size: 405.01213pt x 210.78697pt.
+ [67 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
+aster-thesis-document/thesis-template/figures/wordcloud.png>]
+
+Package natbib Warning: Citation `scrapper-library' on page 68 undefined on inp
+ut line 81.
+
+[68] [69]) [70]
 \openout2 = `extensions.aux'.
 
- (./extensions.tex [64
-
-
-
-
-]
+ (./extensions.tex
 chapter 9.
-[65]) [66] [67]
+[71
+
+
+
+
+]) [72] [73]
 \openout2 = `conclusions.aux'.
 
- (./conclusions.tex [68
+ (./conclusions.tex [74
 
 
 
 
 ]
 chapter 10.
-[69] [70] [71] [72]
+[75] [76] [77] [78]
 
-Package natbib Warning: Citation `codereviewer' on page 73 undefined on input l
-ine 51.
-
-
-Package natbib Warning: Citation `codebert' on page 73 undefined on input line 
-51.
+Package natbib Warning: Citation `codereviewer' on page 79 undefined on input l
+ine 52.
 
 
-Package natbib Warning: Citation `codet5' on page 73 undefined on input line 51
+Package natbib Warning: Citation `codebert' on page 79 undefined on input line 
+52.
+
+
+Package natbib Warning: Citation `codet5' on page 79 undefined on input line 52
 .
 
 
-Package natbib Warning: Citation `future_work1' on page 73 undefined on input l
-ine 53.
+Package natbib Warning: Citation `future_work1' on page 79 undefined on input l
+ine 52.
 
 
-Package natbib Warning: Citation `future_work2' on page 73 undefined on input l
-ine 53.
+Package natbib Warning: Citation `future_work2' on page 79 undefined on input l
+ine 52.
 
-[73]) [74]
+[79]) [80]
 \openout2 = `appendix-a.aux'.
 
  (./appendix-a.tex
 chapter A.
-) [75
+) [81
 
 
 
 
-] [76
+] [82
 
 
 
 
 ] (./main.bbl
 chapter without number
-[77
+[83
 
-] [78]) [79] [80
+] [84]) [85] [86
 
 ]
 runsystem(makeindex main.idx)...executed safely (allowed).
@@ -1999,7 +2180,7 @@ runsystem(makeindex -s latex.ist -c symbols.idx)...executed safely (allowed).
  (./symbols.ind)
 \openout2 = `acronym.aux'.
 
- (./acronym.tex) [81
+ (./acronym.tex) [87
 
 
 
@@ -2022,33 +2203,37 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29892 strings out of 474116
- 571362 string characters out of 5743683
- 2043187 words of memory out of 5000000
- 51496 multiletter control sequences out of 15000+600000
- 630417 words of font info for 92 fonts, out of 8000000 for 9000
+ 35334 strings out of 474116
+ 725407 string characters out of 5743682
+ 2099187 words of memory out of 5000000
+ 56835 multiletter control sequences out of 15000+600000
+ 639696 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,16n,121p,10900b,1786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,16n,121p,10900b,1782s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist
-/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
-lm/lmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pf
-b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
-al/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts
-/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
-ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
-msy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (92 pages, 1825649 bytes).
+exmf-dist/fonts/type1/public/lm/lmbx5.pfb></usr/local/texlive/2024/texmf-dist/f
+onts/type1/public/lm/lmbx7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
+public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm
+/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pf
+b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/public/lm/lmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
+lm/lmri10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.
+pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
+1/public/lm/lmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palat
+ino/uplr8a.pfb>
+Output written on main.pdf (98 pages, 2580678 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
+ 555 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

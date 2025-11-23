@@ -8,7 +8,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The development process of a Software Application}}{8}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Similarities and differences between Android architectural patterns. \citet {mvc-mvp-mvvm} }}{10}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Three-layer framework for mobile development. \citet {google-architecture} }}{10}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Three-layer framework for mobile development. \citet {google-architecture} }}{11}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Main Concepts of Architectural Erosion in Software Engineering }}{15}{}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Example of an Abstract Syntax Tree (AST) statement. \citet {abstract-syntax-tree} }}{17}{}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Example of a Callgraph of a pair of classes. \citet {classes_graph} }}{18}{}%
@@ -21,10 +21,11 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Workflow for AER issues identification with Static Code Analysis techniques}}{39}{}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces seART platform for GitHub repositories searching \citet {seart_platform} }}{40}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Definition of Android Studio UAST structure \citet {} }}{47}{}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Definition of Android Studio UAST structure \citet {} }}{48}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces seART platform for GitHub repositories searching \cite {} }}{54}{}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces seART platform for GitHub repositories searching \cite {} }}{56}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces WordCloud of reviews of applications of the Play Store}}{67}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,4 +1,138 @@
 \chapter{Metrics Analysis for AER issues identification}
 \label{cha:metrics_analysis}
+With the studied methodologies for AER issues identification, we can use some patterns to try to identify AER issues related to any context with the help of data analysis and NLP techniques. Another studied approach consists of the use of NLP techniques and scraping of user reviews of the top applications of different categories from the Play Store. The objective of this solution methodology is to analyze a large set of reviews of the most popular applications of every category from the Play Store. With that analysis, we tried to identify potential keywords based on the cosine similarity metric average according to the initial set of keywords extracted from the related work.
+We collected during 2 months the different features and statistics from the 50 most popular applications of all the categories given by the Play Store, where Android applications can be found. We use some scraping libraries to extract the features of every application in JSON format. After that, we implemented a review scraper with the Google Play Scraper (GPS) library \citet{google-play-scrapper}. From every application, from the initial extraction, we extracted the first 100 reviews and collected them in one dataset. We analyzed the reviews of the generated dataset to find he most similar keywords. With this, we tried to find potential keywords that users use to express any architectural issue or any issues related to some quality attribute, according to the cosine similarity metric. This methodology can be considered as an extension of the proposed methodology to identify AER issues with AI models and NLP techniques.
 
-With the studied methodologies for AER issues identification, we can use some patterns to try to identify AER issues related to any context with the help of data analysis and NLP techniques.
+\section{Methodology Definition}
+We defined this methodology based on the solution methodology with NLP and AI models. We implemented two scraping programs. The first one uses the GPS library implemented in the JavaScript programming language. This program utilizes that library to compile the 50 most popular applications in each category. Furthermore, free and paid categories are also considered (See Table 8.1).
+The second program, based on scraping techniques, uses the GPS library implemented in the Python programming language. This program gets a set of defined reviews of the desired application. We extracted 100 reviews for every application extracted by the first scraping program. With those datasets, we implemented the second identification methodology approach to AER issues identification in reviews of Android applications. We used the SO model to find the most similar words with respect to the initial set of keywords from the related work section \cite{so_model}. Finally, we compared and analysed the results of the most similar words found in all the reviews, and the most similar words found in the reviews of applications of every category.
+
+
+\begin{table}[H]
+\centering
+\tiny
+\begin{tabular}{|p{14cm}|}
+\hline
+\textbf{Category} \\ \hline
+APPLICATION, ANDROID\_WEAR, ART\_AND\_DESIGN, AUTO\_AND\_VEHICLES, BEAUTY, 
+BOOKS\_AND\_REFERENCE, BUSINESS, COMICS, COMMUNICATION, DATING, 
+EDUCATION, ENTERTAINMENT, EVENTS, FINANCE, FOOD\_AND\_DRINK, 
+HEALTH\_AND\_FITNESS, HOUSE\_AND\_HOME, LIBRARIES\_AND\_DEMO, LIFESTYLE, 
+MAPS\_AND\_NAVIGATION, MEDICAL, MUSIC\_AND\_AUDIO, NEWS\_AND\_MAGAZINES, 
+PARENTING, PERSONALIZATION, PHOTOGRAPHY, PRODUCTIVITY, SHOPPING, 
+SOCIAL, SPORTS, TOOLS, TRAVEL\_AND\_LOCAL, VIDEO\_PLAYERS, WATCH\_FACE, 
+WEATHER, GAME, GAME\_ACTION, GAME\_ADVENTURE, GAME\_ARCADE, GAME\_BOARD, 
+GAME\_CARD, GAME\_CASINO, GAME\_CASUAL, GAME\_EDUCATIONAL, GAME\_MUSIC, 
+GAME\_PUZZLE, GAME\_RACING, GAME\_ROLE\_PLAYING, GAME\_SIMULATION, 
+GAME\_SPORTS, GAME\_STRATEGY, GAME\_TRIVIA, GAME\_WORD, FAMILY \\ 
+\hline
+\end{tabular}
+\caption{Application categories by the Google Play Scraper library}
+\label{tab:categories}
+\end{table}
+
+
+
+\section{Methology Development}
+We used as a reference the keywords found in the related work section. Those keywords were used to find the most similar terms in a large set of reviews from the 50 most popular applications of every category in the Play Store. We periodically extracted information using the scraper programs, gathering details for each application in the top 50 of every category, including user reviews for each identified application. For two months, we stored the extracted information in JSON files, separating applications into two categories: paid applications and free applications. For each generated JSON file, we also produced a CSV file to extract and organize the reviews of each listed application. Throughout the extraction process, we collected approximately 720K reviews.
+We applied foundational NLP techniques to process the large review corpus, including stop word removal and character filtering to clean and normalize the review text. With the processed corpus, we implemented two approaches.
+For the first approach, we generated a word cloud to identify the most relevant and frequent words in the dataset. A word cloud allows visual exploration of the dominant terms within a text corpus, providing an initial understanding of the general context expressed by users in their reviews.
+
+
+\begin{figure}[h]
+    	\centering
+    		\includegraphics[scale=0.5]{/Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master-thesis-document/thesis-template/figures/wordcloud.png}
+   			 \caption{WordCloud of reviews of applications of the Play Store}
+   			 \label{fig:ast}
+\end{figure}
+
+We replicated the second studied methodology for AER issues identification, powered by AI models and NLP techniques. We used the SO model and got the numerical representation of each word of the processed corpus of reviews. With the set of the numerical representation of each word, we implemented the average cosine similarity metric and found the most similar words related to the initial set of keywords.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+       \textbf{Word}  & \textbf{Cosine Similarity Average Value} \\
+       \hline
+        \texttt{better} & 0.2227 \\
+        \hline
+        \texttt{useful} & 0.2201 \\
+        \hline
+        \texttt{good} & 0.2070 \\
+        \hline
+        \texttt{different} & 0.1983 \\
+        \hline
+        \texttt{really} & 0.1965 \\
+        \hline
+        \texttt{think} & 0.1948 \\
+        \hline
+        \texttt{best} & 0.1909 \\
+        \hline
+        \texttt{many} & 0.1785 \\
+        \hline
+        \texttt{highly} & 0.1785 \\
+        \hline
+    \end{tabular}
+    \caption{Top 10 newfound words since Word Embedding average cosine similarity metric}
+    \label{tab:cosine_sim_words}
+\end{table}
+
+
+The second approach is very similar to the last-mentioned. We separated the reviews according to the applications of every specific category. Categories were extracted from the Google Play Scraper library \citet{scrapper-library}. For every separated set of applications and reviews, we implemented the same methodology. We implemented NLP techniques to have a clean corpus of the set of reviews for every category. After that, we extracted the numerical representation of each word and calculated the cosine similarity average. The objective of this approach is to identify potential AER keywords inside specific contexts, like the categories of every set of extracted applications of the Play Store. Results are shown in Table 8.2.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\begin{tabular}{|p{4cm}|p{4cm}|c|}
+\hline
+\textbf{Category} & \textbf{Most Similar Word} & \textbf{Cosine Similitude Avg.} \\
+\hline
+APPLICATION & \texttt{better} & 0.2227 \\
+ANDROID\_WEAR & \texttt{useful} & 0.2201 \\
+ART\_AND\_DESIGN & \texttt{design} & 0.2883 \\
+AUTO\_AND\_VEHICLES & \texttt{better} & 0.2227 \\
+BEAUTY & \texttt{nice} & 0.1380 \\
+BOOKS\_AND\_REFERENCE & \texttt{experience} & 0.1446 \\
+BUSINESS & \texttt{overall} & 0.2462 \\
+COMICS & \texttt{really} & 0.1965 \\
+COMMUNICATION & \texttt{important} & 0.2410 \\
+DATING & \texttt{people} & 0.1308 \\
+EDUCATION & \texttt{different} & 0.1983 \\
+ENTERTAINMENT & \texttt{good} & 0.2070 \\
+EVENTS & \texttt{worth} & 0.1270 \\
+FINANCE & \texttt{better} & 0.2227 \\
+FOOD\_AND\_DRINK & \texttt{deal} & 0.2037 \\
+HEALTH\_AND\_FITNESS & \texttt{stronger} & 0.2243 \\
+HOUSE\_AND\_HOME & \texttt{easy} & 0.1274 \\
+LIBRARIES\_AND\_DEMO & \texttt{useful} & 0.2201 \\
+LIFESTYLE & \texttt{especially} & 0.2514 \\
+MAPS\_AND\_NAVIGATION & \texttt{better} & 0.2227 \\
+MEDICAL & \texttt{sane} & 0.2198 \\
+MUSIC\_AND\_AUDIO & \texttt{really} & 0.1965 \\
+NEWS\_AND\_MAGAZINES & \texttt{think} & 0.1948 \\
+PARENTING & \texttt{kind} & 0.2256 \\
+PERSONALIZATION & \texttt{poor} & 0.2157 \\
+PHOTOGRAPHY & \texttt{nice} & 0.1380 \\
+PRODUCTIVITY & \texttt{useful} & 0.2201 \\
+SHOPPING & \texttt{better} & 0.2227 \\
+SOCIAL & \texttt{different} & 0.1983 \\
+SPORTS & \texttt{stronger} & 0.2243 \\
+TOOLS & \texttt{good} & 0.2070 \\
+TRAVEL\_AND\_LOCAL & \texttt{really} & 0.1965 \\
+VIDEO\_PLAYERS & \texttt{useful} & 0.2201 \\
+WATCH\_FACE & \texttt{better} & 0.2227 \\
+WEATHER & \texttt{easy} & 0.1274 \\
+GAME & \texttt{fun} & 0.2102 \\
+FAMILY & \texttt{people} & 0.1308 \\
+\hline
+\end{tabular}
+\caption{Most similar word per Google Play category according to cosine similarity.}
+\label{tab:category_oneword}
+\end{table}
+
+
+\section{Results Analysis and Conclusions}
+This approach functions as an extension of the proposed methodology for AER issue identification grounded in NLP fundamentals and AI models. The main objective is to illustrate potential research directions for detecting diverse issues in Android applications. User reviews from the Play Store are especially relevant for identifying performance problems that arise in specific execution scenarios of an application. The results obtained from comparing the static Word Embedding model between the initial keyword set and the terms extracted from the review corpus (both globally and separated by category) reveal words with strong semantic value associated with user perceptions of the application. Terms such as *better*, *useful*, and *stronger* appear to reflect user reactions to specific usage cases of the application.
+Although the detected terms as potential AER-related keywords are not directly linked to a technological context, they can be interpreted as lexical indicators of application performance. These terms may signal potential issues by establishing a connection between user sentiment and application behavior in specific scenarios. Therefore, this study represents an opportunity to detect concerns expressed in reviews that relate to the non-functional requirements of Android applications.
+
+
