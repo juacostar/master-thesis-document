@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -63,6 +63,12 @@ O.~Dabic, E.~Aghajani, and G~Bavota.
 V.~Efstathiou, Chatzilenas C., and D~Spinellis.
 \newblock Word embeddings for the software engineering domain.
 \newblock \emph{IEEE}, 2018.
+
+\bibitem[Feng and Chen(2024)]{future_work1}
+S.~Feng and C~Chen.
+\newblock Prompting is all you need: Automated android bug replay with large
+  language models.
+\newblock \emph{ACM Digital Library}, 2024.
 
 \bibitem[GENSIM(2024)]{gensim}
 GENSIM.
@@ -176,13 +182,21 @@ A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~Gomez, L.~Kaiser,
 \newblock Attention is all you need.
 \newblock \emph{Arxiv}, 2017.
 
-\bibitem[Wang et~al.(2024)Wang, Zhao, Feng, Zhang, Halfond, Chen, Sun, Shi, and
-  Yu]{performance-coroutines-reference}
+\bibitem[Wang et~al.(2024{\natexlab{a}})Wang, Zhao, Feng, Zhang, Halfond, Chen,
+  Sun, Shi, and Yu]{future_work2}
 D.~Wang, Y.~Zhao, S.~Feng, Z.~Zhang, W.~Halfond, C.~Chen, X.~Sun, J.~Shi, and
   T~Yu.
 \newblock Feedback-driven automated whole bug report reproduction for android
   apps.
-\newblock \emph{ACM Digital Library}, 2024.
+\newblock \emph{ACM Digital Library}, 2024{\natexlab{a}}.
+
+\bibitem[Wang et~al.(2024{\natexlab{b}})Wang, Zhao, Feng, Zhang, Halfond, Chen,
+  Sun, Shi, and Yu]{performance-coroutines-reference}
+D.~Wang, Y.~Zhao, S.~Feng, Z.~Zhang, W.~Halfond, C.~Chen, X.~Sun, J.~Shi, and
+  T~Yu.
+\newblock Feedback-driven automated whole bug report reproduction for android
+  apps.
+\newblock \emph{ACM Digital Library}, 2024{\natexlab{b}}.
 
 \bibitem[Zan et~al.(2023)Zan, Chen, Zhang, Lu, Wu, Guan, Wang, and
   Lou]{nl2_model}

@@ -31,8 +31,6 @@ Warning--I didn't find a database entry for "google-play-scrapper"
 Warning--I didn't find a database entry for "so_model"
 Warning--I didn't find a database entry for "scrapper-library"
 Warning--I didn't find a database entry for "codet5"
-Warning--I didn't find a database entry for "future_work1"
-Warning--I didn't find a database entry for "future_work2"
 Warning--to sort, need author or key in google-architecture
 Warning--to sort, need author or key in fdroid
 Warning--to sort, need author or key in sonarlint
@@ -41,45 +39,45 @@ Warning--empty author in google-architecture
 Warning--empty author in detekt
 Warning--empty author in fdroid
 Warning--empty author in sonarlint
-You've used 32 entries,
+You've used 34 entries,
             2773 wiz_defined-function locations,
-            742 strings with 9041 characters,
-and the built_in function-call counts, 12815 in all, are:
-= -- 1038
-> -- 892
-< -- 12
-+ -- 309
-- -- 276
-* -- 1002
-:= -- 2050
-add.period$ -- 92
-call.type$ -- 32
-change.case$ -- 184
-chr.to.int$ -- 31
-cite$ -- 76
-duplicate$ -- 628
-empty$ -- 997
-format.name$ -- 308
-if$ -- 2615
-int.to.chr$ -- 2
+            744 strings with 9143 characters,
+and the built_in function-call counts, 13895 in all, are:
+= -- 1122
+> -- 997
+< -- 13
++ -- 345
+- -- 309
+* -- 1099
+:= -- 2229
+add.period$ -- 98
+call.type$ -- 34
+change.case$ -- 201
+chr.to.int$ -- 32
+cite$ -- 80
+duplicate$ -- 667
+empty$ -- 1058
+format.name$ -- 345
+if$ -- 2829
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 36
-newline$ -- 164
-num.names$ -- 112
-pop$ -- 414
+missing$ -- 38
+newline$ -- 174
+num.names$ -- 120
+pop$ -- 448
 preamble$ -- 1
-purify$ -- 156
+purify$ -- 171
 quote$ -- 0
-skip$ -- 478
+skip$ -- 512
 stack$ -- 0
-substring$ -- 68
-swap$ -- 34
+substring$ -- 72
+swap$ -- 38
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 332
+type$ -- 354
 warning$ -- 8
-while$ -- 84
+while$ -- 90
 width$ -- 0
-write$ -- 383
-(There were 23 warnings)
+write$ -- 407
+(There were 21 warnings)

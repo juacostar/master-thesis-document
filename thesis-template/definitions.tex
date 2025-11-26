@@ -64,7 +64,7 @@ In an Android application, it is not mandatory to use only an architectural patt
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.8]{./figures/architecture_framework.png}
+    \includegraphics[scale=0.8]{./figures/google_architecture.png}
     \caption{Three-layer framework for mobile development. \citet{google-architecture} }
     \label{fig:concept-map}
 \end{figure}
@@ -149,14 +149,14 @@ With the fundamentals of programming languages, it is possible to analyze softwa
 			\item Visitor component: A visitor component consists of a structure built from grammatical and lexical components of a programming language. In that structure, we can find how all the statement code blocks are defined in all source code files of a software project. We can find the name of every parameter declared in any function and the name of any class of any code statement defined in any source code file. With this component, we can detect any pattern in names and data types inside all code fragments and combine them for more customized check rules (security issues, connectivity issues, and others).		
 			\begin{figure}
     				\centering
-    				\includegraphics[scale=0.5]{./figures/abstract-syntax-tree.png}
+    				\includegraphics[scale=0.5]{./figures/AST.png}
    				 \caption{Example of an Abstract Syntax Tree (AST) statement. \citet{abstract-syntax-tree} }
    				 \label{fig:ast}
 			\end{figure}
 			\item Call Graph component: The call graph component is very similar to the visitor component. The main difference is that we can find all the dependency relationships between all the source code files of a software project. With this dependency structure, we can detect the high dependency between components and their high coupling rate.
 			\begin{figure}
     				\centering
-    				\includegraphics[scale=0.5]{./figures/Call-graph-in-C-source-code.png}
+    				\includegraphics[scale=0.5]{./figures/callgraph.png}
    				 \caption{Example of a Callgraph of a pair of classes. \citet{classes_graph} }
    				 \label{fig:ast}
 			\end{figure}

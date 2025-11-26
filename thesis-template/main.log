@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  22 NOV 2025 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  26 NOV 2025 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1809,19 +1809,14 @@ Overfull \hbox (63.53775pt too wide) in paragraph at lines 57--58
  []
 
 [9]
-<./figures/architecture_framework.png, id=158, 551.05875pt x 302.12875pt>
-File: ./figures/architecture_framework.png Graphic file (type png)
-<use ./figures/architecture_framework.png>
-Package pdftex.def Info: ./figures/architecture_framework.png  used on input li
-ne 67.
-(pdftex.def)             Requested size: 440.84758pt x 241.70332pt.
-
-Overfull \hbox (22.59386pt too wide) in paragraph at lines 67--68
- [][] 
- []
-
-[10 <./figures/mvvm_mvp_mvc.png (PNG copy)>] [11 <./figures/architecture_framew
-ork.png>] [12] [13]
+<./figures/google_architecture.png, id=158, 251.94125pt x 251.94125pt>
+File: ./figures/google_architecture.png Graphic file (type png)
+<use ./figures/google_architecture.png>
+Package pdftex.def Info: ./figures/google_architecture.png  used on input line 
+67.
+(pdftex.def)             Requested size: 201.55327pt x 201.55327pt.
+ [10 <./figures/mvvm_mvp_mvc.png (PNG copy)>] [11 <./figures/google_architectur
+e.png>] [12] [13]
 <./figures/Architectural Erosion Concepts.drawio.png, id=172, 823.075pt x 924.4
 5375pt>
 File: ./figures/Architectural Erosion Concepts.drawio.png Graphic file (type pn
@@ -1831,42 +1826,34 @@ Package pdftex.def Info: ./figures/Architectural Erosion Concepts.drawio.png  u
 sed on input line 133.
 (pdftex.def)             Requested size: 411.53648pt x 462.22574pt.
  [14] [15 <./figures/Architectural Erosion Concepts.drawio.png>] [16]
-<./figures/abstract-syntax-tree.png, id=184, 788.9475pt x 444.15938pt>
-File: ./figures/abstract-syntax-tree.png Graphic file (type png)
-<use ./figures/abstract-syntax-tree.png>
-Package pdftex.def Info: ./figures/abstract-syntax-tree.png  used on input line
- 152.
-(pdftex.def)             Requested size: 394.47278pt x 222.07913pt.
-<./figures/Call-graph-in-C-source-code.png, id=185, 853.1875pt x 463.7325pt>
-File: ./figures/Call-graph-in-C-source-code.png Graphic file (type png)
-<use ./figures/Call-graph-in-C-source-code.png>
-Package pdftex.def Info: ./figures/Call-graph-in-C-source-code.png  used on inp
-ut line 159.
-(pdftex.def)             Requested size: 426.59271pt x 231.86568pt.
-
-Overfull \hbox (8.33899pt too wide) in paragraph at lines 159--160
- [][] 
- []
-
-[17 <./figures/abstract-syntax-tree.png>] [18 <./figures/Call-graph-in-C-source
--code.png>]
-<./figures/tokenization.png, id=195, 291.0875pt x 36.135pt>
+<./figures/AST.png, id=184, 814.04124pt x 462.72874pt>
+File: ./figures/AST.png Graphic file (type png)
+<use ./figures/AST.png>
+Package pdftex.def Info: ./figures/AST.png  used on input line 152.
+(pdftex.def)             Requested size: 407.01962pt x 231.3638pt.
+<./figures/callgraph.png, id=185, 593.21625pt x 151.56625pt>
+File: ./figures/callgraph.png Graphic file (type png)
+<use ./figures/callgraph.png>
+Package pdftex.def Info: ./figures/callgraph.png  used on input line 159.
+(pdftex.def)             Requested size: 296.60739pt x 75.78293pt.
+ [17 <./figures/AST.png>]
+<./figures/tokenization.png, id=190, 291.0875pt x 36.135pt>
 File: ./figures/tokenization.png Graphic file (type png)
 <use ./figures/tokenization.png>
 Package pdftex.def Info: ./figures/tokenization.png  used on input line 178.
 (pdftex.def)             Requested size: 291.08678pt x 36.13489pt.
- [19 <./figures/tokenization.png>]
+ [18 <./figures/callgraph.png>] [19 <./figures/tokenization.png>]
 <./figures/word_embedding_representation.png, id=200, 401.5pt x 141.52875pt>
 File: ./figures/word_embedding_representation.png Graphic file (type png)
 <use ./figures/word_embedding_representation.png>
 Package pdftex.def Info: ./figures/word_embedding_representation.png  used on i
 nput line 194.
 (pdftex.def)             Requested size: 401.49901pt x 141.5284pt.
- [20 <./figures/word_embedding_representation.png>] [21{/usr/local/texlive/2024
-/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dis
-t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-
-mathex.enc}] [22]
+ [20 <./figures/word_embedding_representation.png>]
+[21{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/l
+ocal/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2
+024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-
+dist/fonts/enc/dvips/lm/lm-mathex.enc}] [22]
 <./figures/transformers.png, id=219, 1324.95pt x 1866.975pt>
 File: ./figures/transformers.png Graphic file (type png)
 <use ./figures/transformers.png>
@@ -2192,7 +2179,12 @@ Package natbib Warning: There were undefined citations.
 (./introduction.aux) (./definitions.aux) (./related_work.aux) (./objectives.aux
 ) (./aer_issues_identification.aux) (./Detection.aux) (./nlp_and_ai.aux)
 (./metrics_analysis.aux) (./extensions.aux) (./conclusions.aux)
-(./appendix-a.aux) (./acronym.aux))
+(./appendix-a.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+(./acronym.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2203,10 +2195,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35334 strings out of 474116
- 725407 string characters out of 5743682
+ 35342 strings out of 474116
+ 725295 string characters out of 5743682
  2099187 words of memory out of 5000000
- 56835 multiletter control sequences out of 15000+600000
+ 56843 multiletter control sequences out of 15000+600000
  639696 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,1782s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2230,7 +2222,7 @@ texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 1/public/lm/lmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb>
-Output written on main.pdf (98 pages, 2580610 bytes).
+Output written on main.pdf (98 pages, 2492975 bytes).
 PDF statistics:
  555 PDF objects out of 1000 (max. 8388607)
  344 compressed objects within 4 object streams
