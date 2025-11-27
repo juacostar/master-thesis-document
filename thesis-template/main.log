@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  26 NOV 2025 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.3)  27 NOV 2025 08:04
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -1797,79 +1796,62 @@ Package pdftex.def Info: ./figures/software_process.png  used on input line 33.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <./figures/software_process.png>]
-<./figures/mvvm_mvp_mvc.png, id=154, 1204.5pt x 630.355pt>
-File: ./figures/mvvm_mvp_mvc.png Graphic file (type png)
-<use ./figures/mvvm_mvp_mvc.png>
-Package pdftex.def Info: ./figures/mvvm_mvp_mvc.png  used on input line 57.
-(pdftex.def)             Requested size: 481.79147pt x 252.13753pt.
-
-Overfull \hbox (63.53775pt too wide) in paragraph at lines 57--58
- [][] 
- []
-
-[9]
-<./figures/google_architecture.png, id=158, 251.94125pt x 251.94125pt>
-File: ./figures/google_architecture.png Graphic file (type png)
-<use ./figures/google_architecture.png>
-Package pdftex.def Info: ./figures/google_architecture.png  used on input line 
-67.
-(pdftex.def)             Requested size: 201.55327pt x 201.55327pt.
- [10 <./figures/mvvm_mvp_mvc.png (PNG copy)>] [11 <./figures/google_architectur
-e.png>] [12] [13]
-<./figures/Architectural Erosion Concepts.drawio.png, id=172, 823.075pt x 924.4
+[7] [8 <./figures/software_process.png>] [9] [10] [11] [12]
+<./figures/Architectural Erosion Concepts.drawio.png, id=166, 823.075pt x 924.4
 5375pt>
 File: ./figures/Architectural Erosion Concepts.drawio.png Graphic file (type pn
 g)
 <use ./figures/Architectural Erosion Concepts.drawio.png>
 Package pdftex.def Info: ./figures/Architectural Erosion Concepts.drawio.png  u
-sed on input line 133.
+sed on input line 120.
 (pdftex.def)             Requested size: 411.53648pt x 462.22574pt.
- [14] [15 <./figures/Architectural Erosion Concepts.drawio.png>] [16]
-<./figures/AST.png, id=184, 814.04124pt x 462.72874pt>
+ [13] [14 <./figures/Architectural Erosion Concepts.drawio.png>] [15]
+<./figures/AST.png, id=178, 814.04124pt x 462.72874pt>
 File: ./figures/AST.png Graphic file (type png)
 <use ./figures/AST.png>
-Package pdftex.def Info: ./figures/AST.png  used on input line 152.
+Package pdftex.def Info: ./figures/AST.png  used on input line 139.
 (pdftex.def)             Requested size: 407.01962pt x 231.3638pt.
-<./figures/callgraph.png, id=185, 593.21625pt x 151.56625pt>
+<./figures/callgraph.png, id=179, 593.21625pt x 151.56625pt>
 File: ./figures/callgraph.png Graphic file (type png)
 <use ./figures/callgraph.png>
-Package pdftex.def Info: ./figures/callgraph.png  used on input line 159.
+Package pdftex.def Info: ./figures/callgraph.png  used on input line 146.
 (pdftex.def)             Requested size: 296.60739pt x 75.78293pt.
- [17 <./figures/AST.png>]
-<./figures/tokenization.png, id=190, 291.0875pt x 36.135pt>
+ [16 <./figures/AST.png>]
+<./figures/tokenization.png, id=184, 291.0875pt x 36.135pt>
 File: ./figures/tokenization.png Graphic file (type png)
 <use ./figures/tokenization.png>
-Package pdftex.def Info: ./figures/tokenization.png  used on input line 178.
+Package pdftex.def Info: ./figures/tokenization.png  used on input line 165.
 (pdftex.def)             Requested size: 291.08678pt x 36.13489pt.
- [18 <./figures/callgraph.png>] [19 <./figures/tokenization.png>]
-<./figures/word_embedding_representation.png, id=200, 401.5pt x 141.52875pt>
+
+[17 <./figures/callgraph.png>] [18 <./figures/tokenization.png>]
+<./figures/word_embedding_representation.png, id=194, 401.5pt x 141.52875pt>
 File: ./figures/word_embedding_representation.png Graphic file (type png)
 <use ./figures/word_embedding_representation.png>
 Package pdftex.def Info: ./figures/word_embedding_representation.png  used on i
-nput line 194.
+nput line 181.
 (pdftex.def)             Requested size: 401.49901pt x 141.5284pt.
- [20 <./figures/word_embedding_representation.png>]
-[21{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/l
-ocal/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2
-024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-
-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [22]
-<./figures/transformers.png, id=219, 1324.95pt x 1866.975pt>
+ [19 <./figures/word_embedding_representation.png>] [20{/usr/local/texlive/2024
+/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dis
+t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-
+mathex.enc}]
+[21]
+<./figures/transformers.png, id=213, 1324.95pt x 1866.975pt>
 File: ./figures/transformers.png Graphic file (type png)
 <use ./figures/transformers.png>
-Package pdftex.def Info: ./figures/transformers.png  used on input line 237.
+Package pdftex.def Info: ./figures/transformers.png  used on input line 224.
 (pdftex.def)             Requested size: 331.2367pt x 466.74261pt.
- [23]) [24 <./figures/transformers.png>]
+ [22]) [23 <./figures/transformers.png>]
 \openout2 = `related_work.aux'.
 
- (./related_work.tex
+ (./related_work.tex [24
+
+
+
+
+]
 chapter 3.
-[25
-
-
-
-
-] [26] [27] [28] [29] [30] [31] [32]) [33]
+[25] [26] [27] [28] [29] [30] [31] [32]) [33]
 \openout2 = `objectives.aux'.
 
  (./objectives.tex [34
@@ -1890,7 +1872,7 @@ chapter 5.
 
 
 ]
-<./figures/workflow-1.png, id=269, 535.5207pt x 289.8027pt>
+<./figures/workflow-1.png, id=266, 535.5207pt x 289.8027pt>
 File: ./figures/workflow-1.png Graphic file (type png)
 <use ./figures/workflow-1.png>
 Package pdftex.def Info: ./figures/workflow-1.png  used on input line 13.
@@ -1910,7 +1892,7 @@ ITH STATIC ANALYSIS CODE []
  []
 
 [38] [39 <./figures/workflow-1.png>]
-<./figures/seART.png, id=278, 1497.595pt x 859.21pt>
+<./figures/seART.png, id=275, 1497.595pt x 859.21pt>
 File: ./figures/seART.png Graphic file (type png)
 <use ./figures/seART.png>
 Package pdftex.def Info: ./figures/seART.png  used on input line 27.
@@ -1965,7 +1947,7 @@ ITH STATIC ANALYSIS CODE []
 ]
 chapter 6.
 [47]
-<./figures/uast_structure.png, id=306, 1405.25pt x 938.50626pt>
+<./figures/uast_structure.png, id=303, 1405.25pt x 938.50626pt>
 File: ./figures/uast_structure.png Graphic file (type png)
 <use ./figures/uast_structure.png>
 Package pdftex.def Info: ./figures/uast_structure.png  used on input line 14.
@@ -1986,7 +1968,7 @@ Package natbib Warning: Citation `codereviewer' on page 55 undefined on input l
 ine 8.
 
 [55]
-<./figures/workflow-3-ASE.png, id=333, 804.00375pt x 302.12875pt>
+<./figures/workflow-3-ASE.png, id=330, 804.00375pt x 302.12875pt>
 File: ./figures/workflow-3-ASE.png Graphic file (type png)
 <use ./figures/workflow-3-ASE.png>
 Package pdftex.def Info: ./figures/workflow-3-ASE.png  used on input line 16.
@@ -2078,20 +2060,12 @@ TURE, GAME_ARCADE,
  []
 
 [66]
-</Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/master
--thesis-document/thesis-template/figures/wordcloud.png, id=373, 810.02625pt x 4
-21.575pt>
-File: /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
-aster-thesis-document/thesis-template/figures/wordcloud.png Graphic file (type 
-png)
-<use /Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/ma
-ster-thesis-document/thesis-template/figures/wordcloud.png>
-Package pdftex.def Info: /Users/juancamiloacosta/Documents/uniandes/tesis 2/the
-sis template repo/master-thesis-document/thesis-template/figures/wordcloud.png 
- used on input line 44.
+<./figures/wordcloud.png, id=370, 810.02625pt x 421.575pt>
+File: ./figures/wordcloud.png Graphic file (type png)
+<use ./figures/wordcloud.png>
+Package pdftex.def Info: ./figures/wordcloud.png  used on input line 44.
 (pdftex.def)             Requested size: 405.01213pt x 210.78697pt.
- [67 </Users/juancamiloacosta/Documents/uniandes/tesis 2/thesis template repo/m
-aster-thesis-document/thesis-template/figures/wordcloud.png>]
+ [67 <./figures/wordcloud.png>]
 
 Package natbib Warning: Citation `scrapper-library' on page 68 undefined on inp
 ut line 81.
@@ -2128,14 +2102,6 @@ Package natbib Warning: Citation `codebert' on page 79 undefined on input line
 
 Package natbib Warning: Citation `codet5' on page 79 undefined on input line 52
 .
-
-
-Package natbib Warning: Citation `future_work1' on page 79 undefined on input l
-ine 52.
-
-
-Package natbib Warning: Citation `future_work2' on page 79 undefined on input l
-ine 52.
 
 [79]) [80]
 \openout2 = `appendix-a.aux'.
@@ -2179,12 +2145,7 @@ Package natbib Warning: There were undefined citations.
 (./introduction.aux) (./definitions.aux) (./related_work.aux) (./objectives.aux
 ) (./aer_issues_identification.aux) (./Detection.aux) (./nlp_and_ai.aux)
 (./metrics_analysis.aux) (./extensions.aux) (./conclusions.aux)
-(./appendix-a.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-(./acronym.aux))
+(./appendix-a.aux) (./acronym.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -2195,10 +2156,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35342 strings out of 474116
- 725295 string characters out of 5743682
+ 35328 strings out of 474116
+ 724023 string characters out of 5743683
  2099187 words of memory out of 5000000
- 56843 multiletter control sequences out of 15000+600000
+ 56829 multiletter control sequences out of 15000+600000
  639696 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,16n,121p,10900b,1782s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2222,10 +2183,10 @@ texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 1/public/lm/lmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb>
-Output written on main.pdf (98 pages, 2492975 bytes).
+Output written on main.pdf (98 pages, 2416870 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
+ 552 PDF objects out of 1000 (max. 8388607)
  344 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 

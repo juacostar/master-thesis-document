@@ -19,17 +19,17 @@
 \contentsline {section}{\numberline {2.2}Architectural design in software engineering}{7}{}%
 \contentsline {subsection}{\numberline {2.2.1}Architectural design in Android development}{7}{}%
 \contentsline {subsection}{\numberline {2.2.2}Quality Attributes}{10}{}%
-\contentsline {section}{\numberline {2.3}Architectural Erosion}{12}{}%
-\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{12}{}%
-\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{13}{}%
-\contentsline {subsection}{\numberline {2.3.3}Consequences}{13}{}%
-\contentsline {subsection}{\numberline {2.3.4}Metrics and treatments for architectural erosion}{14}{}%
-\contentsline {section}{\numberline {2.4}Programming Languages fundamental for Software Analysis}{16}{}%
-\contentsline {section}{\numberline {2.5}Natural Language Processing in Software Issues Detection}{18}{}%
-\contentsline {subsection}{\numberline {2.5.1}Word Embeddings for Word Representation}{19}{}%
-\contentsline {subsection}{\numberline {2.5.2}Performance and Similarity Metrics in NLP}{20}{}%
-\contentsline {section}{\numberline {2.6}AI models and Software Engineering}{21}{}%
-\contentsline {subsection}{\numberline {2.6.1}Transformer Architecture}{22}{}%
+\contentsline {section}{\numberline {2.3}Architectural Erosion}{11}{}%
+\contentsline {subsection}{\numberline {2.3.1}Approaches and Perspectives}{11}{}%
+\contentsline {subsection}{\numberline {2.3.2}Main Reasons and Symptoms}{12}{}%
+\contentsline {subsection}{\numberline {2.3.3}Consequences}{12}{}%
+\contentsline {subsection}{\numberline {2.3.4}Metrics and treatments for architectural erosion}{13}{}%
+\contentsline {section}{\numberline {2.4}Programming Languages fundamental for Software Analysis}{15}{}%
+\contentsline {section}{\numberline {2.5}Natural Language Processing in Software Issues Detection}{17}{}%
+\contentsline {subsection}{\numberline {2.5.1}Word Embeddings for Word Representation}{18}{}%
+\contentsline {subsection}{\numberline {2.5.2}Performance and Similarity Metrics in NLP}{19}{}%
+\contentsline {section}{\numberline {2.6}AI models and Software Engineering}{20}{}%
+\contentsline {subsection}{\numberline {2.6.1}Transformer Architecture}{21}{}%
 \contentsline {chapter}{\numberline {3}Related Work}{25}{}%
 \contentsline {section}{\numberline {3.1}Research Methodology}{25}{}%
 \contentsline {subsection}{\numberline {3.1.1}Architectural Erosion: An Initial Overview}{25}{}%

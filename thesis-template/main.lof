@@ -7,14 +7,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The development process of a Software Application}}{8}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Similarities and differences between Android architectural patterns. \citet {mvc-mvp-mvvm} }}{10}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Three-layer framework for mobile development. \citet {google-architecture} }}{11}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Main Concepts of Architectural Erosion in Software Engineering }}{15}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Example of an Abstract Syntax Tree (AST) statement. \citet {abstract-syntax-tree} }}{17}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Example of a Callgraph of a pair of classes. \citet {classes_graph} }}{18}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Tokenization process of one sentence \citet {information-retrieval} }}{19}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Representation in two dimensions of Similar Words gives a Word Embedding \citet {nlp-fundamentals} }}{20}{}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces the Transformer architecture for machine learning models \citet {attention_is_all_you_need} }}{24}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Main Concepts of Architectural Erosion in Software Engineering }}{14}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of an Abstract Syntax Tree (AST) statement. \citet {abstract-syntax-tree} }}{16}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of a Callgraph of a pair of classes. \citet {classes_graph} }}{17}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tokenization process of one sentence \citet {information-retrieval} }}{18}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Representation in two dimensions of Similar Words gives a Word Embedding \citet {nlp-fundamentals} }}{19}{}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces the Transformer architecture for machine learning models \citet {attention_is_all_you_need} }}{23}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

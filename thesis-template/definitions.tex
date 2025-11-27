@@ -52,22 +52,9 @@ Depending on the application’s complexity, the number of components it include
 	\item MVM (Model View View-Model): This pattern is one of the derivatives of clean architecture, a concept widely developed in Backend and Frontend applications architectures. This pattern uses some concepts of clean architecture, like use case organization, when we implement a new feature in an independent way from others. With this pattern, we use reactive components. The application components use libraries like Dagger Hilt to implement the use of reactive data; this reactive data changes depending on a UI event. With the creation of the JetPack Compose framework. The JetPack Compose is based on reactive UI and is more declarative than the traditional form (the use of XML files and fragments structure for managing different application screens)
 \end{itemize}
 
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.4]{./figures/mvvm_mvp_mvc.png}
-    \caption{Similarities and differences between Android architectural patterns. \citet{mvc-mvp-mvvm} }
-    \label{fig:concept-map}
-\end{figure}
 
 
-In an Android application, it is not mandatory to use only an architectural pattern to achieve the functional and non-functional requirements of a software project. For example, it is very common to use the repository pattern declared in MVVM, divided into two: external connections and internal data management. Today, in the actual mobile development ecosystem, the most common framework that could be implemented with one or more architectural patterns is the three-layer pattern architecture: The UI layer, an optional layer named the Domain Layer, and the Data layer. Each layer could be or could not be, depending on each application's requirements. 
-
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.8]{./figures/google_architecture.png}
-    \caption{Three-layer framework for mobile development. \citet{google-architecture} }
-    \label{fig:concept-map}
-\end{figure}
+In an Android application, it is not mandatory to use only an architectural pattern to achieve the functional and non-functional requirements of a software project. For example, it is very common to use the repository pattern declared in MVVM, divided into two: external connections and internal data management. Today, in the actual mobile development ecosystem, the most common framework that could be implemented with one or more architectural patterns is the three-layer pattern architecture: The UI layer, an optional layer named the Domain Layer, and the Data layer. Each layer could be or could not be, depending on each application's requirements.
 
 The three-layer architecture will be used as the main architectural framework to realize this study with the MVVM architectural pattern. These patterns are the most used in modern mobile development and will give a first approach for how developers can detect and fix architectural violations in an Android application.
 
