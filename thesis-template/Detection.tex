@@ -12,14 +12,14 @@ Following the model of the default lint rules included in Android Studio, custom
 \begin{figure}[h]
     	\centering
     		\includegraphics[scale=0.25]{./figures/uast_structure.png}
-   			 \caption{Definition of Android Studio UAST structure \citet{} }
+   			 \caption{Definition of Android Studio UAST structure \cite{} }
    			 \label{fig:ast}
 \end{figure}
 
 Inside the UAST structure in Android Studio, we can easily implement visitors of the abstract syntax tree. With that representation of the structure of the source code of an Android project, we can instantiate each one of them to analyze it in terms of patterns in its name, its structure, its declaration, and other features that could indicate an architectural erosion issue implemented in its structure.
 
 \section{Rules Definition}
-With the representative set extracted from the architectural erosion issues identification process, it is possible to analyze code fragments where the two judges confirmed that it could be a possible architectural violation of the original GitHub source code repository. With that, GitHub commits set and the Google architectural guidelines based on the MVVM architectural pattern \citet{google-architecture}, it is possible to find troubles in architectural changes. With these architectural erosion issues, we can infer different patterns in terms of class naming, method invocation, dependency injection, and other features that could mainly affect the application performance and other significant architectural requirements inside an Android project. In the table $table_rules$, we present the different found rule sets implemented in the Kotlin programming language, whose implementation could indicate an architectural erosion issue inside an Android project.
+With the representative set extracted from the architectural erosion issues identification process, it is possible to analyze code fragments where the two judges confirmed that it could be a possible architectural violation of the original GitHub source code repository. With that, GitHub commits set and the Google architectural guidelines based on the MVVM architectural pattern \cite{google-architecture}, it is possible to find troubles in architectural changes. With these architectural erosion issues, we can infer different patterns in terms of class naming, method invocation, dependency injection, and other features that could mainly affect the application performance and other significant architectural requirements inside an Android project. In the table $table_rules$, we present the different found rule sets implemented in the Kotlin programming language, whose implementation could indicate an architectural erosion issue inside an Android project.
 
 
 \begin{table}[H]

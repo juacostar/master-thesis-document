@@ -44,7 +44,7 @@ Note the use of the label definition in the `enumerate*` environment. Inline lis
 
 - Bibliography references are defined using bibtex and referenced using the IEEE reference format as defined in the `natbib` package
   - The `\cite{REF}` command generates the numeric reference `[1]`
-  - The `\citet{REF}` command generates the author-numeric reference `Lastname, Firstname et al. [1]`
+  - The `\cite{REF}` command generates the author-numeric reference `Lastname, Firstname et al. [1]`
 
 ### Source code definition
 Source code is defined using the `listings` package

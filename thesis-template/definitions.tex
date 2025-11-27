@@ -3,9 +3,11 @@
 \label{cha:definitions}
 
 \section{Development Process of a Software Project}
-When creating a software project plan, you must define the core requirements that support the business goals within the software development process. First, you need to specify the functional requirements. In software engineering, functional requirements describe the primary features of each software component involved in the project. Elements such as design, core functionalities, and established workflows are built during the functional requirements definition phase.
-Next, you must define the requirements that do not directly affect the user experience, known as non-functional requirements. Non-functional requirements indirectly influence the software project; inadequate planning of these requirements can progressively degrade user performance and the architectural structure of the software, resulting in slower, heavier, or less effective applications for individuals. In this phase, you must design a solution that satisfies both the functional and non-functional requirements. This activity constitutes the design phase of a software project.
-During this stage, you need to determine the set of components that provide the system’s functionalities. Additionally, each component’s infrastructure must be defined in a process known as Software Architecture Definition \citet{software-engineering-book}. The software development process consists of several steps:
+When a team creates a software project plan, it first needs to define the main requirements that support the business goals. The first step is to write the functional requirements. In software engineering, functional requirements describe what the software must do. They explain the main features of each part of the system. During this phase, the team describes things like the design, the main functions, and the workflows of the system.
+
+Next, the team must define the requirements that do not directly change what the user sees. These are called non-functional requirements. They affect the project in an indirect way. If they are not planned well, the system may become slow, heavy, or less stable over time. In this phase, the team designs a solution that meets both the functional and non-functional requirements. This is known as the design phase of a software project.
+
+During this stage, the team also decides which components will provide the system’s functions. In addition, it must define the infrastructure needed for each component. This step is part of Software Architecture Definition \cite{software-engineering-book}. The software development process includes several steps:
 
 
 \subsection{Discovery}
@@ -28,13 +30,6 @@ Once the application is tested, it achieves its performance metrics. The softwar
 \subsection{Maintenance}
 After the release and deployment stage. For a guarantee of the application's sustainability. It should create a refactoring process. That process consists of libraries updating, code smells fixing, and fixing bad design or development issues. The costs of one software application in terms of human resources, time, and money could increase the time goes by if the latest stages are implemented badly.
 
-\begin{figure}[h]
-    	\centering
-    		\includegraphics[scale=0.5]{./figures/software_process.png}
-   			 \caption{The development process of a Software Application}
-   			 \label{fig:ast}
-\end{figure}
-
 
 \section{Architectural design in software engineering}
 For effective and efficient software project development, it is necessary to make the appropriate investment in each stage—from defining functional requirements to designing each component along with its features and constraints. To accomplish this, an architectural design must be created. The architecture of a software project generally defines the components required by the system as well as their connections, relationships, and interaction types. Additionally, each component must be clearly specified within this architectural design. In this way, various standards can be applied to ensure the system’s quality in accordance with its defined architectural structure.
@@ -53,13 +48,12 @@ Depending on the application’s complexity, the number of components it include
 \end{itemize}
 
 
-
 In an Android application, it is not mandatory to use only an architectural pattern to achieve the functional and non-functional requirements of a software project. For example, it is very common to use the repository pattern declared in MVVM, divided into two: external connections and internal data management. Today, in the actual mobile development ecosystem, the most common framework that could be implemented with one or more architectural patterns is the three-layer pattern architecture: The UI layer, an optional layer named the Domain Layer, and the Data layer. Each layer could be or could not be, depending on each application's requirements.
 
 The three-layer architecture will be used as the main architectural framework to realize this study with the MVVM architectural pattern. These patterns are the most used in modern mobile development and will give a first approach for how developers can detect and fix architectural violations in an Android application.
 
 \subsection{Quality Attributes}
-The consequences of the generation of architectural erosion could impact the different quality attributes contemplated. There are six attributes based on ISO-25010  \citet{bass-architecture-book}. Those attribute qualities are:
+The consequences of the generation of architectural erosion could impact the different quality attributes contemplated. There are six attributes based on ISO-25010  \cite{bass-architecture-book}. Those attribute qualities are:
 
 \begin{itemize}
     \item Latency: This attribute measures the response time of the components according to the implemented architecture. Response times of each architectural component are very important.
@@ -72,13 +66,13 @@ The consequences of the generation of architectural erosion could impact the dif
 
 
 \section{Architectural Erosion}
-The concept of architectural erosion has been discussed for a long time. Since 1992, it has had a formal definition, establishing its relationship with violations of architectural rules \citet{perry-wolf-reference}. Architectural erosion can be approached from multiple perspectives, including rule violations, structural degradation, quality deterioration, and evolutionary changes. Additionally, the concept is closely related to similar terms such as “degradation.”
+The concept of architectural erosion has been discussed for a long time. Since 1992, it has had a formal definition, establishing its relationship with violations of architectural rules \cite{perry-wolf-reference}. Architectural erosion can be approached from multiple perspectives, including rule violations, structural degradation, quality deterioration, and evolutionary changes. Additionally, the concept is closely related to similar terms such as “degradation.”
 In a more modern definition, architectural erosion is described as the set of architectural violations that reflect a deviation of the implemented architecture from the intended architecture over time. In summary, in a more concrete form, architectural erosion can be understood as a phenomenon in which the architecture realized in a software project progressively diverges from the one originally planned.
 
 
 
 \subsection{Approaches and Perspectives}
-Due to the original concept of architectural erosion \citet{slr-base}. It could be studied and analyzed by different approaches:
+Due to the original concept of architectural erosion \cite{slr-base}. It could be studied and analyzed by different approaches:
 
 \begin{itemize}
     \item Violation perspective: Denotes how the implemented architecture violates the design principles or main constraints of the intended architecture. These violations could occur in two phases: the design phase and the maintenance and evolution phase, making different changes step by step in the short and long term.
@@ -113,25 +107,25 @@ Are several points of view about the real definition of the consequences of arch
 
 
 \subsection{Metrics and treatments for architectural erosion}
-Today. Some different metrics can determine architectural erosion in different approaches. Some metrics have been created to analyze architectural decay in open-source projects, analyzing possible reasons, indicators, and solution strategies for it \citet{ieee-erosion-metrics}. In the resume, there are around 54 metrics that could determine architectural erosion in different stages, from the design stage to the deployment stage. Those metrics have been classified by measured artifacts, level of validation, usability, applicability, comparative analysis, and support tools. Different classifications could be implemented into a tool with a specific measure strategy for analyzing architectural erosion in any system.
+Different metrics can measure architectural erosion in different approaches. Some metrics have been created to analyze architectural decay in open-source projects, analyzing possible reasons, indicators, and solution strategies for it \cite{ieee-erosion-metrics}. In the resume, there are around 54 metrics that could determine architectural erosion in different stages, from the design stage to the deployment stage. Those metrics have been classified by measured artifacts, level of validation, usability, applicability, comparative analysis, and support tools. Different classifications could be implemented into a tool with a specific measure strategy for analyzing architectural erosion in any system.
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.5]{./figures/Architectural Erosion Concepts.drawio.png}
+    \includegraphics[scale=0.41]{./figures/Architectural Erosion Concepts.drawio.png}
     \caption{Main Concepts of Architectural Erosion in Software Engineering }
     \label{fig:concept-map}
 \end{figure}
 
 \newpage
 
-\section{Programming Languages fundamental for Software Analysis}
-With the fundamentals of programming languages, it is possible to analyze software construction more effectively. Programming languages have a defined vocabulary, structure, and semantics. These characteristics make the application of AI tools and NLP techniques more effective. In addition, custom rules can be created to verify compliance with specific guidelines and standardized patterns in a software project. This is achieved by detecting semantic, grammatical, and lexical patterns within the source code of any software system. In general, a programming language is defined by the following components:
+\section{Programming Languages fundaments for Software Analysis}
+%With the fundamentals of programming languages, it is possible to analyze software construction more effectively. 
+Programming languages have a defined vocabulary, structure, and semantics. These characteristics make the application of AI tools and NLP techniques more effective. In addition, custom rules can be created to verify compliance with specific guidelines and standardized patterns in a software project. This is achieved by detecting semantic, grammatical, and lexical patterns within the source code of any software system. In general, a programming language is defined by the following components:
 
 
-\begin{itemize}
-	\item Lexical component: In that component, we define the vocabulary and the set of words that will have a meaning for the programming language. For example, the word function in JavaScript programming language means a function declaration, or int in Java, which means the Integer primitive data type. It is necessary to define all the words that could be used in any source code file of that programming language.
-	\item Grammatical component: With a defined set of words in the lexical component, the next step is to define the order in which words could be written in a code block. It is essential to define all the possible structures that could be defined in any program and the different ways that could be written. For example, most programming languages used in the industry have a defined structure of if statements and all the possible ways to write them.
-	\item Semantical component: If we have a set of words and a defined order to write them, it is possible to build a kind of translator for a programming language. In this step, we define the type of translator with two options: for executable program building, that is, a compiler, one example of it is C language programming, and a semantic visitor that generates an executable program through a translation process between C code fragments and machine instructions. The other option is to make an interpreter, where, in execution time, we visit the line by line of code and translate it into a machine instruction; an example of that approach is the Python programming language. In both approaches, we specify the translation strategies mainly with two components: a visitor component and a call graph component.
+\textbf{Lexical componen}: In that component, we define the vocabulary and the set of words that will have a meaning for the programming language. For example, the word function in JavaScript programming language means a function declaration, or int in Java, which means the Integer primitive data type. It is necessary to define all the words that could be used in any source code file of that programming language.  
+\textbf{Grammatical component}: With a defined set of words in the lexical component, the next step is to define the order in which words could be written in a code block. It is essential to define all the possible structures that could be defined in any program and the different ways that could be written. For example, most programming languages used in the industry have a defined structure of if statements and all the possible ways to write them.  
+\textbf{Semantical component}: If we have a set of words and a defined order to write them, it is possible to build a kind of translator for a programming language. In this step, we define the type of translator with two options: for executable program building, that is, a compiler, one example of it is C language programming, and a semantic visitor that generates an executable program through a translation process between C code fragments and machine instructions. The other option is to make an interpreter, where, in execution time, we visit the line by line of code and translate it into a machine instruction; an example of that approach is the Python programming language. In both approaches, we specify the translation strategies mainly with two components: a visitor component and a call graph component.
 		\begin{itemize}
 			\item Visitor component: A visitor component consists of a structure built from grammatical and lexical components of a programming language. In that structure, we can find how all the statement code blocks are defined in all source code files of a software project. We can find the name of every parameter declared in any function and the name of any class of any code statement defined in any source code file. With this component, we can detect any pattern in names and data types inside all code fragments and combine them for more customized check rules (security issues, connectivity issues, and others).		
 			\begin{figure}
@@ -148,38 +142,38 @@ With the fundamentals of programming languages, it is possible to analyze softwa
    				 \label{fig:ast}
 			\end{figure}
 		\end{itemize}
-\end{itemize}
+
 
 With all the programming language components and the way of translating it to machine instructions, it is possible to make custom check rules for different violations detection to different standards. In architectural erosion detection, these concepts will be fundamental.
 
 \section{Natural Language Processing in Software Issues Detection}
 Before addressing architectural erosion in a software project, it is necessary to identify the types of violations that may occur within the system. Several approaches for software issue detection now rely on modern Natural Language Processing (NLP) methodologies enhanced by Machine Learning techniques. NLP enables the extraction of relevant information from large text collections, known as corpora. Today, NLP is widely used for tasks such as text generation and classification. Moreover, current NLP tools often achieve better performance when applied to source code, due to its standardized and more rigid structure, which avoids the variations commonly found in natural languages.
-NLP includes various preprocessing methods for language models. Because textual data must be represented in a structured format for computational processing, it is necessary to convert raw text into a standardized input representation suitable for modeling. This preparation involves a series of steps known as text normalization \citet{nlp-fundamentals}. Using regular expressions, a dictionary of words can be generated, which supports the creation of a uniform text representation and enables effective processing for modeling tasks. The main stages and processes for dictionary construction include:
+NLP includes various preprocessing methods for language models. Because textual data must be represented in a structured format for computational processing, it is necessary to convert raw text into a standardized input representation suitable for modeling. This preparation involves a series of steps known as text normalization \cite{nlp-fundamentals}. Using regular expressions, a dictionary of words can be generated, which supports the creation of a uniform text representation and enables effective processing for modeling tasks. The main stages and processes for dictionary construction include:
 
 
 \begin{itemize}
-    \item Tokenization: Given a character sequence, in this case, a sequence of words of a given context, you can split that sequence into minimal processing units named tokens. These tokens are normally defined in terms of words. These tokens will create the base dictionary to begin the text processing into a language model \citet{information-retrieval}. 
+    \item Tokenization: Given a character sequence, in this case, a sequence of words of a given context, you can split that sequence into minimal processing units named tokens. These tokens are normally defined in terms of words. These tokens will create the base dictionary to begin the text processing into a language model \cite{information-retrieval}. 
 
     \begin{figure}[H]
     \centering
     \includegraphics[scale=1]{./figures/tokenization.png}
-    \caption{Tokenization process of one sentence \citet{information-retrieval} }
+    \caption{Tokenization process of one sentence \cite{information-retrieval} }
     \label{fig:tokenization}
     \end{figure}
     
-    \item Removing Stop Words: In the basic language modeling tasks, it is necessary to remove words that do not have relevant semantic information inside a text or a text corpus; those words are named Stop Words. Stop Words are words that do not contribute to the meaning of a sentence, like prepositions, articles, etc. In actual language models (Large Language Models), it is very important to maintain Stop Words to get a better specific context for next-word prediction or sentence classification. There are different strategies for removing those words; the most common is removing by collection frequency, due to the number of appearances in the corpus, which is enormous compared with relevant words. In document retrieval, the rare words are the most important for giving an efficient model over the text corpus \citet{information-retrieval}. 
+    \item Removing Stop Words: In the basic language modeling tasks, it is necessary to remove words that do not have relevant semantic information inside a text or a text corpus; those words are named Stop Words. Stop Words are words that do not contribute to the meaning of a sentence, like prepositions, articles, etc. In actual language models (Large Language Models), it is very important to maintain Stop Words to get a better specific context for next-word prediction or sentence classification. There are different strategies for removing those words; the most common is removing by collection frequency, due to the number of appearances in the corpus, which is enormous compared with relevant words. In document retrieval, the rare words are the most important for giving an efficient model over the text corpus \cite{information-retrieval}. 
     \item Lemmatization: For new tokens controlling and token derivations, it is essential to create tokens from the roots of the words, to reduce inflectional forms and related forms of words with the same root. In some cases, it is difficult to implement that process because you must have a root word dictionary to get root tokens. In this case, in different contexts, could generate conflicts for getting roots of specific context words \cite{information-retrieval}.
     \item Stemming: This process consists of a heuristic process to cut off some characters at the end of each word, reducing the derivation of some words, with the same objective as the lemmatization process. In English, language could be an efficient technique, but it could have some conflicts with other languages.
 \end{itemize}
 
 
 \subsection{Word Embeddings for Word Representation}
-As said in the last section, language models need to have a numerical representation of the corpus text for modeling tasks. To solve this, you must define a standard structure based on the decided model inputs. The most common structure is a word embedding representation, where you define a numerical vector to represent a specific context (where the embedding was trained) for use as input into a language model. This representation gives all model vocabulary a vector representation, where you can observe similar words, different words, and how much distance is between them. This representation is useful for similarity word management and getting the relationships between different features inside them \citet{nlp-fundamentals}. 
+Language models need to have a numerical representation of the corpus text for modeling tasks. To solve this, you must define a standard structure based on the decided model inputs. The most common structure is a word embedding representation, where you define a numerical vector to represent a specific context (where the embedding was trained) for use as input into a language model. This representation gives all model vocabulary a vector representation, where you can observe similar words, different words, and how much distance is between them. This representation is useful for similarity word management and getting the relationships between different features inside them \cite{nlp-fundamentals}. 
 
     \begin{figure}[H]
     \centering
     \includegraphics[scale=1]{./figures/word_embedding_representation.png}
-    \caption{Representation in two dimensions of Similar Words gives a Word Embedding \citet{nlp-fundamentals} }
+    \caption{Representation in two dimensions of Similar Words gives a Word Embedding \cite{nlp-fundamentals} }
     \label{fig:word-embedding}
     \end{figure}
 
@@ -214,7 +208,7 @@ With that concept, different basic models have been built for different learning
 Despite the accuracy of those models for some learning tasks. They have any disadvantages for more complex and structured data. With the fundamental concepts, it is possible to build more complex machine learning models according to more complex learning tasks and their data input structure. One of these kinds of models is the models are based on the Transformers architecture.
 
 \subsection{Transformer Architecture}
-Some machine learning model architectures use attention mechanisms to extract the most relevant features from large natural language datasets. One of the earliest approaches is the Long Short-Term Memory (LSTM) network, which retains information from previous learning steps. LSTMs are effective for tasks in which the input depends on earlier data in a sequence. However, LSTMs struggle to preserve information across many steps in long texts and require significant computational resources in terms of memory and processing power to maintain this context during training. To address these limitations, the Transformer architecture was introduced \citet{attention_is_all_you_need}.
+Some machine learning model architectures use attention mechanisms to extract the most relevant features from large natural language datasets. One of the earliest approaches is the Long Short-Term Memory (LSTM) network, which retains information from previous learning steps. LSTMs are effective for tasks in which the input depends on earlier data in a sequence. However, LSTMs struggle to preserve information across many steps in long texts and require significant computational resources in terms of memory and processing power to maintain this context during training. To address these limitations, the Transformer architecture was introduced \cite{attention_is_all_you_need}.
 The Transformer uses multiple attention heads as its core mechanism. Each attention head applies three learned matrices that serve distinct roles: a query matrix, a key matrix, and a value matrix. These matrices enable the model to retain and focus on relevant information across long sequences of inputs. The architecture also incorporates normalization layers and feed-forward networks, which combine the positional encodings of the input tokens with the output of the attention computations. Additionally, embedding layers represent words in a high-dimensional space while positional encodings preserve the order of tokens within the sequence.
 The Transformer architecture forms the foundation of modern Large Language Models (LLMs) and their variants, including encoder-only models for classification tasks, decoder-only models for generation tasks, and autoencoder-based architectures that combine both capabilities. In software engineering, such models can be applied to the analysis of developer messages for detecting bugs and code smells, as well as for the automated processing and understanding of source code.
 
@@ -222,7 +216,7 @@ The Transformer architecture forms the foundation of modern Large Language Model
     \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{./figures/transformers.png}
-    \caption{the Transformer architecture for machine learning models \citet{attention_is_all_you_need} }
+    \caption{the Transformer architecture for machine learning models \cite{attention_is_all_you_need} }
     \label{fig:word-embedding}
     \end{figure}
 
